@@ -1,0 +1,28 @@
+2024-05-07 03:28:01.895 [info] Log level: Info
+2024-05-07 03:28:01.895 [info] Validating found git in: "git"
+2024-05-07 03:28:01.896 [info] Using git "2.45.0" from "git"
+2024-05-07 03:28:01.896 [info] > git rev-parse --show-toplevel [12ms]
+2024-05-07 03:28:01.896 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-05-07 03:28:01.896 [info] Open repository: /home/kaiya/rust/ch2_tuple
+2024-05-07 03:28:01.896 [info] > git rev-parse --show-toplevel [50ms]
+2024-05-07 03:28:01.896 [info] > git config --get commit.template [61ms]
+2024-05-07 03:28:01.913 [info] No remotes found in the git config file.
+2024-05-07 03:28:01.916 [info] > git rev-parse --show-toplevel [15ms]
+2024-05-07 03:28:01.929 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2024-05-07 03:28:01.944 [info] > git rev-parse --show-toplevel [19ms]
+2024-05-07 03:28:01.957 [info] > git status -z -uall [16ms]
+2024-05-07 03:28:01.980 [info] > git config --get commit.template [2ms]
+2024-05-07 03:28:01.987 [info] No remotes found in the git config file.
+2024-05-07 03:28:01.992 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-05-07 03:28:02.003 [info] > git status -z -uall [4ms]
+2024-05-07 03:28:02.362 [info] > git check-ignore -v -z --stdin [2ms]
+2024-05-07 03:28:02.894 [info] > git show --textconv :src/main.rs [14ms]
+2024-05-07 03:28:02.896 [info] > git ls-files --stage -- /home/kaiya/rust/ch2_tuple/src/main.rs [3ms]
+2024-05-07 03:28:02.911 [info] > git cat-file -s ba2317988f3191c3ca8a5cd01ef03abbeec69182 [4ms]
+2024-05-07 03:28:03.485 [info] No remotes found in the git config file.
+2024-05-07 03:28:03.486 [info] > git config --get commit.template [6ms]
+2024-05-07 03:28:03.488 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-05-07 03:28:03.501 [info] > git status -z -uall [2ms]
+2024-05-07 03:28:04.685 [info] > git ls-files --stage -- /home/kaiya/rust/ch2_tuple/src/main.rs [2ms]
+2024-05-07 03:28:04.696 [info] > git cat-file -s ba2317988f3191c3ca8a5cd01ef03abbeec69182 [3ms]
+2024-05-07 03:28:04.717 [info] > git show --textconv :src/main.rs [3ms]

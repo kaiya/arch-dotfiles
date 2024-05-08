@@ -1,0 +1,5 @@
+2024-05-07 03:27:59.415 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/kaiya/rust/ch2_tuple/--ozone-platform-hint=wayland","scheme":"file"},"type":1,"exists":false},{"fileUri":{"$mid":1,"path":"/home/kaiya/rust/ch2_tuple/--disable-gpu","scheme":"file"},"type":1,"exists":false}],"filesToDiff":[],"filesToMerge":[]}
+2024-05-07 03:27:59.682 [info] Started local extension host with pid 2865.
+2024-05-07 03:27:59.768 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
+2024-05-07 03:28:00.244 [info] Started local extension host with pid 2926.
+2024-05-07 03:28:02.625 [info] [perf] Render performance baseline is 44ms

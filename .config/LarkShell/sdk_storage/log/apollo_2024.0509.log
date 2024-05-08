@@ -1,0 +1,145 @@
+[22573:22573:0509/023452.982020:INFO:lark_monitor.cc(1048)] DoCrashpadClientInit init with process_name:gpu-process,sever_name:12,retry_count=0
+[22573:22573:0509/023452.989628:INFO:lark_monitor.cc(1075)] DoCrashpadClientInit init succ with process_name:gpu-process,sever_name:12
+[22573:22573:0509/023452.989679:WARNING:lark_monitor.cc(1142)] process_type = gpu-process, report_delegate_ is not set, can't report ProcessLaunched
+[22573:22573:0509/023452.989861:INFO:frame_host.cc(1089)] #### Lark (gpu-process) Startup #### cmd:  --aha-multi-profile --browser-runtime --no-sandbox --no-zygote --type=gpu-process
+[22573:22573:0509/023452.989882:INFO:frame_host.cc(1091)] IsBrowserRuntime:1
+[22573:22573:0509/023452.990444:INFO:gpu_main.cc(201)] AppendCommandLine lark.pc.disable_clear_skcanvas_on_minimize 0
+[22573:22573:0509/023452.990463:INFO:gpu_main.cc(201)] AppendCommandLine lark.pc.enable_report_gl_error 1
+[22573:22573:0509/023452.990475:INFO:gpu_main.cc(201)] AppendCommandLine lark.pc.skia_shader_cache_corruption_report 1
+[22573:22573:0509/023452.990757:INFO:gpu_histogram_report_provider.cc(50)] feature disabled: kEnableScrollingMetricsReporting
+[22573:22573:0509/023452.991978:INFO:histogram_signal_handler.cc(62)] feature: kEnableHistogramSubsample = 1
+[22573:22573:0509/023452.995568:INFO:gpu_init.cc(399)] gpu block detect enable:1
+[22573:22573:0509/023452.996331:INFO:gpu_watchdog_thread.cc(197)] [GpuWatchdogThread] watchdog timeout: 5 s, terminate process threshold delta: 20 s
+[22580:22580:0509/023453.016210:INFO:lark_monitor.cc(1048)] DoCrashpadClientInit init with process_name:utility,sever_name:14,retry_count=0
+[22580:22580:0509/023453.016828:INFO:lark_monitor.cc(1075)] DoCrashpadClientInit init succ with process_name:utility,sever_name:14
+[22580:22580:0509/023453.016837:WARNING:lark_monitor.cc(1142)] process_type = utility, report_delegate_ is not set, can't report ProcessLaunched
+[22580:22580:0509/023453.016894:INFO:frame_host.cc(1089)] #### Lark (utility) Startup #### cmd:  --aha-multi-profile --browser-runtime --no-sandbox --no-zygote --type=utility
+[22580:22580:0509/023453.016902:INFO:frame_host.cc(1091)] IsBrowserRuntime:1
+[22573:22573:0509/023453.185876:INFO:gpu_init.cc(543)] GLImplementationParts is (gl=egl-angle,angle=opengl)
+[22573:22573:0509/023453.191376:WARNING:sandbox_linux.cc(385)] InitializeSandbox() called with multiple threads in process gpu-process.
+[22573:22573:0509/023453.193663:INFO:skia_utils.cc(118)] SharpenMipmappedTextures enable 0
+[22573:22573:0509/023453.195737:INFO:facade_chrome_gpu_client.cc(22)] Expose gpu interfaces to browser.
+[22573:22573:0509/023453.195892:INFO:gpu_channel_manager.cc(481)] EstablishChannel gpu_channel_optimization 1
+[22573:22573:0509/023453.198143:INFO:skia_utils.cc(118)] SharpenMipmappedTextures enable 0
+[22573:22573:0509/023453.533845:INFO:gpu_channel_manager.cc(481)] EstablishChannel gpu_channel_optimization 1
+[22720:22720:0509/023453.596865:INFO:lark_monitor.cc(1048)] DoCrashpadClientInit init with process_name:renderer,sever_name:20,retry_count=0
+[22720:22720:0509/023453.597616:INFO:lark_monitor.cc(1075)] DoCrashpadClientInit init succ with process_name:renderer,sever_name:20
+[22720:22720:0509/023453.597651:ERROR:facade_chrome_renderer_client.cc(214)] [FacadeChromeRendererClient::MonitorEvent] no isolate
+[22720:22720:0509/023453.597660:WARNING:chrome_main_delegate.cc(334)] process type 'renderer' should be created through the zygote.
+[22720:22720:0509/023453.597724:INFO:frame_host.cc(1089)] #### Lark (renderer) Startup #### cmd:  --aha-multi-profile --browser-runtime --no-sandbox --no-zygote --type=renderer
+[22720:22720:0509/023453.597733:INFO:frame_host.cc(1091)] IsBrowserRuntime:1
+[22720:22720:0509/023453.611914:INFO:renderer_histogram_report_provider.cc(16)]  report memory cache hit feature disable
+[22720:22720:0509/023453.611966:INFO:renderer_histogram_report_provider.cc(92)] feature disabled: kEnableScrollingMetricsReporting
+[22720:22720:0509/023453.611982:INFO:histogram_signal_handler.cc(62)] feature: kEnableHistogramSubsample = 1
+[22720:22720:0509/023453.613351:INFO:utils.cc(203)] [InitManifestSharedMemoryReadRetrySwitch] switch is 0
+[22720:22720:0509/023453.615455:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: docs, size: 3
+[22720:22720:0509/023453.615467:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: drive, size: 1
+[22720:22720:0509/023453.615472:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: docs_home, size: 1
+[22720:22720:0509/023453.615476:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: docs_drive, size: 1
+[22720:22720:0509/023453.615480:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: suite_safetynet, size: 1
+[22720:22720:0509/023453.615486:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: passport, size: 1
+[22720:22720:0509/023453.615490:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: approval, size: 2
+[22720:22720:0509/023453.615501:INFO:frame_facade_renderer_client.cc(165)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[22720:22720:0509/023453.615508:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: bytedance.net
+[22720:22720:0509/023453.615512:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[22720:22720:0509/023453.619422:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[22720:22730:0509/023453.624449:INFO:features.cc(17)] IsReportScrollMetricsEnabled: 0
+[22720:22730:0509/023453.624866:WARNING:compositor_service_impl.cc(40)] Scroll metrics reporter is not enabled.
+[22720:22720:0509/023453.626619:INFO:v8_enhance_functions.cc(27)] [ShellAPI][SetDelegateGuardIfNeeded] func set
+[22720:22720:0509/023453.633227:INFO:render_frame_impl.cc(4130)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[22720:22720:0509/023453.638105:INFO:features.cc(53)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIJSBPermission is 0
+[22720:22720:0509/023453.638120:INFO:frame_facade_renderer_client.cc(78)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[22720:22720:0509/023453.638127:INFO:permission_manager_impl.cc(25)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 5
+[22720:22720:0509/023453.638131:INFO:shellapi_render_frame_extension.cc(138)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge for world 0
+[22720:22720:0509/023453.638193:INFO:shellapi_render_frame_extension.cc(185)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[22720:22720:0509/023453.652453:INFO:utils.cc(151)] [InitLarkAPIUseSharedMemorySwitch] Has kEnable switch
+[22720:22720:0509/023453.652487:INFO:utils.cc(169)] [InitLarkAPIUseSharedMemorySwitch] switch is 1
+[22720:22720:0509/023453.660295:INFO:neotix_shell_api_extension.cc(193)] [InjectExternalCode] execute script result: 1
+[22720:22720:0509/023453.665103:INFO:frame_facade_renderer_client.cc(149)] [FrameFacadeRendererClient::OnGetDomains] domains size is 7
+[22720:22720:0509/023453.665157:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: approval, size: 2
+[22720:22720:0509/023453.665171:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: docs, size: 3
+[22720:22720:0509/023453.665181:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_drive, size: 1
+[22720:22720:0509/023453.665191:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_home, size: 1
+[22720:22720:0509/023453.665200:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: drive, size: 1
+[22720:22720:0509/023453.665230:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: passport, size: 1
+[22720:22720:0509/023453.665247:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: suite_safetynet, size: 1
+[22720:22720:0509/023453.665262:INFO:frame_facade_renderer_client.cc(165)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[22720:22720:0509/023453.665285:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: bytedance.net
+[22720:22720:0509/023453.665303:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[22720:22720:0509/023453.667618:ERROR:utils.cc(85)] [ShellAPI][CallJSFunction] failed, execute func failed 
+[22720:22720:0509/023453.680333:INFO:features.cc(65)] [ShellAPI][SWITCH_GETTER] switch for ShellAPINewDirectCall is 0
+[22720:22720:0509/023453.680416:INFO:features.cc(59)] [ShellAPI][SWITCH_GETTER] switch for ShellAPINewTunnel is 0
+[22720:22720:0509/023453.714881:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=1
+[22720:22730:0509/023453.716109:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x7e9fb00258f0) render pass id=385 output_rect=0,0 1897x2056
+  (0x7e9fb0006ee0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 1897x2056
+    (0x7e9fb0025ab0) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[22720:22720:0509/023453.718274:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[22720:22720:0509/023454.011453:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[22720:22730:0509/023454.017035:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x7e9fb00258f0) render pass id=385 output_rect=0,0 1897x2056
+  (0x7e9fb0025de0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-360,0 3000x120
+    DrawQuad, material: kTiledContent
+  (0x7e9fb0025f58) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 1897x2056
+    (0x7e9fb0036318) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[22720:22730:0509/023454.054836:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x7e9fb00258f0) render pass id=385 output_rect=0,0 1897x2056
+  (0x7e9fb0025de0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-480,0 3000x120
+    DrawQuad, material: kTiledContent
+  (0x7e9fb0025f58) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 1897x2056
+    (0x7e9fb003ec88) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[22720:22730:0509/023454.056228:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x7e9fb00258f0) render pass id=385 output_rect=0,0 1897x2056
+  (0x7e9fb0025de0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-480,0 3000x120
+    DrawQuad, material: kTiledContent
+  (0x7e9fb0025f58) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 1897x2056
+    (0x7e9fb003ec88) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[22720:22720:0509/023454.111658:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[22720:22720:0509/023454.112420:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[22720:22720:0509/023454.112936:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[22720:22730:0509/023454.138276:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x7e9fb00258f0) render pass id=385 output_rect=0,0 1897x2056
+  (0x7e9fb0025de0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-600,0 3000x120
+    DrawQuad, material: kTiledContent
+  (0x7e9fb0025f58) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 1897x2056
+    (0x7e9fb003ec88) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[22720:22720:0509/023454.154775:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[22720:22720:0509/023454.154883:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[22720:22730:0509/023454.157931:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x5ee7f0268d80) render pass id=385 output_rect=0,0 1897x2056
+  (0x7e9fb0021700) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 1897x2056
+    (0x7e9fb00451f0) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+    (0x7e9fb0045508) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[22720:22730:0509/023454.158016:INFO:tree_paint_watcher_impl.cc(48)] [blank paint check]: SetNeedProcess: 0
+[22720:22720:0509/023454.163638:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[22720:22720:0509/023454.173491:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[22720:22720:0509/023454.188147:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[22720:22730:0509/024402.539028:WARNING:picture_layer_impl.cc(537)] Tile is checkerboard: id: 8, bounds: 279x57, visible_layer_rect: 0,0 279x57, offset_visible_geometry_rect: 0,0 279x57, visible_geometry_area: 15903, color: 0x0
+[22720:22730:0509/024402.539113:WARNING:picture_layer_impl.cc(537)] Tile is checkerboard: id: 17, bounds: 456x406, visible_layer_rect: 2,3 452x400, offset_visible_geometry_rect: 0,0 424x375, visible_geometry_area: 159000, color: 0x0
+[22720:22730:0509/024402.539130:WARNING:picture_layer_impl.cc(537)] Tile is checkerboard: id: 16, bounds: 508x508, visible_layer_rect: 0,0 508x508, offset_visible_geometry_rect: 0,0 255x255, visible_geometry_area: 65025, color: 0x0
+[22720:22730:0509/024402.539143:WARNING:picture_layer_impl.cc(537)] Tile is checkerboard: id: 14, bounds: 167x317, visible_layer_rect: 0,0 167x317, offset_visible_geometry_rect: 0,0 84x159, visible_geometry_area: 13356, color: 0x0
+[22720:22730:0509/024402.539156:WARNING:picture_layer_impl.cc(537)] Tile is checkerboard: id: 10, bounds: 294x409, visible_layer_rect: 0,0 294x409, offset_visible_geometry_rect: 0,0 148x205, visible_geometry_area: 30340, color: 0x0
+[22720:22730:0509/024402.539177:WARNING:picture_layer_impl.cc(537)] Tile is checkerboard: id: 4, bounds: 1897x2056, visible_layer_rect: 0,0 1897x2056, offset_visible_geometry_rect: 0,0 1897x2056, visible_geometry_area: 3900232, color: 0xffffffff
+[22720:22730:0509/024402.559381:WARNING:picture_layer_impl.cc(537)] Tile is checkerboard: id: 4, bounds: 1897x2056, visible_layer_rect: 0,0 1897x2056, offset_visible_geometry_rect: 0,0 1897x2056, visible_geometry_area: 3900232, color: 0xffffffff
+[22720:22720:0509/024404.107094:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[0], extent: @offsetInAnchor[0]),0
+[22720:22720:0509/024404.119351:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=3,enable-state=1

@@ -1,0 +1,67 @@
+{
+	"id":	"C7D735EC-71FB-3A4B-A634-EC857608A1E2",
+	"type":	"custom",
+	"config":	{
+		"aid":	"666",
+		"device_id":	"7365917601928593409",
+		"user_id":	"",
+		"app_version":	"7.11.9",
+		"channel":	"",
+		"data_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_log",
+		"crash_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_crash",
+		"block_report_url":	"https://slardar-bd.feishu.cn/monitor_pc/collect/api/pc_jank",
+		"session_id":	""
+	},
+	"procotol":	{
+		"data":	[{
+				"log_type":	"flexible",
+				"timestamp":	1715193834022,
+				"process_type":	"frame",
+				"event_name":	"app_one_minute_cpu_usage",
+				"category":	{
+					"enable_hybrid_prefetch":	"1",
+					"enable_hybrid_prefetch_ab":	"0",
+					"enable_js_runtime_process":	"0",
+					"enable_jssdk":	"0",
+					"enable_shellapi_direct_call":	"0",
+					"enable_shellapi_new_tunnel":	"0",
+					"is_perfv2":	"1"
+				},
+				"metrics":	{
+					"StorageService":	0.016641923454873961,
+					"backend":	0.083196648014532248,
+					"cpu_usage":	1.2812898860826623,
+					"frame":	0.21632012055101738,
+					"gpu":	0,
+					"monitor":	0.93185195945210131,
+					"renderer-passport":	0.033279234610137189,
+					"system_cpu_usage":	2.3907860845604314
+				},
+				"extra":	{
+					"gen_process_id":	"22509",
+					"internal_report_channel":	"slardar_sdk"
+				}
+			}],
+		"header":	{
+			"device_id":	"7365917601928593409",
+			"user_id":	"",
+			"aid":	"666",
+			"app_version":	"7.11.9",
+			"channel":	"",
+			"session_id":	"",
+			"os":	"linux",
+			"os_version":	"6.8.9-arch1-1(Linux)",
+			"context":	{
+				"desktop_env":	"Hyprland",
+				"desktop_session":	"Hyprland",
+				"os_distro_name":	"Arch Linux",
+				"os_distro_version":	"0.0",
+				"window_system":	"wayland",
+				"tenant_id":	"",
+				"internal_report_channel":	"slardar_sdk",
+				"last_login_user_id":	"7043615795246809092",
+				"last_login_device_id":	"7365917601928593409"
+			}
+		}
+	}
+}

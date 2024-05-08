@@ -1,0 +1,11 @@
+2024-05-06 00:32:49.780 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/kaiya/rust/--ozone-platform-hint=wayland","scheme":"file"},"type":1,"exists":false},{"fileUri":{"$mid":1,"path":"/home/kaiya/rust/--disable-gpu","scheme":"file"},"type":1,"exists":false}],"filesToDiff":[],"filesToMerge":[]}
+2024-05-06 00:32:50.134 [info] Started local extension host with pid 172250.
+2024-05-06 00:32:50.169 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
+2024-05-06 00:32:50.331 [info] Started local extension host with pid 172271.
+2024-05-06 00:32:52.794 [info] [perf] Render performance baseline is 21ms
+2024-05-06 00:33:33.435 [error] TreeError [FileExplorer] Data tree node not found: ExplorerItem: rust: Error: TreeError [FileExplorer] Data tree node not found: ExplorerItem: rust
+    at ne.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:627:20640)
+    at ne.A (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:627:17667)
+    at async ne.updateChildren (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:627:17420)
+2024-05-06 00:33:33.520 [info] Started local extension host with pid 172529.
+2024-05-06 00:33:33.522 [info] Started local extension host with pid 172530.

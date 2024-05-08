@@ -1,0 +1,98 @@
+2024-05-06 00:32:50.863 [info] Log level: Info
+2024-05-06 00:32:50.863 [info] Validating found git in: "git"
+2024-05-06 00:32:50.863 [info] Using git "2.45.0" from "git"
+2024-05-06 00:32:50.863 [info] > git rev-parse --show-toplevel [36ms]
+2024-05-06 00:32:50.863 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-06 00:32:50.863 [info] > git rev-parse --show-toplevel [6ms]
+2024-05-06 00:32:50.863 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-05-06 00:32:50.874 [info] Open repository: /home/kaiya/rust/ch2_tuple
+2024-05-06 00:32:50.890 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-06 00:32:50.891 [info] > git config --get commit.template [9ms]
+2024-05-06 00:32:50.905 [info] No remotes found in the git config file.
+2024-05-06 00:32:50.906 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-06 00:32:50.907 [warning] No such branch: master.
+2024-05-06 00:32:50.915 [info] > git rev-parse --git-dir --git-common-dir [17ms]
+2024-05-06 00:32:50.922 [info] Open repository: /home/kaiya/rust/hftbacktest
+2024-05-06 00:32:50.931 [info] > git status -z -uall [17ms]
+2024-05-06 00:32:50.981 [info] > git config --get commit.template [50ms]
+2024-05-06 00:32:50.995 [info] > git config --get commit.template [26ms]
+2024-05-06 00:32:51.032 [info] No remotes found in the git config file.
+2024-05-06 00:32:51.055 [info] > git rev-parse --show-toplevel [37ms]
+2024-05-06 00:32:51.055 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-06 00:32:51.056 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [45ms]
+2024-05-06 00:32:51.064 [warning] ENOENT: no such file or directory, open '/home/kaiya/rust/hftbacktest/.git/refs/remotes/origin/master'
+2024-05-06 00:32:51.066 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [34ms]
+2024-05-06 00:32:51.066 [warning] No such branch: master.
+2024-05-06 00:32:51.076 [info] > git rev-parse refs/remotes/origin/master [12ms]
+2024-05-06 00:32:51.088 [info] > git status -z -uall [16ms]
+2024-05-06 00:32:51.155 [info] > git status -z -uall [72ms]
+2024-05-06 00:32:51.178 [info] > git merge-base refs/heads/master refs/remotes/origin/master [13ms]
+2024-05-06 00:32:51.187 [info] > git config --get commit.template [11ms]
+2024-05-06 00:32:51.189 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [4ms]
+2024-05-06 00:32:51.206 [info] > git diff --name-status -z --diff-filter=ADMR 0df6c5a00dc31d11bb5041e2b867909f65256b30...refs/remotes/origin/master [8ms]
+2024-05-06 00:32:51.207 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-06 00:32:51.216 [warning] ENOENT: no such file or directory, open '/home/kaiya/rust/hftbacktest/.git/refs/remotes/origin/master'
+2024-05-06 00:32:51.218 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2024-05-06 00:32:51.302 [info] > git status -z -uall [76ms]
+2024-05-06 00:32:51.505 [info] > git check-ignore -v -z --stdin [9ms]
+2024-05-06 00:32:51.507 [info] > git check-ignore -v -z --stdin [4ms]
+2024-05-06 00:32:52.426 [info] No remotes found in the git config file.
+2024-05-06 00:32:52.426 [info] > git config --get commit.template [5ms]
+2024-05-06 00:32:52.426 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-05-06 00:32:52.426 [warning] No such branch: master.
+2024-05-06 00:32:52.431 [info] > git status -z -uall [2ms]
+2024-05-06 00:32:59.462 [info] > git show --textconv :src/main.rs [4ms]
+2024-05-06 00:32:59.463 [info] > git ls-files --stage -- /home/kaiya/rust/ch2_tuple/src/main.rs [1ms]
+2024-05-06 00:33:02.615 [info] > git show --textconv :rust/examples/algo.rs [11ms]
+2024-05-06 00:33:02.616 [info] > git ls-files --stage -- /home/kaiya/rust/hftbacktest/rust/examples/algo.rs [2ms]
+2024-05-06 00:33:02.621 [info] > git cat-file -s 27f0216141258848a9b444dbc06d67ff4e0a5f91 [1ms]
+2024-05-06 00:33:18.812 [info] > git check-ignore -v -z --stdin [1ms]
+2024-05-06 00:33:34.198 [info] Log level: Info
+2024-05-06 00:33:34.198 [info] Validating found git in: "git"
+2024-05-06 00:33:34.198 [info] Using git "2.45.0" from "git"
+2024-05-06 00:33:34.198 [info] > git rev-parse --show-toplevel [8ms]
+2024-05-06 00:33:34.198 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-06 00:33:34.199 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-06 00:33:34.241 [info] > git rev-parse --git-dir --git-common-dir [34ms]
+2024-05-06 00:33:34.251 [info] Open repository: /home/kaiya/rust/ch2_tuple
+2024-05-06 00:33:34.269 [info] > git rev-parse --show-toplevel [5ms]
+2024-05-06 00:33:34.270 [info] > git config --get commit.template [13ms]
+2024-05-06 00:33:34.302 [info] No remotes found in the git config file.
+2024-05-06 00:33:34.305 [info] > git rev-parse --git-dir --git-common-dir [26ms]
+2024-05-06 00:33:34.310 [info] Open repository: /home/kaiya/rust/hftbacktest
+2024-05-06 00:33:34.329 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [28ms]
+2024-05-06 00:33:34.330 [warning] No such branch: master.
+2024-05-06 00:33:34.351 [info] > git status -z -uall [12ms]
+2024-05-06 00:33:34.356 [info] > git rev-parse --show-toplevel [31ms]
+2024-05-06 00:33:34.357 [info] > git config --get commit.template [38ms]
+2024-05-06 00:33:34.382 [info] > git rev-parse --show-toplevel [11ms]
+2024-05-06 00:33:34.390 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2024-05-06 00:33:34.397 [warning] ENOENT: no such file or directory, open '/home/kaiya/rust/hftbacktest/.git/refs/remotes/origin/master'
+2024-05-06 00:33:34.399 [info] > git ls-files --stage -- /home/kaiya/rust/hftbacktest/rust/examples/algo.rs [11ms]
+2024-05-06 00:33:34.405 [info] > git rev-parse refs/remotes/origin/master [8ms]
+2024-05-06 00:33:34.420 [info] > git cat-file -s 27f0216141258848a9b444dbc06d67ff4e0a5f91 [16ms]
+2024-05-06 00:33:34.449 [info] > git show --textconv :rust/examples/algo.rs [12ms]
+2024-05-06 00:33:34.452 [info] > git config --get commit.template [3ms]
+2024-05-06 00:33:34.459 [info] No remotes found in the git config file.
+2024-05-06 00:33:34.483 [info] > git status -z -uall [72ms]
+2024-05-06 00:33:34.497 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [38ms]
+2024-05-06 00:33:34.497 [warning] No such branch: master.
+2024-05-06 00:33:34.526 [info] > git status -z -uall [20ms]
+2024-05-06 00:33:34.530 [info] > git merge-base refs/heads/master refs/remotes/origin/master [39ms]
+2024-05-06 00:33:34.538 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [2ms]
+2024-05-06 00:33:34.545 [info] > git config --get commit.template [25ms]
+2024-05-06 00:33:34.548 [info] > git diff --name-status -z --diff-filter=ADMR 0df6c5a00dc31d11bb5041e2b867909f65256b30...refs/remotes/origin/master [4ms]
+2024-05-06 00:33:34.556 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-06 00:33:34.562 [warning] ENOENT: no such file or directory, open '/home/kaiya/rust/hftbacktest/.git/refs/remotes/origin/master'
+2024-05-06 00:33:34.564 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2024-05-06 00:33:34.633 [info] > git status -z -uall [63ms]
+2024-05-06 00:33:34.888 [info] > git check-ignore -v -z --stdin [6ms]
+2024-05-06 00:33:34.888 [info] > git check-ignore -v -z --stdin [2ms]
+2024-05-06 00:33:36.293 [info] No remotes found in the git config file.
+2024-05-06 00:33:36.297 [info] > git config --get commit.template [6ms]
+2024-05-06 00:33:36.297 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-05-06 00:33:36.298 [warning] No such branch: master.
+2024-05-06 00:33:36.302 [info] > git status -z -uall [1ms]
+2024-05-06 00:33:39.482 [info] > git check-ignore -v -z --stdin [1ms]
+2024-05-06 00:33:39.958 [info] > git show --textconv :src/main.rs [4ms]
+2024-05-06 00:33:39.958 [info] > git ls-files --stage -- /home/kaiya/rust/ch2_tuple/src/main.rs [1ms]

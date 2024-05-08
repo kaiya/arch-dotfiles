@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/kaiya/tmp_pacman.conf" added="2024-05-03T18:12:11.498404Z" modified="2024-05-04T17:06:30.968426Z" visited="2024-05-03T18:12:11.498405Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="udiskie" exec="&apos;udiskie %u&apos;" modified="2024-05-03T18:12:11.498405Z" count="1"/>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2024-05-04T17:06:30.968423Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kaiya/hello.c" added="2024-05-03T18:29:29.710743Z" modified="2024-05-03T18:29:29.710749Z" visited="2024-05-03T18:29:29.710745Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2024-05-03T18:29:29.710747Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kaiya/Pictures/Screenshots/240504_02h41m04s_screenshot.png" added="2024-05-03T20:00:34.507000Z" modified="2024-05-03T20:00:34.507000Z" visited="2024-05-03T20:00:34.507000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="swappy" exec="swappy -f %f" modified="2024-05-03T20:00:34.507000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kaiya" added="2024-05-04T17:02:25.461971Z" modified="2024-05-04T17:02:25.461974Z" visited="2024-05-04T17:02:25.461972Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2024-05-04T17:02:25.461972Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///etc/zsh/zprofile" added="2024-05-05T04:44:51.783000Z" modified="2024-05-05T04:45:21.298000Z" visited="2024-05-05T04:45:21.298000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="nvim" exec="nvim %f" modified="2024-05-05T04:45:21.298000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kaiya/rust" added="2024-05-05T15:53:04.473363Z" modified="2024-05-05T15:53:04.473365Z" visited="2024-05-05T15:53:04.473363Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2024-05-05T15:53:04.473364Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kaiya/rust/ch2_tuple" added="2024-05-05T16:33:33.188393Z" modified="2024-05-05T16:33:33.188396Z" visited="2024-05-05T16:33:33.188394Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2024-05-05T16:33:33.188395Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kaiya/rust/hftbacktest/rust" added="2024-05-05T16:34:28.797192Z" modified="2024-05-05T16:34:28.797198Z" visited="2024-05-05T16:34:28.797194Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2024-05-05T16:34:28.797195Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kaiya/essay/main.pdf" added="2024-05-06T19:33:22.365000Z" modified="2024-05-06T19:33:22.365000Z" visited="2024-05-06T19:33:22.365000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="/usr/bin/chromium %u" modified="2024-05-06T19:33:22.365000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

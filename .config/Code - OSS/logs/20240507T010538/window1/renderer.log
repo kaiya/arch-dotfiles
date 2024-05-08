@@ -1,0 +1,5 @@
+2024-05-07 01:05:38.607 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/kaiya/--ozone-platform-hint=wayland","scheme":"file"},"type":1,"exists":false},{"fileUri":{"$mid":1,"path":"/home/kaiya/--disable-gpu","scheme":"file"},"type":1,"exists":false}],"filesToDiff":[],"filesToMerge":[]}
+2024-05-07 01:05:38.971 [info] Started local extension host with pid 249318.
+2024-05-07 01:05:39.063 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
+2024-05-07 01:05:39.327 [info] Started local extension host with pid 249344.
+2024-05-07 01:05:41.759 [info] [perf] Render performance baseline is 53ms

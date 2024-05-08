@@ -1,0 +1,138 @@
+2024-05-05T16:38:45.078398Z ERROR hir: Async fn ret_type should be impl Future
+2024-05-05T16:38:45.078604Z ERROR hir: Async fn ret_type should be impl Future
+2024-05-05T16:38:45.079423Z ERROR hir: Async fn ret_type should be impl Future
+2024-05-05T16:38:45.160346Z ERROR hir: Async fn ret_type should be impl Future
+2024-05-05T16:38:45.160394Z ERROR hir: Async fn ret_type should be impl Future
+2024-05-05T16:38:45.160434Z ERROR hir: Async fn ret_type should be impl Future
+2024-05-05T16:38:49.311072Z ERROR hir: Async fn ret_type should be impl Future
+2024-05-05T16:38:49.311106Z ERROR hir: Async fn ret_type should be impl Future
+2024-05-05T16:38:49.311204Z ERROR hir: Async fn ret_type should be impl Future
+2024-05-05T16:38:49.582994Z ERROR hir: Async fn ret_type should be impl Future
+2024-05-05T16:38:49.583040Z ERROR hir: Async fn ret_type should be impl Future
+2024-05-05T16:38:49.583083Z ERROR hir: Async fn ret_type should be impl Future
+2024-05-05T16:41:49.556603Z ERROR flycheck: Flycheck failed to run the following command: CommandHandle { program: "/usr/bin/cargo", arguments: ["check", "--workspace", "--message-format=json-diagnostic-rendered-ansi", "--manifest-path", "/home/kaiya/rust/hftbacktest/rust/Cargo.toml", "--all-targets"], current_dir: Some("/home/kaiya/rust/hftbacktest/rust") }, error=Cargo watcher failed, the command produced no valid metadata (exit code: ExitStatus(unix_wait_status(25856))):
+error: invalid type: map, expected a sequence
+  --> Cargo.toml:27:1
+   |
+27 | / [bin]
+28 | | path="./examples/algo.rs"
+   | |_________________________^
+   |
+
+2024-05-05T16:41:49.800485Z ERROR rust_analyzer::main_loop: FetchWorkspaceError:
+rust-analyzer failed to load workspace: Failed to load the project at /home/kaiya/rust/hftbacktest/rust/Cargo.toml: Failed to read Cargo metadata from Cargo.toml file /home/kaiya/rust/hftbacktest/rust/Cargo.toml, Some(Version { major: 1, minor: 77, patch: 2 }): Failed to run `cd "/home/kaiya/rust/hftbacktest/rust" && RUSTUP_TOOLCHAIN="/usr" "/usr/bin/cargo" "metadata" "--format-version" "1" "--manifest-path" "/home/kaiya/rust/hftbacktest/rust/Cargo.toml" "--filter-platform" "x86_64-unknown-linux-gnu"`: `cargo metadata` exited with an error: error: invalid type: map, expected a sequence
+  --> Cargo.toml:27:1
+   |
+27 | / [bin]
+28 | | path="./examples/algo.rs"
+   | |_________________________^
+   |
+
+
+2024-05-05T16:41:49.888635Z ERROR flycheck: Flycheck failed to run the following command: CommandHandle { program: "/usr/bin/cargo", arguments: ["check", "--workspace", "--message-format=json-diagnostic-rendered-ansi", "--manifest-path", "/home/kaiya/rust/hftbacktest/rust/Cargo.toml", "--all-targets"], current_dir: Some("/home/kaiya/rust/hftbacktest/rust") }, error=Cargo watcher failed, the command produced no valid metadata (exit code: ExitStatus(unix_wait_status(25856))):
+error: invalid type: map, expected a sequence
+  --> Cargo.toml:27:1
+   |
+27 | / [bin]
+28 | | path="./examples/algo.rs"
+   | |_________________________^
+   |
+
+2024-05-05T16:41:50.074712Z ERROR rust_analyzer::main_loop: FetchWorkspaceError:
+rust-analyzer failed to load workspace: Failed to load the project at /home/kaiya/rust/hftbacktest/rust/Cargo.toml: Failed to read Cargo metadata from Cargo.toml file /home/kaiya/rust/hftbacktest/rust/Cargo.toml, Some(Version { major: 1, minor: 77, patch: 2 }): Failed to run `cd "/home/kaiya/rust/hftbacktest/rust" && RUSTUP_TOOLCHAIN="/usr" "/usr/bin/cargo" "metadata" "--format-version" "1" "--manifest-path" "/home/kaiya/rust/hftbacktest/rust/Cargo.toml" "--filter-platform" "x86_64-unknown-linux-gnu"`: `cargo metadata` exited with an error: error: invalid type: map, expected a sequence
+  --> Cargo.toml:27:1
+   |
+27 | / [bin]
+28 | | path="./examples/algo.rs"
+   | |_________________________^
+   |
+
+
+2024-05-05T16:41:50.169917Z ERROR flycheck: Flycheck failed to run the following command: CommandHandle { program: "/usr/bin/cargo", arguments: ["check", "--workspace", "--message-format=json-diagnostic-rendered-ansi", "--manifest-path", "/home/kaiya/rust/hftbacktest/rust/Cargo.toml", "--all-targets"], current_dir: Some("/home/kaiya/rust/hftbacktest/rust") }, error=Cargo watcher failed, the command produced no valid metadata (exit code: ExitStatus(unix_wait_status(25856))):
+error: invalid type: map, expected a sequence
+  --> Cargo.toml:27:1
+   |
+27 | / [bin]
+28 | | path="./examples/algo.rs"
+   | |_________________________^
+   |
+
+2024-05-05T16:42:16.106195Z ERROR flycheck: Flycheck failed to run the following command: CommandHandle { program: "/usr/bin/cargo", arguments: ["check", "--workspace", "--message-format=json-diagnostic-rendered-ansi", "--manifest-path", "/home/kaiya/rust/hftbacktest/rust/Cargo.toml", "--all-targets"], current_dir: Some("/home/kaiya/rust/hftbacktest/rust") }, error=Cargo watcher failed, the command produced no valid metadata (exit code: ExitStatus(unix_wait_status(25856))):
+error: invalid type: map, expected a sequence
+  --> Cargo.toml:27:1
+   |
+27 | / [bin]
+28 | | path = "./examples/algo.rs"
+   | |___________________________^
+   |
+
+2024-05-05T16:42:16.283886Z ERROR rust_analyzer::main_loop: FetchWorkspaceError:
+rust-analyzer failed to load workspace: Failed to load the project at /home/kaiya/rust/hftbacktest/rust/Cargo.toml: Failed to read Cargo metadata from Cargo.toml file /home/kaiya/rust/hftbacktest/rust/Cargo.toml, Some(Version { major: 1, minor: 77, patch: 2 }): Failed to run `cd "/home/kaiya/rust/hftbacktest/rust" && RUSTUP_TOOLCHAIN="/usr" "/usr/bin/cargo" "metadata" "--format-version" "1" "--manifest-path" "/home/kaiya/rust/hftbacktest/rust/Cargo.toml" "--filter-platform" "x86_64-unknown-linux-gnu"`: `cargo metadata` exited with an error: error: invalid type: map, expected a sequence
+  --> Cargo.toml:27:1
+   |
+27 | / [bin]
+28 | | path = "./examples/algo.rs"
+   | |___________________________^
+   |
+
+
+2024-05-05T16:42:16.373827Z ERROR flycheck: Flycheck failed to run the following command: CommandHandle { program: "/usr/bin/cargo", arguments: ["check", "--workspace", "--message-format=json-diagnostic-rendered-ansi", "--manifest-path", "/home/kaiya/rust/hftbacktest/rust/Cargo.toml", "--all-targets"], current_dir: Some("/home/kaiya/rust/hftbacktest/rust") }, error=Cargo watcher failed, the command produced no valid metadata (exit code: ExitStatus(unix_wait_status(25856))):
+error: invalid type: map, expected a sequence
+  --> Cargo.toml:27:1
+   |
+27 | / [bin]
+28 | | path = "./examples/algo.rs"
+   | |___________________________^
+   |
+
+2024-05-05T16:42:16.597916Z ERROR rust_analyzer::main_loop: FetchWorkspaceError:
+rust-analyzer failed to load workspace: Failed to load the project at /home/kaiya/rust/hftbacktest/rust/Cargo.toml: Failed to read Cargo metadata from Cargo.toml file /home/kaiya/rust/hftbacktest/rust/Cargo.toml, Some(Version { major: 1, minor: 77, patch: 2 }): Failed to run `cd "/home/kaiya/rust/hftbacktest/rust" && RUSTUP_TOOLCHAIN="/usr" "/usr/bin/cargo" "metadata" "--format-version" "1" "--manifest-path" "/home/kaiya/rust/hftbacktest/rust/Cargo.toml" "--filter-platform" "x86_64-unknown-linux-gnu"`: `cargo metadata` exited with an error: error: invalid type: map, expected a sequence
+  --> Cargo.toml:27:1
+   |
+27 | / [bin]
+28 | | path = "./examples/algo.rs"
+   | |___________________________^
+   |
+
+
+2024-05-05T16:42:16.687594Z ERROR flycheck: Flycheck failed to run the following command: CommandHandle { program: "/usr/bin/cargo", arguments: ["check", "--workspace", "--message-format=json-diagnostic-rendered-ansi", "--manifest-path", "/home/kaiya/rust/hftbacktest/rust/Cargo.toml", "--all-targets"], current_dir: Some("/home/kaiya/rust/hftbacktest/rust") }, error=Cargo watcher failed, the command produced no valid metadata (exit code: ExitStatus(unix_wait_status(25856))):
+error: invalid type: map, expected a sequence
+  --> Cargo.toml:27:1
+   |
+27 | / [bin]
+28 | | path = "./examples/algo.rs"
+   | |___________________________^
+   |
+
+2024-05-05T16:44:01.472195Z ERROR flycheck: Flycheck failed to run the following command: CommandHandle { program: "/usr/bin/cargo", arguments: ["check", "--workspace", "--message-format=json-diagnostic-rendered-ansi", "--manifest-path", "/home/kaiya/rust/hftbacktest/rust/Cargo.toml", "--all-targets"], current_dir: Some("/home/kaiya/rust/hftbacktest/rust") }, error=Cargo watcher failed, the command produced no valid metadata (exit code: ExitStatus(unix_wait_status(25856))):
+error: failed to parse manifest at `/home/kaiya/rust/hftbacktest/rust/Cargo.toml`
+
+Caused by:
+  binary target bin.name is required
+
+2024-05-05T16:44:01.663258Z ERROR rust_analyzer::main_loop: FetchWorkspaceError:
+rust-analyzer failed to load workspace: Failed to load the project at /home/kaiya/rust/hftbacktest/rust/Cargo.toml: Failed to read Cargo metadata from Cargo.toml file /home/kaiya/rust/hftbacktest/rust/Cargo.toml, Some(Version { major: 1, minor: 77, patch: 2 }): Failed to run `cd "/home/kaiya/rust/hftbacktest/rust" && RUSTUP_TOOLCHAIN="/usr" "/usr/bin/cargo" "metadata" "--format-version" "1" "--manifest-path" "/home/kaiya/rust/hftbacktest/rust/Cargo.toml" "--filter-platform" "x86_64-unknown-linux-gnu"`: `cargo metadata` exited with an error: error: failed to parse manifest at `/home/kaiya/rust/hftbacktest/rust/Cargo.toml`
+
+Caused by:
+  binary target bin.name is required
+
+
+2024-05-05T16:44:01.742891Z ERROR flycheck: Flycheck failed to run the following command: CommandHandle { program: "/usr/bin/cargo", arguments: ["check", "--workspace", "--message-format=json-diagnostic-rendered-ansi", "--manifest-path", "/home/kaiya/rust/hftbacktest/rust/Cargo.toml", "--all-targets"], current_dir: Some("/home/kaiya/rust/hftbacktest/rust") }, error=Cargo watcher failed, the command produced no valid metadata (exit code: ExitStatus(unix_wait_status(25856))):
+error: failed to parse manifest at `/home/kaiya/rust/hftbacktest/rust/Cargo.toml`
+
+Caused by:
+  binary target bin.name is required
+
+2024-05-05T16:44:01.989940Z ERROR rust_analyzer::main_loop: FetchWorkspaceError:
+rust-analyzer failed to load workspace: Failed to load the project at /home/kaiya/rust/hftbacktest/rust/Cargo.toml: Failed to read Cargo metadata from Cargo.toml file /home/kaiya/rust/hftbacktest/rust/Cargo.toml, Some(Version { major: 1, minor: 77, patch: 2 }): Failed to run `cd "/home/kaiya/rust/hftbacktest/rust" && RUSTUP_TOOLCHAIN="/usr" "/usr/bin/cargo" "metadata" "--format-version" "1" "--manifest-path" "/home/kaiya/rust/hftbacktest/rust/Cargo.toml" "--filter-platform" "x86_64-unknown-linux-gnu"`: `cargo metadata` exited with an error: error: failed to parse manifest at `/home/kaiya/rust/hftbacktest/rust/Cargo.toml`
+
+Caused by:
+  binary target bin.name is required
+
+
+2024-05-05T16:44:02.070691Z ERROR flycheck: Flycheck failed to run the following command: CommandHandle { program: "/usr/bin/cargo", arguments: ["check", "--workspace", "--message-format=json-diagnostic-rendered-ansi", "--manifest-path", "/home/kaiya/rust/hftbacktest/rust/Cargo.toml", "--all-targets"], current_dir: Some("/home/kaiya/rust/hftbacktest/rust") }, error=Cargo watcher failed, the command produced no valid metadata (exit code: ExitStatus(unix_wait_status(25856))):
+error: failed to parse manifest at `/home/kaiya/rust/hftbacktest/rust/Cargo.toml`
+
+Caused by:
+  binary target bin.name is required
+

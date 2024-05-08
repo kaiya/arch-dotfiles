@@ -1,0 +1,29 @@
+2024-05-09 03:09:53.842 [info] Log level: Info
+2024-05-09 03:09:53.842 [info] Validating found git in: "git"
+2024-05-09 03:09:53.842 [info] Using git "2.45.0" from "git"
+2024-05-09 03:09:53.842 [info] > git rev-parse --show-toplevel [9ms]
+2024-05-09 03:09:53.842 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-05-09 03:09:53.842 [info] Open repository: /home/kaiya/rust/ch2_tuple
+2024-05-09 03:09:53.843 [info] > git config --get commit.template [10ms]
+2024-05-09 03:09:53.844 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-09 03:09:53.854 [info] No remotes found in the git config file.
+2024-05-09 03:09:53.863 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2024-05-09 03:09:53.874 [info] > git rev-parse --show-toplevel [12ms]
+2024-05-09 03:09:53.880 [info] > git status -z -uall [8ms]
+2024-05-09 03:09:53.894 [info] > git rev-parse --show-toplevel [14ms]
+2024-05-09 03:09:53.901 [info] > git config --get commit.template [8ms]
+2024-05-09 03:09:53.926 [info] No remotes found in the git config file.
+2024-05-09 03:09:53.936 [info] > git rev-parse --show-toplevel [36ms]
+2024-05-09 03:09:53.938 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2024-05-09 03:09:53.955 [info] > git status -z -uall [12ms]
+2024-05-09 03:09:53.956 [info] > git rev-parse --show-toplevel [4ms]
+2024-05-09 03:09:53.988 [info] > git rev-parse --show-toplevel [6ms]
+2024-05-09 03:09:54.387 [info] > git check-ignore -v -z --stdin [3ms]
+2024-05-09 03:09:55.960 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-09 03:09:55.960 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-09 03:09:56.558 [info] No remotes found in the git config file.
+2024-05-09 03:09:56.560 [info] > git config --get commit.template [15ms]
+2024-05-09 03:09:56.561 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-09 03:09:56.575 [info] > git status -z -uall [4ms]
+2024-05-09 03:09:58.146 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-09 03:09:58.146 [info] fatal: not a git repository (or any of the parent directories): .git

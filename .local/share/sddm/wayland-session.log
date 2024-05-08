@@ -1,0 +1,928 @@
+pcilib: Error reading /sys/bus/pci/devices/0000:00:08.3/label: Operation not permitted
+amdgpu: amdgpu_cs_ctx_create2 failed. (-13)
+grep: /sys/class/power_supply/BAT*/type: No such file or directory
+
+(waybar:4133): Gtk-WARNING **: 02:19:55.352: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class
+
+(nm-applet:4140): Gtk-WARNING **: 02:19:55.353: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class
+
+(polkit-gnome-authentication-agent-1:4134): Gtk-WARNING **: 02:19:55.377: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class
+
+(udiskie:4138): Gtk-WARNING **: 02:19:55.418: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class
+
+(blueman-applet:4136): Gtk-WARNING **: 02:19:55.425: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class
+blueman-applet 02.19.55 WARNING  PluginManager:93 load_plugin: Failed to start plugin GameControllerWakelock: Only X11 platform is supported
+blueman-applet 02.19.55 WARNING  PluginManager:150 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+blueman-applet 02.19.55 WARNING  PluginManager:150 __load_plugin: Not loading PPPSupport because its conflict has higher priority
+blueman-applet 02.19.55 WARNING  TransferService:212 _make_share_path: Failed to get Download dir from XDG
+
+** (waybar:4133): WARNING **: 02:19:55.537: Status Notifier Item with bus name ':1.85' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+(nm-applet:4140): Gtk-CRITICAL **: 02:19:55.556: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(udiskie:4138): Gtk-CRITICAL **: 02:19:55.575: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+** (waybar:4133): WARNING **: 02:19:55.731: Status Notifier Item with bus name ':1.85' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+18:19:55 [0m[34m[INFO] [0m(main) Forced usage of wl_shm format: Xrgb8888
+18:19:55 [0m[34m[INFO] [0m(main) Initialization succeeded! Starting main loop...
+18:19:55 [0m[33m[WARN] [0m(main) Received transform. We currently ignore those
+18:19:55 [0m[33m[WARN] [0m(cache loader) failed to load cache: there is already another swww process running
+18:19:55 [0m[34m[INFO] [0m(transition) BumpPool with: 1 buffers. Size: 32400Kb
+18:19:55 [0m[34m[INFO] [0m(transition) BumpPool with: 2 buffers. Size: 64800Kb
+xdg-desktop-portal-kde: no process found
+xdg-desktop-portal-lxqt: no process found
+xdg-desktop-portal-wlr: no process found
+[130 02:19:57.883933] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+
+(/usr/lib/xdg-desktop-portal:4549): xdg-desktop-portal-WARNING **: 02:19:59.154: No skeleton to export
+[130 02:20:02.330663] [PARSE ERROR] Unknown DCS escape code: zz
+[130 02:20:02.330702] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+
+(nm-applet:4140): Gtk-CRITICAL **: 02:20:10.810: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+waybar: no process found
+
+(waybar:4595): Gtk-WARNING **: 02:20:11.530: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class
+
+** (waybar:4595): WARNING **: 02:20:11.595: Status Notifier Item with bus name ':1.85' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+(udiskie:4138): Gtk-CRITICAL **: 02:20:12.507: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:4140): Gtk-CRITICAL **: 02:20:12.508: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(blueman-tray:4375): Gtk-CRITICAL **: 02:20:12.551: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(blueman-tray:4375): Gtk-WARNING **: 02:20:12.559: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+> Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Errors from xkbcomp are not fatal to the X server
+[130 02:20:56.388045] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[130 02:21:03.790918] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[130 02:21:04.661079] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+Terminated
+Terminated
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+No players found
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+WARNING: format_string %" is unknown.
+/home/kaiya/.local/share/bin/screenshot.sh: line 12: hyprshade: command not found
+/home/kaiya/.local/share/bin/screenshot.sh: line 13: hyprshade: command not found
+
+(swappy:6428): Gtk-WARNING **: 02:23:09.769: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class
+waybar: no process found
+
+(udiskie:4138): Gtk-CRITICAL **: 02:24:07.086: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:4140): Gtk-CRITICAL **: 02:24:07.087: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(udiskie:4138): Gtk-CRITICAL **: 02:24:08.253: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:4140): Gtk-CRITICAL **: 02:24:08.253: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(udiskie:4138): Gtk-CRITICAL **: 02:24:09.886: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:4140): Gtk-CRITICAL **: 02:24:09.887: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(udiskie:4138): Gtk-CRITICAL **: 02:24:11.457: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:4140): Gtk-CRITICAL **: 02:24:11.457: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(udiskie:4138): Gtk-CRITICAL **: 02:24:13.290: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:4140): Gtk-CRITICAL **: 02:24:13.290: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(udiskie:4138): Gtk-CRITICAL **: 02:24:16.360: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:4140): Gtk-CRITICAL **: 02:24:16.360: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(udiskie:4138): Gtk-CRITICAL **: 02:24:23.423: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:4140): Gtk-CRITICAL **: 02:24:23.423: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(udiskie:4138): Gtk-CRITICAL **: 02:24:28.693: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:4140): Gtk-CRITICAL **: 02:24:28.693: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+Terminated
+Terminated
+Terminated
+
+(process:12021): Helpers.IconFetcher-WARNING **: 02:26:23.765: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/6d75ae5fc4beab599466eb7d379c50b8036fc680.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/6d75ae5fc4beab599466eb7d379c50b8036fc680.sqre”: No such file or directory ((nil))
+
+(process:12021): Helpers.IconFetcher-WARNING **: 02:26:23.766: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/aff85b1d85a67c8b637e7e3e072864e8551c1169.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/aff85b1d85a67c8b637e7e3e072864e8551c1169.sqre”: No such file or directory ((nil))
+
+(process:12021): Helpers.IconFetcher-WARNING **: 02:26:23.766: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/ad21d173db5e83ae91e70d2c9274a2ffab603151.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/ad21d173db5e83ae91e70d2c9274a2ffab603151.sqre”: No such file or directory ((nil))
+
+(process:12021): Helpers.IconFetcher-WARNING **: 02:26:23.766: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/7cd12a23084b0ad1e02b9053f9322afbd35cfb10.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/7cd12a23084b0ad1e02b9053f9322afbd35cfb10.sqre”: No such file or directory ((nil))
+
+(process:12021): Helpers.IconFetcher-WARNING **: 02:26:23.793: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/aff85b1d85a67c8b637e7e3e072864e8551c1169.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/aff85b1d85a67c8b637e7e3e072864e8551c1169.sqre”: No such file or directory ((nil))
+
+(process:12021): Helpers.IconFetcher-WARNING **: 02:26:23.793: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/7cd12a23084b0ad1e02b9053f9322afbd35cfb10.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/7cd12a23084b0ad1e02b9053f9322afbd35cfb10.sqre”: No such file or directory ((nil))
+
+(process:12021): Helpers.IconFetcher-WARNING **: 02:26:23.793: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/ad21d173db5e83ae91e70d2c9274a2ffab603151.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/ad21d173db5e83ae91e70d2c9274a2ffab603151.sqre”: No such file or directory ((nil))
+
+(process:12021): Helpers.IconFetcher-WARNING **: 02:26:23.793: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/6d75ae5fc4beab599466eb7d379c50b8036fc680.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/6d75ae5fc4beab599466eb7d379c50b8036fc680.sqre”: No such file or directory ((nil))
+extracting id: input not prefixed with id
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+> Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Errors from xkbcomp are not fatal to the X server
+[130 02:27:11.069278] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+> Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Errors from xkbcomp are not fatal to the X server
+[130 02:31:01.781245] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[130 02:32:21.226688] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:32:21.226758] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:32:21.226769] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:32:24.573359] [PARSE ERROR] Unknown DCS escape code: zz
+[130 02:32:24.573384] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[130 02:32:28.686814] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:32:28.686859] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:32:28.686875] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:32:31.168243] [PARSE ERROR] Unknown DCS escape code: zz
+[130 02:32:31.168278] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[130 02:34:36.376466] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:34:36.376515] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:34:36.376531] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:34:39.996986] [PARSE ERROR] Unknown DCS escape code: zz
+[130 02:34:39.997075] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[130 02:34:43.783113] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:34:43.783157] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:34:43.783174] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+> Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Errors from xkbcomp are not fatal to the X server
+
+(feishu:22509): Gtk-WARNING **: 02:34:52.875: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+> Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Errors from xkbcomp are not fatal to the X server
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+> Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Errors from xkbcomp are not fatal to the X server
+[30290, Main Thread] WARNING: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:30290): Gtk-WARNING **: 02:42:15.612: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class
+[Parent 30290, Main Thread] WARNING: Theme parsing error: gtk.css:6691:68: Invalid name of pseudo-class: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:30290): Gtk-WARNING **: 02:42:15.873: Theme parsing error: gtk.css:6691:68: Invalid name of pseudo-class
+[Parent 30290, Main Thread] WARNING: Theme parsing error: gtk.css:6691:68: Invalid name of pseudo-class: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:30290): Gtk-WARNING **: 02:42:15.929: Theme parsing error: gtk.css:6691:68: Invalid name of pseudo-class
+[Parent 30290, Main Thread] WARNING: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:30290): Gtk-WARNING **: 02:42:15.954: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class
+[32524, Main Thread] WARNING: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:32524): Gtk-WARNING **: 02:43:46.650: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class
+
+(process:33965): Helpers.IconFetcher-WARNING **: 02:44:52.511: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/6d75ae5fc4beab599466eb7d379c50b8036fc680.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/6d75ae5fc4beab599466eb7d379c50b8036fc680.sqre”: No such file or directory ((nil))
+
+(process:33965): Helpers.IconFetcher-WARNING **: 02:44:52.511: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/aff85b1d85a67c8b637e7e3e072864e8551c1169.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/aff85b1d85a67c8b637e7e3e072864e8551c1169.sqre”: No such file or directory ((nil))
+
+(process:33965): Helpers.IconFetcher-WARNING **: 02:44:52.511: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/ad21d173db5e83ae91e70d2c9274a2ffab603151.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/ad21d173db5e83ae91e70d2c9274a2ffab603151.sqre”: No such file or directory ((nil))
+
+(process:33965): Helpers.IconFetcher-WARNING **: 02:44:52.511: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/7cd12a23084b0ad1e02b9053f9322afbd35cfb10.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/7cd12a23084b0ad1e02b9053f9322afbd35cfb10.sqre”: No such file or directory ((nil))
+
+(process:33965): Helpers.IconFetcher-WARNING **: 02:44:52.555: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/6d75ae5fc4beab599466eb7d379c50b8036fc680.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/6d75ae5fc4beab599466eb7d379c50b8036fc680.sqre”: No such file or directory ((nil))
+
+(process:33965): Helpers.IconFetcher-WARNING **: 02:44:52.555: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/aff85b1d85a67c8b637e7e3e072864e8551c1169.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/aff85b1d85a67c8b637e7e3e072864e8551c1169.sqre”: No such file or directory ((nil))
+
+(process:33965): Helpers.IconFetcher-WARNING **: 02:44:52.555: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/ad21d173db5e83ae91e70d2c9274a2ffab603151.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/ad21d173db5e83ae91e70d2c9274a2ffab603151.sqre”: No such file or directory ((nil))
+
+(process:33965): Helpers.IconFetcher-WARNING **: 02:44:52.555: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/7cd12a23084b0ad1e02b9053f9322afbd35cfb10.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/7cd12a23084b0ad1e02b9053f9322afbd35cfb10.sqre”: No such file or directory ((nil))
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+
+(process:35057): Helpers.IconFetcher-WARNING **: 02:45:07.945: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/aff85b1d85a67c8b637e7e3e072864e8551c1169.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/aff85b1d85a67c8b637e7e3e072864e8551c1169.sqre”: No such file or directory ((nil))
+
+(process:35057): Helpers.IconFetcher-WARNING **: 02:45:07.945: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/7cd12a23084b0ad1e02b9053f9322afbd35cfb10.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/7cd12a23084b0ad1e02b9053f9322afbd35cfb10.sqre”: No such file or directory ((nil))
+
+(process:35057): Helpers.IconFetcher-WARNING **: 02:45:07.945: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/ad21d173db5e83ae91e70d2c9274a2ffab603151.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/ad21d173db5e83ae91e70d2c9274a2ffab603151.sqre”: No such file or directory ((nil))
+
+(process:35057): Helpers.IconFetcher-WARNING **: 02:45:07.986: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/aff85b1d85a67c8b637e7e3e072864e8551c1169.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/aff85b1d85a67c8b637e7e3e072864e8551c1169.sqre”: No such file or directory ((nil))
+
+(process:35057): Helpers.IconFetcher-WARNING **: 02:45:07.986: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/7cd12a23084b0ad1e02b9053f9322afbd35cfb10.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/7cd12a23084b0ad1e02b9053f9322afbd35cfb10.sqre”: No such file or directory ((nil))
+
+(process:35057): Helpers.IconFetcher-WARNING **: 02:45:07.986: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/ad21d173db5e83ae91e70d2c9274a2ffab603151.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/ad21d173db5e83ae91e70d2c9274a2ffab603151.sqre”: No such file or directory ((nil))
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+
+(process:36127): Helpers.IconFetcher-WARNING **: 02:45:17.754: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/ad21d173db5e83ae91e70d2c9274a2ffab603151.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/ad21d173db5e83ae91e70d2c9274a2ffab603151.sqre”: No such file or directory ((nil))
+
+(process:36127): Helpers.IconFetcher-WARNING **: 02:45:17.754: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/7cd12a23084b0ad1e02b9053f9322afbd35cfb10.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/7cd12a23084b0ad1e02b9053f9322afbd35cfb10.sqre”: No such file or directory ((nil))
+
+(process:36127): Helpers.IconFetcher-WARNING **: 02:45:17.801: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/ad21d173db5e83ae91e70d2c9274a2ffab603151.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/ad21d173db5e83ae91e70d2c9274a2ffab603151.sqre”: No such file or directory ((nil))
+
+(process:36127): Helpers.IconFetcher-WARNING **: 02:45:17.801: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/7cd12a23084b0ad1e02b9053f9322afbd35cfb10.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/7cd12a23084b0ad1e02b9053f9322afbd35cfb10.sqre”: No such file or directory ((nil))
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+
+(process:37245): Helpers.IconFetcher-WARNING **: 02:45:33.938: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/7cd12a23084b0ad1e02b9053f9322afbd35cfb10.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/7cd12a23084b0ad1e02b9053f9322afbd35cfb10.sqre”: No such file or directory ((nil))
+
+(process:37245): Helpers.IconFetcher-WARNING **: 02:45:33.985: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/7cd12a23084b0ad1e02b9053f9322afbd35cfb10.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/7cd12a23084b0ad1e02b9053f9322afbd35cfb10.sqre”: No such file or directory ((nil))
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+[130 02:45:44.820657] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+environment: eval: line 1: syntax error near unexpected token `newline'
+environment: eval: line 1: `target=<?xml version="1.0" encoding="UTF-8" standalone="no"?>'
+environment: line 1: vim:ft=kitty: command not found
+environment: line 4: : No such file or directory
+sed: can't read : No such file or directory
+environment: line 1: =: command not found
+environment: line 4: : No such file or directory
+sed: can't read : No such file or directory
+environment: eval: line 1: syntax error near unexpected token `('
+environment: eval: line 1: `target=@define-color bar-bg rgba(0, 0, 0, 0);'
+environment: line 1: {: command not found
+environment: line 4: : No such file or directory
+sed: can't read : No such file or directory
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+
+(process:40506): Helpers.IconFetcher-WARNING **: 02:46:16.779: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre”: No such file or directory ((nil))
+
+(process:40506): Helpers.IconFetcher-WARNING **: 02:46:16.779: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9a48ab04edc419dff177366a0ecf86784429a1eb.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9a48ab04edc419dff177366a0ecf86784429a1eb.sqre”: No such file or directory ((nil))
+
+(process:40506): Helpers.IconFetcher-WARNING **: 02:46:16.779: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/fa9f336598c17db9b3d82afdc25a178bf6b1c223.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/fa9f336598c17db9b3d82afdc25a178bf6b1c223.sqre”: No such file or directory ((nil))
+
+(process:40506): Helpers.IconFetcher-WARNING **: 02:46:16.779: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre”: No such file or directory ((nil))
+
+(process:40506): Helpers.IconFetcher-WARNING **: 02:46:16.779: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/fe2600797125d1c840aa8b0220104ca7ea18c3ce.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/fe2600797125d1c840aa8b0220104ca7ea18c3ce.sqre”: No such file or directory ((nil))
+
+(process:40506): Helpers.IconFetcher-WARNING **: 02:46:16.821: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre”: No such file or directory ((nil))
+
+(process:40506): Helpers.IconFetcher-WARNING **: 02:46:16.821: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9a48ab04edc419dff177366a0ecf86784429a1eb.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9a48ab04edc419dff177366a0ecf86784429a1eb.sqre”: No such file or directory ((nil))
+
+(process:40506): Helpers.IconFetcher-WARNING **: 02:46:16.821: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/fa9f336598c17db9b3d82afdc25a178bf6b1c223.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/fa9f336598c17db9b3d82afdc25a178bf6b1c223.sqre”: No such file or directory ((nil))
+
+(process:40506): Helpers.IconFetcher-WARNING **: 02:46:16.821: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/fe2600797125d1c840aa8b0220104ca7ea18c3ce.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/fe2600797125d1c840aa8b0220104ca7ea18c3ce.sqre”: No such file or directory ((nil))
+
+(process:40506): Helpers.IconFetcher-WARNING **: 02:46:16.821: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre”: No such file or directory ((nil))
+
+(process:40506): Helpers.IconFetcher-WARNING **: 02:46:20.566: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/f1c01c17e4e721683768f0f1e3ae87fb402eecdc.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/f1c01c17e4e721683768f0f1e3ae87fb402eecdc.sqre”: No such file or directory ((nil))
+
+(process:40506): Helpers.IconFetcher-WARNING **: 02:46:20.566: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/e35796cafb27d016309c010ae9373d0cf2538266.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/e35796cafb27d016309c010ae9373d0cf2538266.sqre”: No such file or directory ((nil))
+
+(process:40506): Helpers.IconFetcher-WARNING **: 02:46:20.567: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/0bf44d950802030515658ed2a5c7c64736af2e47.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/0bf44d950802030515658ed2a5c7c64736af2e47.sqre”: No such file or directory ((nil))
+
+(process:40506): Helpers.IconFetcher-WARNING **: 02:46:20.567: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre”: No such file or directory ((nil))
+
+(process:40506): Helpers.IconFetcher-WARNING **: 02:46:20.567: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9fd61b40f098e41149a4d4311118013670d9260d.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9fd61b40f098e41149a4d4311118013670d9260d.sqre”: No such file or directory ((nil))
+
+(process:40506): Helpers.IconFetcher-WARNING **: 02:46:20.567: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre”: No such file or directory ((nil))
+
+(process:40506): Helpers.IconFetcher-WARNING **: 02:46:23.252: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/fa86fbfa067c888c2debc89feb8b07c9e61965bd.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/fa86fbfa067c888c2debc89feb8b07c9e61965bd.sqre”: No such file or directory ((nil))
+
+(process:40506): Helpers.IconFetcher-WARNING **: 02:46:23.253: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/eb001b1f645a589546e90cd92387f03f56e0bff4.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/eb001b1f645a589546e90cd92387f03f56e0bff4.sqre”: No such file or directory ((nil))
+
+(process:40506): Helpers.IconFetcher-WARNING **: 02:46:23.253: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/6857233979b882c48954d1b41faf32cbbfe32e2c.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/6857233979b882c48954d1b41faf32cbbfe32e2c.sqre”: No such file or directory ((nil))
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+
+(process:41653): Helpers.IconFetcher-WARNING **: 02:46:31.746: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre”: No such file or directory ((nil))
+
+(process:41653): Helpers.IconFetcher-WARNING **: 02:46:31.746: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/fa9f336598c17db9b3d82afdc25a178bf6b1c223.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/fa9f336598c17db9b3d82afdc25a178bf6b1c223.sqre”: No such file or directory ((nil))
+
+(process:41653): Helpers.IconFetcher-WARNING **: 02:46:31.746: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9a48ab04edc419dff177366a0ecf86784429a1eb.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9a48ab04edc419dff177366a0ecf86784429a1eb.sqre”: No such file or directory ((nil))
+
+(process:41653): Helpers.IconFetcher-WARNING **: 02:46:31.747: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/fe2600797125d1c840aa8b0220104ca7ea18c3ce.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/fe2600797125d1c840aa8b0220104ca7ea18c3ce.sqre”: No such file or directory ((nil))
+
+(process:41653): Helpers.IconFetcher-WARNING **: 02:46:31.747: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre”: No such file or directory ((nil))
+
+(process:41653): Helpers.IconFetcher-WARNING **: 02:46:31.752: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/eb001b1f645a589546e90cd92387f03f56e0bff4.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/eb001b1f645a589546e90cd92387f03f56e0bff4.sqre”: No such file or directory ((nil))
+
+(process:41653): Helpers.IconFetcher-WARNING **: 02:46:31.752: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/6857233979b882c48954d1b41faf32cbbfe32e2c.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/6857233979b882c48954d1b41faf32cbbfe32e2c.sqre”: No such file or directory ((nil))
+
+(process:41653): Helpers.IconFetcher-WARNING **: 02:46:31.787: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/eb001b1f645a589546e90cd92387f03f56e0bff4.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/eb001b1f645a589546e90cd92387f03f56e0bff4.sqre”: No such file or directory ((nil))
+
+(process:41653): Helpers.IconFetcher-WARNING **: 02:46:31.787: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/6857233979b882c48954d1b41faf32cbbfe32e2c.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/6857233979b882c48954d1b41faf32cbbfe32e2c.sqre”: No such file or directory ((nil))
+
+(process:41653): Helpers.IconFetcher-WARNING **: 02:46:32.272: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/f1c01c17e4e721683768f0f1e3ae87fb402eecdc.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/f1c01c17e4e721683768f0f1e3ae87fb402eecdc.sqre”: No such file or directory ((nil))
+
+(process:41653): Helpers.IconFetcher-WARNING **: 02:46:32.272: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/e35796cafb27d016309c010ae9373d0cf2538266.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/e35796cafb27d016309c010ae9373d0cf2538266.sqre”: No such file or directory ((nil))
+
+(process:41653): Helpers.IconFetcher-WARNING **: 02:46:32.272: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/0bf44d950802030515658ed2a5c7c64736af2e47.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/0bf44d950802030515658ed2a5c7c64736af2e47.sqre”: No such file or directory ((nil))
+
+(process:41653): Helpers.IconFetcher-WARNING **: 02:46:32.272: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre”: No such file or directory ((nil))
+
+(process:41653): Helpers.IconFetcher-WARNING **: 02:46:32.272: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9fd61b40f098e41149a4d4311118013670d9260d.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9fd61b40f098e41149a4d4311118013670d9260d.sqre”: No such file or directory ((nil))
+
+(process:41653): Helpers.IconFetcher-WARNING **: 02:46:32.272: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre”: No such file or directory ((nil))
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+
+(process:42666): Helpers.IconFetcher-WARNING **: 02:46:39.595: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre”: No such file or directory ((nil))
+
+(process:42666): Helpers.IconFetcher-WARNING **: 02:46:39.595: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9a48ab04edc419dff177366a0ecf86784429a1eb.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9a48ab04edc419dff177366a0ecf86784429a1eb.sqre”: No such file or directory ((nil))
+
+(process:42666): Helpers.IconFetcher-WARNING **: 02:46:39.596: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/fa9f336598c17db9b3d82afdc25a178bf6b1c223.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/fa9f336598c17db9b3d82afdc25a178bf6b1c223.sqre”: No such file or directory ((nil))
+
+(process:42666): Helpers.IconFetcher-WARNING **: 02:46:39.596: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/fe2600797125d1c840aa8b0220104ca7ea18c3ce.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/fe2600797125d1c840aa8b0220104ca7ea18c3ce.sqre”: No such file or directory ((nil))
+
+(process:42666): Helpers.IconFetcher-WARNING **: 02:46:39.596: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre”: No such file or directory ((nil))
+
+(process:42666): Helpers.IconFetcher-WARNING **: 02:46:39.600: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/f1c01c17e4e721683768f0f1e3ae87fb402eecdc.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/f1c01c17e4e721683768f0f1e3ae87fb402eecdc.sqre”: No such file or directory ((nil))
+
+(process:42666): Helpers.IconFetcher-WARNING **: 02:46:39.600: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/e35796cafb27d016309c010ae9373d0cf2538266.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/e35796cafb27d016309c010ae9373d0cf2538266.sqre”: No such file or directory ((nil))
+
+(process:42666): Helpers.IconFetcher-WARNING **: 02:46:39.601: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9fd61b40f098e41149a4d4311118013670d9260d.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9fd61b40f098e41149a4d4311118013670d9260d.sqre”: No such file or directory ((nil))
+
+(process:42666): Helpers.IconFetcher-WARNING **: 02:46:39.601: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre”: No such file or directory ((nil))
+
+(process:42666): Helpers.IconFetcher-WARNING **: 02:46:39.601: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre”: No such file or directory ((nil))
+
+(process:42666): Helpers.IconFetcher-WARNING **: 02:46:39.635: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/f1c01c17e4e721683768f0f1e3ae87fb402eecdc.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/f1c01c17e4e721683768f0f1e3ae87fb402eecdc.sqre”: No such file or directory ((nil))
+
+(process:42666): Helpers.IconFetcher-WARNING **: 02:46:39.636: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/e35796cafb27d016309c010ae9373d0cf2538266.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/e35796cafb27d016309c010ae9373d0cf2538266.sqre”: No such file or directory ((nil))
+
+(process:42666): Helpers.IconFetcher-WARNING **: 02:46:39.636: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9fd61b40f098e41149a4d4311118013670d9260d.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9fd61b40f098e41149a4d4311118013670d9260d.sqre”: No such file or directory ((nil))
+
+(process:42666): Helpers.IconFetcher-WARNING **: 02:46:39.636: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre”: No such file or directory ((nil))
+
+(process:42666): Helpers.IconFetcher-WARNING **: 02:46:39.636: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre”: No such file or directory ((nil))
+
+(process:42666): Helpers.IconFetcher-WARNING **: 02:46:41.908: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre”: No such file or directory ((nil))
+
+(process:42666): Helpers.IconFetcher-WARNING **: 02:46:41.908: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9a48ab04edc419dff177366a0ecf86784429a1eb.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9a48ab04edc419dff177366a0ecf86784429a1eb.sqre”: No such file or directory ((nil))
+
+(process:42666): Helpers.IconFetcher-WARNING **: 02:46:41.908: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/fe2600797125d1c840aa8b0220104ca7ea18c3ce.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/fe2600797125d1c840aa8b0220104ca7ea18c3ce.sqre”: No such file or directory ((nil))
+
+(process:42666): Helpers.IconFetcher-WARNING **: 02:46:41.908: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre”: No such file or directory ((nil))
+
+(process:42666): Helpers.IconFetcher-WARNING **: 02:46:41.908: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/fa9f336598c17db9b3d82afdc25a178bf6b1c223.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/fa9f336598c17db9b3d82afdc25a178bf6b1c223.sqre”: No such file or directory ((nil))
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+
+(process:43668): Helpers.IconFetcher-WARNING **: 02:46:48.297: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre”: No such file or directory ((nil))
+
+(process:43668): Helpers.IconFetcher-WARNING **: 02:46:48.297: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/fa9f336598c17db9b3d82afdc25a178bf6b1c223.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/fa9f336598c17db9b3d82afdc25a178bf6b1c223.sqre”: No such file or directory ((nil))
+
+(process:43668): Helpers.IconFetcher-WARNING **: 02:46:48.298: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/fe2600797125d1c840aa8b0220104ca7ea18c3ce.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/fe2600797125d1c840aa8b0220104ca7ea18c3ce.sqre”: No such file or directory ((nil))
+
+(process:43668): Helpers.IconFetcher-WARNING **: 02:46:48.298: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre”: No such file or directory ((nil))
+
+(process:43668): Helpers.IconFetcher-WARNING **: 02:46:48.338: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre”: No such file or directory ((nil))
+
+(process:43668): Helpers.IconFetcher-WARNING **: 02:46:48.339: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/fa9f336598c17db9b3d82afdc25a178bf6b1c223.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/fa9f336598c17db9b3d82afdc25a178bf6b1c223.sqre”: No such file or directory ((nil))
+
+(process:43668): Helpers.IconFetcher-WARNING **: 02:46:48.339: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/fe2600797125d1c840aa8b0220104ca7ea18c3ce.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/fe2600797125d1c840aa8b0220104ca7ea18c3ce.sqre”: No such file or directory ((nil))
+
+(process:43668): Helpers.IconFetcher-WARNING **: 02:46:48.339: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre”: No such file or directory ((nil))
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+
+(process:44712): Helpers.IconFetcher-WARNING **: 02:46:57.293: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre”: No such file or directory ((nil))
+
+(process:44712): Helpers.IconFetcher-WARNING **: 02:46:57.293: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/fe2600797125d1c840aa8b0220104ca7ea18c3ce.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/fe2600797125d1c840aa8b0220104ca7ea18c3ce.sqre”: No such file or directory ((nil))
+
+(process:44712): Helpers.IconFetcher-WARNING **: 02:46:57.294: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre”: No such file or directory ((nil))
+
+(process:44712): Helpers.IconFetcher-WARNING **: 02:46:57.337: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre”: No such file or directory ((nil))
+
+(process:44712): Helpers.IconFetcher-WARNING **: 02:46:57.339: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/fe2600797125d1c840aa8b0220104ca7ea18c3ce.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/fe2600797125d1c840aa8b0220104ca7ea18c3ce.sqre”: No such file or directory ((nil))
+
+(process:44712): Helpers.IconFetcher-WARNING **: 02:46:57.339: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre”: No such file or directory ((nil))
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+
+(process:45672): Helpers.IconFetcher-WARNING **: 02:47:02.411: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre”: No such file or directory ((nil))
+
+(process:45672): Helpers.IconFetcher-WARNING **: 02:47:02.412: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre”: No such file or directory ((nil))
+
+(process:45672): Helpers.IconFetcher-WARNING **: 02:47:02.454: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre”: No such file or directory ((nil))
+
+(process:45672): Helpers.IconFetcher-WARNING **: 02:47:02.454: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/da79e367a96258baa011cb4e08adcfd64532daf8.sqre”: No such file or directory ((nil))
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+
+(process:46676): Helpers.IconFetcher-WARNING **: 02:47:09.706: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre”: No such file or directory ((nil))
+
+(process:46676): Helpers.IconFetcher-WARNING **: 02:47:09.749: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre”: No such file or directory ((nil))
+
+(process:46676): Helpers.IconFetcher-WARNING **: 02:47:10.326: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/f1c01c17e4e721683768f0f1e3ae87fb402eecdc.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/f1c01c17e4e721683768f0f1e3ae87fb402eecdc.sqre”: No such file or directory ((nil))
+
+(process:46676): Helpers.IconFetcher-WARNING **: 02:47:10.327: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/e35796cafb27d016309c010ae9373d0cf2538266.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/e35796cafb27d016309c010ae9373d0cf2538266.sqre”: No such file or directory ((nil))
+
+(process:46676): Helpers.IconFetcher-WARNING **: 02:47:10.327: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9fd61b40f098e41149a4d4311118013670d9260d.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9fd61b40f098e41149a4d4311118013670d9260d.sqre”: No such file or directory ((nil))
+
+(process:46676): Helpers.IconFetcher-WARNING **: 02:47:10.327: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre”: No such file or directory ((nil))
+
+(process:46676): Helpers.IconFetcher-WARNING **: 02:47:10.327: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre”: No such file or directory ((nil))
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+
+(process:47641): Helpers.IconFetcher-WARNING **: 02:47:15.639: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre”: No such file or directory ((nil))
+
+(process:47641): Helpers.IconFetcher-WARNING **: 02:47:15.646: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/e35796cafb27d016309c010ae9373d0cf2538266.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/e35796cafb27d016309c010ae9373d0cf2538266.sqre”: No such file or directory ((nil))
+
+(process:47641): Helpers.IconFetcher-WARNING **: 02:47:15.647: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9fd61b40f098e41149a4d4311118013670d9260d.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9fd61b40f098e41149a4d4311118013670d9260d.sqre”: No such file or directory ((nil))
+
+(process:47641): Helpers.IconFetcher-WARNING **: 02:47:15.647: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre”: No such file or directory ((nil))
+
+(process:47641): Helpers.IconFetcher-WARNING **: 02:47:15.647: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre”: No such file or directory ((nil))
+
+(process:47641): Helpers.IconFetcher-WARNING **: 02:47:15.685: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/e35796cafb27d016309c010ae9373d0cf2538266.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/e35796cafb27d016309c010ae9373d0cf2538266.sqre”: No such file or directory ((nil))
+
+(process:47641): Helpers.IconFetcher-WARNING **: 02:47:15.685: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9fd61b40f098e41149a4d4311118013670d9260d.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9fd61b40f098e41149a4d4311118013670d9260d.sqre”: No such file or directory ((nil))
+
+(process:47641): Helpers.IconFetcher-WARNING **: 02:47:15.685: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre”: No such file or directory ((nil))
+
+(process:47641): Helpers.IconFetcher-WARNING **: 02:47:15.685: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre”: No such file or directory ((nil))
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+
+(process:48654): Helpers.IconFetcher-WARNING **: 02:47:22.223: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre”: No such file or directory ((nil))
+
+(process:48654): Helpers.IconFetcher-WARNING **: 02:47:22.232: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9fd61b40f098e41149a4d4311118013670d9260d.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9fd61b40f098e41149a4d4311118013670d9260d.sqre”: No such file or directory ((nil))
+
+(process:48654): Helpers.IconFetcher-WARNING **: 02:47:22.232: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre”: No such file or directory ((nil))
+
+(process:48654): Helpers.IconFetcher-WARNING **: 02:47:22.232: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre”: No such file or directory ((nil))
+
+(process:48654): Helpers.IconFetcher-WARNING **: 02:47:22.271: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9fd61b40f098e41149a4d4311118013670d9260d.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9fd61b40f098e41149a4d4311118013670d9260d.sqre”: No such file or directory ((nil))
+
+(process:48654): Helpers.IconFetcher-WARNING **: 02:47:22.271: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre”: No such file or directory ((nil))
+
+(process:48654): Helpers.IconFetcher-WARNING **: 02:47:22.271: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre”: No such file or directory ((nil))
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+
+(process:49612): Helpers.IconFetcher-WARNING **: 02:47:27.059: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre”: No such file or directory ((nil))
+
+(process:49612): Helpers.IconFetcher-WARNING **: 02:47:27.068: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre”: No such file or directory ((nil))
+
+(process:49612): Helpers.IconFetcher-WARNING **: 02:47:27.068: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre”: No such file or directory ((nil))
+
+(process:49612): Helpers.IconFetcher-WARNING **: 02:47:27.106: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/9f8c6c55740efb047cae4b2c0a7dd148bef0aa46.sqre”: No such file or directory ((nil))
+
+(process:49612): Helpers.IconFetcher-WARNING **: 02:47:27.106: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre”: No such file or directory ((nil))
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+
+(process:50588): Helpers.IconFetcher-WARNING **: 02:47:32.070: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre”: No such file or directory ((nil))
+
+(process:50588): Helpers.IconFetcher-WARNING **: 02:47:32.078: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre”: No such file or directory ((nil))
+
+(process:50588): Helpers.IconFetcher-WARNING **: 02:47:32.114: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/94377dfb08752d98288f761eca21ce01553cb10a.sqre”: No such file or directory ((nil))
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+
+(process:51522): Helpers.IconFetcher-WARNING **: 02:47:36.060: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre”: No such file or directory ((nil))
+
+(process:51522): Helpers.IconFetcher-WARNING **: 02:47:36.444: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/eb001b1f645a589546e90cd92387f03f56e0bff4.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/eb001b1f645a589546e90cd92387f03f56e0bff4.sqre”: No such file or directory ((nil))
+
+(process:51522): Helpers.IconFetcher-WARNING **: 02:47:36.444: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/6857233979b882c48954d1b41faf32cbbfe32e2c.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/6857233979b882c48954d1b41faf32cbbfe32e2c.sqre”: No such file or directory ((nil))
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+
+(process:52498): Helpers.IconFetcher-WARNING **: 02:47:41.374: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre”: No such file or directory ((nil))
+
+(process:52498): Helpers.IconFetcher-WARNING **: 02:47:41.381: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/6857233979b882c48954d1b41faf32cbbfe32e2c.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/6857233979b882c48954d1b41faf32cbbfe32e2c.sqre”: No such file or directory ((nil))
+
+(process:52498): Helpers.IconFetcher-WARNING **: 02:47:41.415: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/6857233979b882c48954d1b41faf32cbbfe32e2c.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/6857233979b882c48954d1b41faf32cbbfe32e2c.sqre”: No such file or directory ((nil))
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+
+(process:53468): Helpers.IconFetcher-WARNING **: 02:47:45.301: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre”: No such file or directory ((nil))
+
+(process:53468): Helpers.IconFetcher-WARNING **: 02:47:47.531: Failed to load image: |/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre| 504 504 Failed to open file “/home/kaiya/.cache/hyde/thumbs/930fb0b26fea8dcbc2e6213c70d347f1a547009f.sqre”: No such file or directory ((nil))
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+waybar␍: no process found
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+
+(nm-applet:4140): Gtk-WARNING **: 02:48:00.598: Theme directory 16x16/panel of theme MacOS has no size field
+
+
+(nm-applet:4140): Gtk-WARNING **: 02:48:00.599: Theme directory 16x16@2x/places of theme MacOS has no size field
+
+
+(nm-applet:4140): Gtk-WARNING **: 02:48:00.601: Theme directory 24x24/apps of theme MacOS has no size field
+
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+
+(blueman-applet:4136): Gtk-WARNING **: 02:48:33.590: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class
+
+(udiskie:4138): Gtk-WARNING **: 02:48:33.591: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class
+
+(blueman-tray:4375): Gtk-WARNING **: 02:48:33.601: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class
+
+(polkit-gnome-authentication-agent-1:4134): Gtk-WARNING **: 02:48:33.628: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class
+
+(nm-applet:4140): Gtk-WARNING **: 02:48:33.629: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class
+
+(nm-applet:4140): Gtk-CRITICAL **: 02:48:33.861: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(udiskie:4138): Gtk-CRITICAL **: 02:48:33.870: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+jq: parse error: Expected another key-value pair at line 23, column 1
+jq: parse error: Expected another key-value pair at line 23, column 1
+[130 02:48:54.459999] [PARSE ERROR] Unknown DCS escape code: zz
+[130 02:48:54.460050] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[130 02:49:16.179647] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:49:16.179692] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:49:16.179708] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:49:19.935256] [PARSE ERROR] Unknown DCS escape code: zz
+[130 02:49:19.935303] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[130 02:49:32.806299] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:49:32.806345] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:49:32.806362] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[59157, Main Thread] WARNING: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:59157): Gtk-WARNING **: 02:49:35.736: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class
+[Parent 59157, Main Thread] WARNING: Theme parsing error: gtk.css:6691:68: Invalid name of pseudo-class: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:59157): Gtk-WARNING **: 02:49:35.820: Theme parsing error: gtk.css:6691:68: Invalid name of pseudo-class
+[Parent 59157, Main Thread] WARNING: Theme parsing error: gtk.css:6691:68: Invalid name of pseudo-class: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:59157): Gtk-WARNING **: 02:49:35.875: Theme parsing error: gtk.css:6691:68: Invalid name of pseudo-class
+[Parent 59157, Main Thread] WARNING: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:59157): Gtk-WARNING **: 02:49:35.900: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class
+[130 02:49:42.672265] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+/usr/bin/timeshift-launcher: line 16: xhost: command not found
+
+(polkit-gnome-authentication-agent-1:4134): GdkPixbuf-CRITICAL **: 02:51:24.801: gdk_pixbuf_composite: assertion 'dest_x >= 0 && dest_x + dest_width <= dest->width' failed
+Authorization required, but no authorization protocol specified
+
+
+(timeshift-gtk:61892): Gtk-WARNING **: 02:51:27.222: cannot open display: :1
+/usr/bin/timeshift-launcher: line 18: xhost: command not found
+/usr/bin/timeshift-launcher: line 19: xhost: command not found
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+> Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Errors from xkbcomp are not fatal to the X server
+[62722, Main Thread] WARNING: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gtk-WARNING **: 02:52:12.197: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class
+[Parent 62722, Main Thread] WARNING: Theme parsing error: gtk.css:6691:68: Invalid name of pseudo-class: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gtk-WARNING **: 02:52:12.311: Theme parsing error: gtk.css:6691:68: Invalid name of pseudo-class
+[Parent 62722, Main Thread] WARNING: Theme parsing error: gtk.css:6691:68: Invalid name of pseudo-class: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gtk-WARNING **: 02:52:12.379: Theme parsing error: gtk.css:6691:68: Invalid name of pseudo-class
+[Parent 62722, Main Thread] WARNING: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gtk-WARNING **: 02:52:12.408: Theme parsing error: gtk-dark.css:6691:68: Invalid name of pseudo-class
+[130 02:52:31.009135] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[130 02:54:38.638710] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[130 02:55:50.884486] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[130 02:56:39.142968] [PARSE ERROR] Unknown DCS escape code: zz
+[130 02:56:39.143026] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[130 02:56:42.425966] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:56:42.426009] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:56:42.426025] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:56:48.436258] [PARSE ERROR] Unknown DCS escape code: zz
+[130 02:56:48.436294] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf71c93e20 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:09.070: Couldn't map window 0x7ddf71c93e20 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf8478ae60 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:09.070: Couldn't map window 0x7ddf8478ae60 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf848595c0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:09.070: Couldn't map window 0x7ddf848595c0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf743608c0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:09.070: Couldn't map window 0x7ddf743608c0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf743627a0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:09.070: Couldn't map window 0x7ddf743627a0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf7124ecc0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:09.070: Couldn't map window 0x7ddf7124ecc0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf84789c80 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:09.070: Couldn't map window 0x7ddf84789c80 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf8d8b0f40 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:09.070: Couldn't map window 0x7ddf8d8b0f40 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf8dcef580 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:09.070: Couldn't map window 0x7ddf8dcef580 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf781e2300 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:09.070: Couldn't map window 0x7ddf781e2300 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf781e2cc0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:09.070: Couldn't map window 0x7ddf781e2cc0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf7d9ac420 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:09.070: Couldn't map window 0x7ddf7d9ac420 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf7d9ab8c0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:09.070: Couldn't map window 0x7ddf7d9ab8c0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf7d9adc80 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:09.070: Couldn't map window 0x7ddf7d9adc80 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf7d9aee60 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:09.070: Couldn't map window 0x7ddf7d9aee60 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf83bce8c0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:09.070: Couldn't map window 0x7ddf83bce8c0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf83bd0c80 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:09.070: Couldn't map window 0x7ddf83bd0c80 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf8452e600 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:09.070: Couldn't map window 0x7ddf8452e600 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf71c93e20 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:14.298: Couldn't map window 0x7ddf71c93e20 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf8478ae60 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:14.298: Couldn't map window 0x7ddf8478ae60 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf848595c0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:14.298: Couldn't map window 0x7ddf848595c0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf743608c0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:14.298: Couldn't map window 0x7ddf743608c0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf743627a0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:14.298: Couldn't map window 0x7ddf743627a0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf7124ecc0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:14.298: Couldn't map window 0x7ddf7124ecc0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf84789c80 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:14.298: Couldn't map window 0x7ddf84789c80 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf8d8b0f40 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:14.298: Couldn't map window 0x7ddf8d8b0f40 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf8dcef580 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:14.298: Couldn't map window 0x7ddf8dcef580 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf781e2300 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:14.298: Couldn't map window 0x7ddf781e2300 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf781e2cc0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:14.298: Couldn't map window 0x7ddf781e2cc0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf7d9ac420 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:14.298: Couldn't map window 0x7ddf7d9ac420 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf7d9ab8c0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:14.298: Couldn't map window 0x7ddf7d9ab8c0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf7d9adc80 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:14.298: Couldn't map window 0x7ddf7d9adc80 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf7d9aee60 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:14.298: Couldn't map window 0x7ddf7d9aee60 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf83bce8c0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:14.298: Couldn't map window 0x7ddf83bce8c0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf83bd0c80 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:14.298: Couldn't map window 0x7ddf83bd0c80 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf8452e600 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:14.298: Couldn't map window 0x7ddf8452e600 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf71c93e20 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:25.517: Couldn't map window 0x7ddf71c93e20 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf8478ae60 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:25.518: Couldn't map window 0x7ddf8478ae60 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf848595c0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:25.518: Couldn't map window 0x7ddf848595c0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf743608c0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:25.518: Couldn't map window 0x7ddf743608c0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf743627a0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:25.518: Couldn't map window 0x7ddf743627a0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf7124ecc0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:25.518: Couldn't map window 0x7ddf7124ecc0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf84789c80 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:25.518: Couldn't map window 0x7ddf84789c80 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf8d8b0f40 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:25.518: Couldn't map window 0x7ddf8d8b0f40 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf8dcef580 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:25.518: Couldn't map window 0x7ddf8dcef580 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf781e2300 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:25.518: Couldn't map window 0x7ddf781e2300 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf781e2cc0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:25.518: Couldn't map window 0x7ddf781e2cc0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf7d9ac420 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:25.518: Couldn't map window 0x7ddf7d9ac420 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf7d9ab8c0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:25.518: Couldn't map window 0x7ddf7d9ab8c0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf7d9adc80 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:25.518: Couldn't map window 0x7ddf7d9adc80 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf7d9aee60 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:25.518: Couldn't map window 0x7ddf7d9aee60 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf83bce8c0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:25.518: Couldn't map window 0x7ddf83bce8c0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf83bd0c80 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:25.518: Couldn't map window 0x7ddf83bd0c80 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf8452e600 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:25.518: Couldn't map window 0x7ddf8452e600 as subsurface because its parent is not mapped.
+[130 02:57:34.003005] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:57:34.003052] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:57:34.003069] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:57:35.238704] [PARSE ERROR] Unknown DCS escape code: zz
+[130 02:57:35.238738] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf71c93e20 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:41.731: Couldn't map window 0x7ddf71c93e20 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf8478ae60 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:41.731: Couldn't map window 0x7ddf8478ae60 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf848595c0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:41.731: Couldn't map window 0x7ddf848595c0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf743608c0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:41.731: Couldn't map window 0x7ddf743608c0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf743627a0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:41.731: Couldn't map window 0x7ddf743627a0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf7124ecc0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:41.731: Couldn't map window 0x7ddf7124ecc0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf84789c80 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:41.731: Couldn't map window 0x7ddf84789c80 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf8d8b0f40 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:41.731: Couldn't map window 0x7ddf8d8b0f40 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf8dcef580 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:41.731: Couldn't map window 0x7ddf8dcef580 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf781e2300 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:41.731: Couldn't map window 0x7ddf781e2300 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf781e2cc0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:41.731: Couldn't map window 0x7ddf781e2cc0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf7d9ac420 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:41.731: Couldn't map window 0x7ddf7d9ac420 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf7d9ab8c0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:41.731: Couldn't map window 0x7ddf7d9ab8c0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf7d9adc80 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:41.731: Couldn't map window 0x7ddf7d9adc80 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf7d9aee60 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:41.731: Couldn't map window 0x7ddf7d9aee60 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf83bce8c0 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:41.731: Couldn't map window 0x7ddf83bce8c0 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf83bd0c80 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:41.731: Couldn't map window 0x7ddf83bd0c80 as subsurface because its parent is not mapped.
+[Parent 62722, Main Thread] WARNING: Couldn't map window 0x7ddf8452e600 as subsurface because its parent is not mapped.: 'glib warning', file /usr/src/debug/firefox/firefox-125.0.3/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:62722): Gdk-WARNING **: 02:57:41.731: Couldn't map window 0x7ddf8452e600 as subsurface because its parent is not mapped.
+[130 02:58:58.356457] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:58:58.356506] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:58:58.356523] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:59:04.163963] [PARSE ERROR] Unknown DCS escape code: zz
+[130 02:59:04.164022] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[130 02:59:49.666062] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:59:49.666108] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 02:59:49.666125] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:00:01.141234] [PARSE ERROR] Unknown DCS escape code: zz
+[130 03:00:01.141274] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[130 03:00:09.309944] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:00:09.309989] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:00:09.310005] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:00:20.192790] [PARSE ERROR] Unknown DCS escape code: zz
+[130 03:00:20.192829] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[130 03:00:21.639859] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:00:21.639902] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:00:21.639918] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:00:25.891178] [PARSE ERROR] Unknown DCS escape code: zz
+[130 03:00:25.891221] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[130 03:01:18.126261] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:01:18.126308] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:01:18.126325] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:01:22.500343] [PARSE ERROR] Unknown DCS escape code: zz
+[130 03:01:22.500395] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[130 03:01:39.949868] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:01:39.953390] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:01:39.953418] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:01:45.542409] [PARSE ERROR] Unknown DCS escape code: zz
+[130 03:01:45.542468] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[130 03:01:47.883199] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:01:47.883261] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:01:47.883278] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:01:50.342179] [PARSE ERROR] Unknown DCS escape code: zz
+[130 03:01:50.342233] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[130 03:03:11.829601] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:03:11.829648] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:03:11.829664] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:08:43.144380] [PARSE ERROR] Unknown DCS escape code: zz
+[130 03:08:43.144430] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[130 03:08:57.936451] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:08:57.936501] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:09:05.519796] [PARSE ERROR] Unknown DCS escape code: zz
+[130 03:09:05.519834] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[130 03:09:08.882974] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:09:08.883001] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:09:08.883007] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:09:10.853865] [PARSE ERROR] Unknown DCS escape code: zz
+[130 03:09:10.853908] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[130 03:09:38.842881] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:09:38.842926] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[130 03:09:38.842943] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+> Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Errors from xkbcomp are not fatal to the X server
+/usr/bin/timeshift-launcher: line 16: xhost: command not found
+
+(polkit-gnome-authentication-agent-1:4134): GdkPixbuf-CRITICAL **: 03:15:35.242: gdk_pixbuf_composite: assertion 'dest_x >= 0 && dest_x + dest_width <= dest->width' failed
+Authorization required, but no authorization protocol specified
+
+
+(timeshift-gtk:95763): Gtk-WARNING **: 03:15:37.256: cannot open display: :1
+/usr/bin/timeshift-launcher: line 18: xhost: command not found
+/usr/bin/timeshift-launcher: line 19: xhost: command not found
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+> Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+> Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Errors from xkbcomp are not fatal to the X server
+No appenders assotiated with category qt.network.ssl
+[Warning] <> QSslSocket: cannot resolve EVP_PKEY_base_id
+No appenders assotiated with category qt.network.ssl
+[Warning] <> QSslSocket: cannot resolve SSL_get_peer_certificate
+No appenders assotiated with category qt.network.ssl
+[Warning] <> QSslSocket: cannot call unresolved function SSL_get_peer_certificate
+No appenders assotiated with category qt.network.ssl
+[Warning] <> QSslSocket: cannot call unresolved function SSL_get_peer_certificate
+No appenders assotiated with category qt.network.ssl
+[Warning] <> QSslSocket: cannot call unresolved function SSL_get_peer_certificate
+No appenders assotiated with category qt.network.ssl
+[Warning] <> QSslSocket: cannot call unresolved function SSL_get_peer_certificate

@@ -1,0 +1,8 @@
+2024/05/07-00:02:15.960 3c857 Creating DB /home/kaiya/.config/LarkShell/aha/users/facade_default_user/profile_main/Local Storage/leveldb since it was missing.
+2024/05/07-00:02:15.967 3c857 Reusing MANIFEST /home/kaiya/.config/LarkShell/aha/users/facade_default_user/profile_main/Local Storage/leveldb/MANIFEST-000001
+2024/05/07-01:03:53.736 3ca97 Level-0 table #5: started
+2024/05/07-01:03:53.743 3ca97 Level-0 table #5: 238329 bytes OK
+2024/05/07-01:03:53.747 3ca97 Delete type=0 #3
+2024/05/07-01:03:55.151 3cc99 Level-0 table #7: started
+2024/05/07-01:03:55.155 3cc99 Level-0 table #7: 74892 bytes OK
+2024/05/07-01:03:55.159 3cc99 Delete type=0 #4

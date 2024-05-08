@@ -1,0 +1,1713 @@
+[247866:247866:0507/000215.941415:ERROR:lark_monitor.cc(976)] CrashpadClientInit no server name specified forgpu-process
+[247866:247866:0507/000215.941535:INFO:frame_host.cc(1089)] #### Lark (gpu-process) Startup #### cmd:  --browser-runtime --no-sandbox --no-zygote --type=gpu-process
+[247866:247866:0507/000215.941546:INFO:frame_host.cc(1091)] IsBrowserRuntime:1
+[247866:247866:0507/000215.941713:INFO:gpu_main.cc(201)] AppendCommandLine lark.pc.disable_clear_skcanvas_on_minimize 0
+[247866:247866:0507/000215.941720:INFO:gpu_main.cc(201)] AppendCommandLine lark.pc.enable_report_gl_error 0
+[247866:247866:0507/000215.941725:INFO:gpu_main.cc(201)] AppendCommandLine lark.pc.skia_shader_cache_corruption_report 0
+[247866:247866:0507/000215.941856:INFO:gpu_histogram_report_provider.cc(50)] feature disabled: kEnableScrollingMetricsReporting
+[247866:247866:0507/000215.941892:INFO:histogram_signal_handler.cc(62)] feature: kEnableHistogramSubsample = 1
+[247866:247866:0507/000215.943695:INFO:gpu_init.cc(399)] gpu block detect enable:0
+[247872:247872:0507/000215.957942:ERROR:lark_monitor.cc(976)] CrashpadClientInit no server name specified forutility
+[247872:247872:0507/000215.958032:INFO:frame_host.cc(1089)] #### Lark (utility) Startup #### cmd:  --browser-runtime --no-sandbox --no-zygote --type=utility
+[247872:247872:0507/000215.958042:INFO:frame_host.cc(1091)] IsBrowserRuntime:1
+[247866:247866:0507/000216.156006:INFO:gpu_init.cc(543)] GLImplementationParts is (gl=egl-angle,angle=opengl)
+[247866:247866:0507/000216.158269:WARNING:sandbox_linux.cc(385)] InitializeSandbox() called with multiple threads in process gpu-process.
+[247866:247866:0507/000216.158893:INFO:skia_utils.cc(118)] SharpenMipmappedTextures enable 0
+[247866:247866:0507/000216.159392:INFO:facade_chrome_gpu_client.cc(22)] Expose gpu interfaces to browser.
+[247866:247866:0507/000216.159485:INFO:gpu_channel_manager.cc(481)] EstablishChannel gpu_channel_optimization 0
+[247866:247866:0507/000216.160193:INFO:skia_utils.cc(118)] SharpenMipmappedTextures enable 0
+[247866:247866:0507/000216.241920:INFO:gpu_channel_manager.cc(481)] EstablishChannel gpu_channel_optimization 0
+[247996:247996:0507/000216.306656:ERROR:lark_monitor.cc(976)] CrashpadClientInit no server name specified forrenderer
+[247996:247996:0507/000216.306690:WARNING:chrome_main_delegate.cc(334)] process type 'renderer' should be created through the zygote.
+[247996:247996:0507/000216.306744:INFO:frame_host.cc(1089)] #### Lark (renderer) Startup #### cmd:  --browser-runtime --no-sandbox --no-zygote --type=renderer
+[247996:247996:0507/000216.306752:INFO:frame_host.cc(1091)] IsBrowserRuntime:1
+[247996:247996:0507/000216.315327:INFO:renderer_histogram_report_provider.cc(16)]  report memory cache hit feature disable
+[247996:247996:0507/000216.315363:INFO:renderer_histogram_report_provider.cc(92)] feature disabled: kEnableScrollingMetricsReporting
+[247996:247996:0507/000216.315379:INFO:histogram_signal_handler.cc(62)] feature: kEnableHistogramSubsample = 1
+[247996:247996:0507/000216.315883:INFO:utils.cc(203)] [InitManifestSharedMemoryReadRetrySwitch] switch is 0
+[247996:247996:0507/000216.318322:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: docs, size: 3
+[247996:247996:0507/000216.318334:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: drive, size: 1
+[247996:247996:0507/000216.318338:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: docs_home, size: 1
+[247996:247996:0507/000216.318342:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: docs_drive, size: 1
+[247996:247996:0507/000216.318346:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: suite_safetynet, size: 1
+[247996:247996:0507/000216.318351:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: passport, size: 1
+[247996:247996:0507/000216.318355:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: approval, size: 2
+[247996:247996:0507/000216.318374:INFO:frame_facade_renderer_client.cc(165)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[247996:247996:0507/000216.318380:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: bytedance.net
+[247996:247996:0507/000216.318385:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[247996:247996:0507/000216.320411:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[247996:248003:0507/000216.322588:INFO:features.cc(17)] IsReportScrollMetricsEnabled: 0
+[247996:248003:0507/000216.322753:WARNING:compositor_service_impl.cc(40)] Scroll metrics reporter is not enabled.
+[247996:247996:0507/000216.322875:INFO:v8_enhance_functions.cc(27)] [ShellAPI][SetDelegateGuardIfNeeded] func set
+[247996:247996:0507/000216.324230:INFO:render_frame_impl.cc(4130)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[247996:247996:0507/000216.326505:INFO:features.cc(53)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIJSBPermission is 0
+[247996:247996:0507/000216.326521:INFO:frame_facade_renderer_client.cc(78)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[247996:247996:0507/000216.326527:INFO:permission_manager_impl.cc(25)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 5
+[247996:247996:0507/000216.326532:INFO:shellapi_render_frame_extension.cc(138)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge for world 0
+[247996:247996:0507/000216.326591:INFO:shellapi_render_frame_extension.cc(185)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[247996:247996:0507/000216.342802:INFO:utils.cc(169)] [InitLarkAPIUseSharedMemorySwitch] switch is 0
+[247996:247996:0507/000216.351698:INFO:neotix_shell_api_extension.cc(193)] [InjectExternalCode] execute script result: 1
+[247996:247996:0507/000216.355733:INFO:frame_facade_renderer_client.cc(149)] [FrameFacadeRendererClient::OnGetDomains] domains size is 7
+[247996:247996:0507/000216.355849:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: approval, size: 2
+[247996:247996:0507/000216.355863:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: docs, size: 3
+[247996:247996:0507/000216.355868:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_drive, size: 1
+[247996:247996:0507/000216.355872:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_home, size: 1
+[247996:247996:0507/000216.355878:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: drive, size: 1
+[247996:247996:0507/000216.355885:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: passport, size: 1
+[247996:247996:0507/000216.355890:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: suite_safetynet, size: 1
+[247996:247996:0507/000216.355898:INFO:frame_facade_renderer_client.cc(165)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[247996:247996:0507/000216.355917:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: bytedance.net
+[247996:247996:0507/000216.355925:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[247996:247996:0507/000216.359631:ERROR:utils.cc(85)] [ShellAPI][CallJSFunction] failed, execute func failed 
+[247996:247996:0507/000216.360954:INFO:features.cc(65)] [ShellAPI][SWITCH_GETTER] switch for ShellAPINewDirectCall is 0
+[247996:247996:0507/000216.360983:INFO:features.cc(59)] [ShellAPI][SWITCH_GETTER] switch for ShellAPINewTunnel is 0
+[247996:247996:0507/000216.673484:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=1
+[247996:248003:0507/000216.674391:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x7e1ed00284e0) render pass id=385 output_rect=0,0 1897x2056
+  (0x7e1ed0006ef0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 1897x2056
+    (0x7e1ed00286a0) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[247996:247996:0507/000216.695470:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[247996:247996:0507/000216.703113:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[247996:248003:0507/000216.705714:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x7e1ed00284e0) render pass id=385 output_rect=0,0 1897x2056
+  (0x7e1ed002fc80) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3000x120
+    DrawQuad, material: kTiledContent
+  (0x7e1ed002fdf8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 1897x2056
+    (0x7e1ed0032d78) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[247996:248003:0507/000216.796335:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x7e1ed00284e0) render pass id=385 output_rect=0,0 1897x2056
+  (0x7e1ed002fc80) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-120,0 3000x120
+    DrawQuad, material: kTiledContent
+  (0x7e1ed002fdf8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 1897x2056
+    (0x7e1ed003baa8) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[247996:247996:0507/000216.807741:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[247996:247996:0507/000216.808361:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[247996:247996:0507/000216.808793:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[247996:248003:0507/000216.846404:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x7e1ed00284e0) render pass id=385 output_rect=0,0 1897x2056
+  (0x7e1ed002fc80) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-240,0 3000x120
+    DrawQuad, material: kTiledContent
+  (0x7e1ed002fdf8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 1897x2056
+    (0x7e1ed003baa8) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[247996:247996:0507/000216.852352:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[247996:247996:0507/000216.852496:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[247996:247996:0507/000216.853949:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[247996:247996:0507/000216.856134:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[247996:247996:0507/000216.861924:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[247996:248003:0507/000216.887279:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x7e1ed0022b20) render pass id=385 output_rect=0,0 1897x2056
+  (0x7e1ed005f9c0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 1897x2056
+    (0x7e1ed0078ca0) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+    (0x7e1ed0078fb8) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[247996:248003:0507/000216.887337:INFO:tree_paint_watcher_impl.cc(48)] [blank paint check]: SetNeedProcess: 0
+[247996:247996:0507/000221.989112:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[0], extent: @offsetInAnchor[0]),0
+[247996:247996:0507/000222.000333:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=3,enable-state=1
+[247996:247996:0507/010255.072454:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[247996:248003:0507/010255.080964:WARNING:picture_layer_impl.cc(537)] Tile is checkerboard: id: 14, bounds: 279x57, visible_layer_rect: 0,0 279x57, offset_visible_geometry_rect: 0,0 279x57, visible_geometry_area: 15903, color: 0x0
+[247996:248003:0507/010255.081083:WARNING:picture_layer_impl.cc(537)] Tile is checkerboard: id: 16, bounds: 456x406, visible_layer_rect: 2,3 452x400, offset_visible_geometry_rect: 0,0 424x375, visible_geometry_area: 159000, color: 0x0
+[247996:248003:0507/010255.081113:WARNING:picture_layer_impl.cc(537)] Tile is checkerboard: id: 15, bounds: 508x508, visible_layer_rect: 0,0 508x508, offset_visible_geometry_rect: 0,0 255x255, visible_geometry_area: 65025, color: 0x0
+[247996:248003:0507/010255.081137:WARNING:picture_layer_impl.cc(537)] Tile is checkerboard: id: 50, bounds: 305x338, visible_layer_rect: 0,0 305x338, offset_visible_geometry_rect: 0,0 153x170, visible_geometry_area: 26010, color: 0x0
+[247996:248003:0507/010255.081158:WARNING:picture_layer_impl.cc(537)] Tile is checkerboard: id: 57, bounds: 166x376, visible_layer_rect: 0,0 166x376, offset_visible_geometry_rect: 0,0 84x189, visible_geometry_area: 15876, color: 0x0
+[247996:248003:0507/010255.081185:WARNING:picture_layer_impl.cc(537)] Tile is checkerboard: id: 5, bounds: 3810x2056, visible_layer_rect: 0,0 3810x2056, offset_visible_geometry_rect: 0,0 3810x2056, visible_geometry_area: 7833360, color: 0xffffffff
+[247996:247996:0507/010255.121827:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=3,enable-state=1
+[247996:247996:0507/010255.317315:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[247996:247996:0507/010255.500633:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=3,enable-state=1
+[247996:247996:0507/010258.748371:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[0], extent: @offsetInAnchor[0]),0
+[247866:247866:0507/010335.066186:INFO:lark_feature_gating.cc(284)] [fg] initial fg: admin.security.customwatermarksdk, value: 1
+[247866:247866:0507/010335.066231:INFO:lark_feature_gating.cc(284)] [fg] initial fg: byteview.meeting.pc.iron.process_sandbox, value: 1
+[247866:247866:0507/010335.066241:INFO:lark_feature_gating.cc(284)] [fg] initial fg: byteview.meeting.pc.screenmirror, value: 1
+[247866:247866:0507/010335.066254:INFO:lark_feature_gating.cc(292)] [fg] fg changed: core.media.download_dlp, value: 1
+[247866:247866:0507/010335.066263:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.media.restrict_screenshot, value: 1
+[247866:247866:0507/010335.066271:INFO:lark_feature_gating.cc(292)] [fg] fg changed: core.media.restricted_control, value: 1
+[247866:247866:0507/010335.066279:INFO:lark_feature_gating.cc(292)] [fg] fg changed: core.pc.enable_disk_info_collect, value: 1
+[247866:247866:0507/010335.066288:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.pc.scrollingcapture_auto, value: 1
+[247866:247866:0507/010335.066295:INFO:lark_feature_gating.cc(292)] [fg] fg changed: core.replace_net_getvalueforkeyinquery, value: 1
+[247866:247866:0507/010335.066304:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.v8.codecache, value: 1
+[247866:247866:0507/010335.066312:INFO:lark_feature_gating.cc(284)] [fg] initial fg: feed.team.addmember.enable, value: 1
+[247866:247866:0507/010335.066320:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.appreciable_sdk.event_send_to_tea_pc, value: 1
+[247866:247866:0507/010335.066328:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.browser.forward_to_chat, value: 1
+[247866:247866:0507/010335.066337:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.calendar, value: 1
+[247866:247866:0507/010335.066353:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.contact, value: 1
+[247866:247866:0507/010335.066360:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.favorite, value: 1
+[247866:247866:0507/010335.066366:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.main-window, value: 1
+[247866:247866:0507/010335.066373:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.messenger-modal, value: 1
+[247866:247866:0507/010335.066378:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.mm, value: 1
+[247866:247866:0507/010335.066387:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.moments, value: 1
+[247866:247866:0507/010335.066392:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.resource, value: 1
+[247866:247866:0507/010335.066398:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.security, value: 1
+[247866:247866:0507/010335.066406:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.settings, value: 1
+[247866:247866:0507/010335.066412:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.space, value: 1
+[247866:247866:0507/010335.066419:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.vc, value: 1
+[247866:247866:0507/010335.066427:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-optimize.enabled, value: 1
+[247866:247866:0507/010335.066432:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.create_keep_alive_partitions, value: 1
+[247866:247866:0507/010335.066439:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.dark_mode_pc_overall, value: 1
+[247866:247866:0507/010335.066446:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.event.v5.13, value: 1
+[247866:247866:0507/010335.066456:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.extensions.enable_shell_api, value: 1
+[247866:247866:0507/010335.066461:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.gecko_butler, value: 1
+[247866:247866:0507/010335.066468:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.hybrid.prefetch, value: 1
+[247866:247866:0507/010335.066477:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.hybrid.prefetch.ab, value: 1
+[247866:247866:0507/010335.066483:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.ipc.ebus.enable, value: 1
+[247866:247866:0507/010335.066489:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.mysterious.watermark, value: 1
+[247866:247866:0507/010335.066496:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.navigation_menu.change_notice, value: 1
+[247866:247866:0507/010335.066503:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.pc.enable_private_network_cors, value: 1
+[247866:247866:0507/010335.066509:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.perf_bind_feed_chat_destroy.disable, value: 1
+[247866:247866:0507/010335.066517:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.perf_policy_track.enable, value: 1
+[247866:247866:0507/010335.066523:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.perf_v2.enable, value: 1
+[247866:247866:0507/010335.066532:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.tab_contents_view_focus.enable, value: 1
+[247866:247866:0507/010335.066538:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.third_app_block, value: 1
+[247866:247866:0507/010335.066544:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.webcontent.dynamic_update, value: 1
+[247866:247866:0507/010335.066554:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.framework.larkapi.enable_log_migration, value: 1
+[247866:247866:0507/010335.066560:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.hobby.lark_resource_bundle_refactor, value: 1
+[247866:247866:0507/010335.066567:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.i18n.traditional.chinese, value: 1
+[247866:247866:0507/010335.066573:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.iam.use_origin_path_gen_token, value: 1
+[247866:247866:0507/010335.066583:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.ka.dynamicres, value: 1
+[247866:247866:0507/010335.066591:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.messenger.compat_with_webp, value: 1
+[247866:247866:0507/010335.066596:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.nav.deduplicate, value: 1
+[247866:247866:0507/010335.066602:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.navigation.clear_tabs, value: 1
+[247866:247866:0507/010335.066609:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.navigation.disable_loading_title, value: 1
+[247866:247866:0507/010335.066614:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.navigation.native_app_url, value: 1
+[247866:247866:0507/010335.066620:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.navigation.resize_area_opt, value: 1
+[247866:247866:0507/010335.066626:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.navigation.sidebar_move_up, value: 1
+[247866:247866:0507/010335.066631:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.navigation.smaller_desktop, value: 1
+[247866:247866:0507/010335.066640:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.navigation.tab_group, value: 1
+[247866:247866:0507/010335.066647:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.avoid_sdkresponse_jsondump_decode_crash, value: 1
+[247866:247866:0507/010335.066656:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.background_cpu_collector.enable, value: 1
+[247866:247866:0507/010335.066662:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.browserability.enable_browser_view_bg_optimize, value: 1
+[247866:247866:0507/010335.066673:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.browserability.enable_frame_category_multi_profile, value: 1
+[247866:247866:0507/010335.066679:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.catch_linux_crash.enable, value: 1
+[247866:247866:0507/010335.066687:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.contextheap.enable, value: 1
+[247866:247866:0507/010335.066693:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.core.imsdk, value: 1
+[247866:247866:0507/010335.066699:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.core.optimize_trigger_cache_clean, value: 1
+[247866:247866:0507/010335.066708:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.core.traffic_lights_insets_zoom, value: 1
+[247866:247866:0507/010335.066715:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.core.zoom, value: 1
+[247866:247866:0507/010335.066722:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable.touchbar, value: 1
+[247866:247866:0507/010335.066728:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.disable_lark_ui_scheme, value: 1
+[247866:247866:0507/010335.066734:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_update_chatter_timezone, value: 1
+[247866:247866:0507/010335.066741:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable.beforeunload, value: 1
+[247866:247866:0507/010335.066748:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable.contextmenu, value: 1
+[247866:247866:0507/010335.066754:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable.decodescriptsourceoffthread, value: 1
+[247866:247866:0507/010335.066762:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable.downloadimage.refactor, value: 1
+[247866:247866:0507/010335.066768:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable.facade_safe_check, value: 1
+[247866:247866:0507/010335.066774:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.iframededicatedprocess, value: 1
+[247866:247866:0507/010335.066783:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.iframeloaderror, value: 1
+[247866:247866:0507/010335.066789:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable.openurl.jsworkerdefault, value: 1
+[247866:247866:0507/010335.066800:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable.rendererjank, value: 1
+[247866:247866:0507/010335.066808:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.renderterminate, value: 1
+[247866:247866:0507/010335.066814:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.subframe.samesitenone, value: 1
+[247866:247866:0507/010335.066820:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.webview.forwardkeyborardevent, value: 1
+[247866:247866:0507/010335.066828:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_ctrl_cmd_w_new, value: 1
+[247866:247866:0507/010335.066834:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_discard_freeze, value: 1
+[247866:247866:0507/010335.066840:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_kv_storage_optimize, value: 1
+[247866:247866:0507/010335.066848:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_media_center_screenshot, value: 1
+[247866:247866:0507/010335.066855:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_native_download, value: 1
+[247866:247866:0507/010335.066863:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_presentation_fullscreen, value: 1
+[247866:247866:0507/010335.066869:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_refuse_pagination, value: 1
+[247866:247866:0507/010335.066875:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_report_gl_error, value: 1
+[247866:247866:0507/010335.066883:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_safe_auth_info, value: 1
+[247866:247866:0507/010335.066892:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_shellapi_unzipper_limit, value: 1
+[247866:247866:0507/010335.066897:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_spare_render_process, value: 1
+[247866:247866:0507/010335.066904:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_sprites_wtih_mipmap, value: 1
+[247866:247866:0507/010335.066913:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_tabwebview_radii, value: 1
+[247866:247866:0507/010335.066919:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_upload_hardware_info, value: 1
+[247866:247866:0507/010335.066928:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_verify_user_id_on_notify, value: 1
+[247866:247866:0507/010335.066935:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_websocket_header, value: 1
+[247866:247866:0507/010335.066942:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_window_open, value: 1
+[247866:247866:0507/010335.066949:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.feed_three_column, value: 1
+[247866:247866:0507/010335.066955:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.gpu_block_detect.enable, value: 1
+[247866:247866:0507/010335.066963:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.gpu_channel_optimization, value: 1
+[247866:247866:0507/010335.066969:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.grain_layer, value: 1
+[247866:247866:0507/010335.066977:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.lark_enable_new_tea_report, value: 1
+[247866:247866:0507/010335.066983:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.lark_enable_shellapi_writefile_optimize, value: 1
+[247866:247866:0507/010335.066994:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.lark_enable_simple_log_desensitize, value: 1
+[247866:247866:0507/010335.067000:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.lark_webview_header_log_enable, value: 1
+[247866:247866:0507/010335.067010:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.lark_webview_net_mojom_enable, value: 1
+[247866:247866:0507/010335.067015:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.larkapi.use_shared_memory, value: 1
+[247866:247866:0507/010335.067023:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.media.allow_request_media, value: 1
+[247866:247866:0507/010335.067034:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.monitor_tea_report.enable, value: 1
+[247866:247866:0507/010335.067044:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.multi_layer_background, value: 1
+[247866:247866:0507/010335.067050:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.nav_badge, value: 1
+[247866:247866:0507/010335.067059:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.navigation.customization.enable, value: 1
+[247866:247866:0507/010335.067065:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.passport_switch_tenant_optimise, value: 1
+[247866:247866:0507/010335.067072:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.render_crash_check_enable, value: 1
+[247866:247866:0507/010335.067079:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.render_process_strategy_cloud_strategy.enable, value: 1
+[247866:247866:0507/010335.067086:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.report_block_by_parfait.enable, value: 1
+[247866:247866:0507/010335.067092:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.report_crash_by_parfait.enable, value: 1
+[247866:247866:0507/010335.067097:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.report_custom_by_parfait.enable, value: 1
+[247866:247866:0507/010335.067103:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.report_linux_block_dump.enable, value: 1
+[247866:247866:0507/010335.067110:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.report_renderer_unresponsive_dump.enable, value: 1
+[247866:247866:0507/010335.067117:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.runbeforepaint.enable, value: 1
+[247866:247866:0507/010335.067123:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.sdkpushthrottle.enable, value: 1
+[247866:247866:0507/010335.067128:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.skia_shader_cache_corruption_report, value: 1
+[247866:247866:0507/010335.067138:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.slardar_new_custom_report, value: 1
+[247866:247866:0507/010335.067144:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.tenant_i18n_name, value: 1
+[247866:247866:0507/010335.067152:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.use_tlsv12_max_in_curl, value: 1
+[247866:247866:0507/010335.067160:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.webview.preload, value: 1
+[247866:247866:0507/010335.067165:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.tenant.penetration.enable, value: 1
+[247866:247866:0507/010335.067173:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.vulcan.enable_vulcan_lite_by_default, value: 1
+[247866:247866:0507/010335.067179:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.wow.linux.enable, value: 1
+[247866:247866:0507/010335.067188:INFO:lark_feature_gating.cc(292)] [fg] fg changed: larkmail.cli.locate_window_by_webview, value: 1
+[247866:247866:0507/010335.067194:INFO:lark_feature_gating.cc(284)] [fg] initial fg: larkmail.pc.mail_img_cookies, value: 1
+[247866:247866:0507/010335.067201:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.lark_buzzpush_close, value: 1
+[247866:247866:0507/010335.067210:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.media_center.check_gpu_info, value: 1
+[247866:247866:0507/010335.067217:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.media_center.use_single_process_mode, value: 1
+[247866:247866:0507/010335.067225:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc_view_pic.async_launch_process, value: 1
+[247866:247866:0507/010335.067231:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc_view_pic.long_pic, value: 1
+[247866:247866:0507/010335.067240:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc_view_pic.mojo_disconnect_fallback, value: 1
+[247866:247866:0507/010335.067246:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc_view_pic.scan_qr_code, value: 1
+[247866:247866:0507/010335.067258:INFO:lark_feature_gating.cc(292)] [fg] fg changed: messenger.restricted.mode.screenshot.optimize, value: 1
+[247866:247866:0507/010335.067268:INFO:lark_feature_gating.cc(292)] [fg] fg changed: navigation.history.mvp, value: 1
+[247866:247866:0507/010335.067274:INFO:lark_feature_gating.cc(292)] [fg] fg changed: navigation.tab.menu, value: 1
+[247866:247866:0507/010335.067282:INFO:lark_feature_gating.cc(284)] [fg] initial fg: openplatform.applink.v3, value: 1
+[247866:247866:0507/010335.067288:INFO:lark_feature_gating.cc(284)] [fg] initial fg: pc.core.enable_quick_menu, value: 1
+[247866:247866:0507/010335.067294:INFO:lark_feature_gating.cc(284)] [fg] initial fg: pc.core.history_universal, value: 1
+[247866:247866:0507/010335.067303:INFO:lark_feature_gating.cc(284)] [fg] initial fg: pc.workplace.native, value: 1
+[247866:247866:0507/010335.067308:INFO:lark_feature_gating.cc(284)] [fg] initial fg: pc.workplace.nativex.jump_to_browser, value: 1
+[247866:247866:0507/010335.067317:INFO:lark_feature_gating.cc(284)] [fg] initial fg: pc.workplace.nativex.toolbar, value: 1
+[247866:247866:0507/010335.067323:INFO:lark_feature_gating.cc(284)] [fg] initial fg: pc.workplace.nativex.url_interceptor, value: 1
+[247866:247866:0507/010335.067333:INFO:lark_feature_gating.cc(284)] [fg] initial fg: pc_view_pic.detect_window_cover, value: 1
+[247866:247866:0507/010335.067339:INFO:lark_feature_gating.cc(284)] [fg] initial fg: suite_help_service, value: 1
+[247866:247866:0507/010335.067345:INFO:lark_feature_gating.cc(284)] [fg] initial fg: suite_join_function, value: 1
+[247866:247866:0507/010335.067354:INFO:lark_feature_gating.cc(284)] [fg] initial fg: suite_transfer_function, value: 1
+[247866:247866:0507/010335.067360:INFO:lark_feature_gating.cc(284)] [fg] initial fg: suite_vc, value: 1
+[247866:247866:0507/010335.067366:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.autoupdate.default_close, value: 0
+[247866:247866:0507/010335.067376:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.event.join_button, value: 0
+[247866:247866:0507/010335.067383:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.ocr.image_to_text, value: 0
+[247866:247866:0507/010335.067390:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.ocr.image_translation, value: 0
+[247866:247866:0507/010335.067396:INFO:lark_feature_gating.cc(292)] [fg] fg changed: core.pc.async_terminate_process, value: 0
+[247866:247866:0507/010335.067402:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.pc.linux_screenshot_use_screenrect, value: 0
+[247866:247866:0507/010335.067410:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.pc.screenshot.accessibility.prompt, value: 0
+[247866:247866:0507/010335.067416:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.pc.scrollingcapture_help, value: 0
+[247866:247866:0507/010335.067424:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.pc.webview_simple_net_log, value: 0
+[247866:247866:0507/010335.067430:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.pc_view_pic.applink.optimization, value: 0
+[247866:247866:0507/010335.067436:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.permission.reset-disabled, value: 0
+[247866:247866:0507/010335.067443:INFO:lark_feature_gating.cc(292)] [fg] fg changed: demo_feature, value: 0
+[247866:247866:0507/010335.067449:INFO:lark_feature_gating.cc(284)] [fg] initial fg: disable_fast_pb2json, value: 0
+[247866:247866:0507/010335.067455:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.client.update.support_close, value: 0
+[247866:247866:0507/010335.067463:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.content_plugin.capsule_button, value: 0
+[247866:247866:0507/010335.067470:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.disable_protocol_controller, value: 0
+[247866:247866:0507/010335.067478:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.linux.daohanglan_live, value: 0
+[247866:247866:0507/010335.067487:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.linux.daohanglan_miaoji, value: 0
+[247866:247866:0507/010335.067498:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.no_explicit_app_user_model_id, value: 0
+[247866:247866:0507/010335.067505:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.paging_url_whitelist.enable, value: 0
+[247866:247866:0507/010335.067511:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.pc.dns_pre_resolve, value: 0
+[247866:247866:0507/010335.067518:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.pc.enable_connection_strategy, value: 0
+[247866:247866:0507/010335.067524:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.pc.enable_js_worker_process_mode, value: 0
+[247866:247866:0507/010335.067532:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.pc.lark_apprelaunch_disable_cancel, value: 0
+[247866:247866:0507/010335.067538:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.pc.update_profile, value: 0
+[247866:247866:0507/010335.067545:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.pc.wants_mouse_events_when_inactive, value: 0
+[247866:247866:0507/010335.067552:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.pc.webview_net_throttle_fetch_data, value: 0
+[247866:247866:0507/010335.067559:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.use_team_v5.4, value: 0
+[247866:247866:0507/010335.067566:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.version_7_onboarding_new, value: 0
+[247866:247866:0507/010335.067572:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.windows_tray_msg_preview, value: 0
+[247866:247866:0507/010335.067578:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.enable_start_exception_check, value: 0
+[247866:247866:0507/010335.067586:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.helpdesk.employee.service.enable, value: 0
+[247866:247866:0507/010335.067592:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.i18n.force_mac_ui_language, value: 0
+[247866:247866:0507/010335.067598:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.iron.core.block_detect.enable, value: 0
+[247866:247866:0507/010335.067603:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.iron.core.crash_pad_init_opt.enable, value: 0
+[247866:247866:0507/010335.067609:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.iron.core.gpu_block_restart.enable, value: 0
+[247866:247866:0507/010335.067616:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.ka.dynamicres_disable_linux, value: 0
+[247866:247866:0507/010335.067623:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.ka.dynamicres_disable_timer_poll, value: 0
+[247866:247866:0507/010335.067629:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.ka.dynamicres_long_timer_poll, value: 0
+[247866:247866:0507/010335.067635:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.ka.dynamicres_mac_new_dock_icon, value: 0
+[247866:247866:0507/010335.067641:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.ka.enable_gecko_client_on_win_and_mac, value: 0
+[247866:247866:0507/010335.067649:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.leanmode.turn_on_all_device_switch, value: 0
+[247866:247866:0507/010335.067658:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.messenger.mosaic.optimization, value: 0
+[247866:247866:0507/010335.067665:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.navigation.allowed_page_content_extra_url_params, value: 0
+[247866:247866:0507/010335.067673:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.navigation.content_add_theme_params, value: 0
+[247866:247866:0507/010335.067679:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.navigation.converticon, value: 0
+[247866:247866:0507/010335.067687:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.navigation.disable_temp_tab_delete_official, value: 0
+[247866:247866:0507/010335.067698:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.navigation.guide, value: 0
+[247866:247866:0507/010335.067705:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.navigation.openplatform.entry, value: 0
+[247866:247866:0507/010335.067717:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.navigation.pc_recent, value: 0
+[247866:247866:0507/010335.067725:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.navigation.tab_group_scroll_sep_layer, value: 0
+[247866:247866:0507/010335.067734:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.accessibility, value: 0
+[247866:247866:0507/010335.067743:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.allow_breakpoint_resuming, value: 0
+[247866:247866:0507/010335.067752:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.allow_seperate_process, value: 0
+[247866:247866:0507/010335.067761:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.allow_update_card, value: 0
+[247866:247866:0507/010335.067768:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.allow_update_check_filelist, value: 0
+[247866:247866:0507/010335.067776:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.allow_update_release_url, value: 0
+[247866:247866:0507/010335.067785:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.allow_update_unzip_by_exe, value: 0
+[247866:247866:0507/010335.067793:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.allow_update_unzip_in_root, value: 0
+[247866:247866:0507/010335.067802:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.confirm_reset_permissions, value: 0
+[247866:247866:0507/010335.067810:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_arch_mismatch_alert, value: 0
+[247866:247866:0507/010335.067822:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_check_icon_md5, value: 0
+[247866:247866:0507/010335.067834:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_check_update_files, value: 0
+[247866:247866:0507/010335.067845:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_confirm_relaunch, value: 0
+[247866:247866:0507/010335.067853:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_force_update, value: 0
+[247866:247866:0507/010335.067861:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_kill_appdir_process, value: 0
+[247866:247866:0507/010335.067868:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_kill_datadir_process, value: 0
+[247866:247866:0507/010335.067876:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_real_progress, value: 0
+[247866:247866:0507/010335.067886:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_repair_mac_auto_launch, value: 0
+[247866:247866:0507/010335.067897:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_repair_mac_dock_icons, value: 0
+[247866:247866:0507/010335.067907:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_report_dir_info, value: 0
+[247866:247866:0507/010335.067916:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_run_task_schedule, value: 0
+[247866:247866:0507/010335.067924:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_update_check_url, value: 0
+[247866:247866:0507/010335.067931:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_update_doc_guide, value: 0
+[247866:247866:0507/010335.067939:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_update_morpheus_query, value: 0
+[247866:247866:0507/010335.067949:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_update_regedit_uac, value: 0
+[247866:247866:0507/010335.067958:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_update_rsa_path_log, value: 0
+[247866:247866:0507/010335.067969:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_watchdog, value: 0
+[247866:247866:0507/010335.067977:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallowed_privilege_tasks, value: 0
+[247866:247866:0507/010335.067988:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate_disallow_bundleid_change_restart_alert, value: 0
+[247866:247866:0507/010335.067997:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.backend_crash_check_enable, value: 0
+[247866:247866:0507/010335.068007:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.block_detect_report_disk_info.enable, value: 0
+[247866:247866:0507/010335.068015:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.block_richdump.enable, value: 0
+[247866:247866:0507/010335.068024:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.bspatch_nakamoto, value: 0
+[247866:247866:0507/010335.068033:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.bspatch_nakamoto_fallback, value: 0
+[247866:247866:0507/010335.068040:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.cdr.long, value: 0
+[247866:247866:0507/010335.068047:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.chunky_upload, value: 0
+[247866:247866:0507/010335.068054:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.core.focus_only_window_actived_disabled, value: 0
+[247866:247866:0507/010335.068061:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.core.optimize_menu_avatar, value: 0
+[247866:247866:0507/010335.068069:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.core.use_aura_window_disabled, value: 0
+[247866:247866:0507/010335.068078:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.core.use_watermark_check_disabled, value: 0
+[247866:247866:0507/010335.068086:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.crash_fulldump.enable, value: 0
+[247866:247866:0507/010335.068094:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.crash_richdump.enable, value: 0
+[247866:247866:0507/010335.068101:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.custom.resource.proxy, value: 0
+[247866:247866:0507/010335.068109:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.dev_tab, value: 0
+[247866:247866:0507/010335.068155:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.devtools.enable, value: 0
+[247866:247866:0507/010335.068161:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable-webkit-app-region, value: 0
+[247866:247866:0507/010335.068168:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable.forceupdatestateonfocus, value: 0
+[247866:247866:0507/010335.068176:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable.modal_close_focus_parent_mac, value: 0
+[247866:247866:0507/010335.068182:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable.new_page_webview_forward_event_rule, value: 0
+[247866:247866:0507/010335.068190:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable.ng_shape_text_optimize, value: 0
+[247866:247866:0507/010335.068200:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable.resize_window_on_display_changed, value: 0
+[247866:247866:0507/010335.068210:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable.scrollnodecheck, value: 0
+[247866:247866:0507/010335.068219:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable.shellapi.nativehandlermap, value: 0
+[247866:247866:0507/010335.068226:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable.touchbar_emoji, value: 0
+[247866:247866:0507/010335.068233:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_accessibility_report, value: 0
+[247866:247866:0507/010335.068241:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_ip_address_observer, value: 0
+[247866:247866:0507/010335.068248:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_new_avatar_button, value: 0
+[247866:247866:0507/010335.068255:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_passport_get_lean_mode_config, value: 0
+[247866:247866:0507/010335.068263:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_passport_new_cookie, value: 0
+[247866:247866:0507/010335.068273:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_passport_switch_identity_new_version, value: 0
+[247866:247866:0507/010335.068281:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_set_env_try_local, value: 0
+[247866:247866:0507/010335.068287:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_setcursor_when_touch_hovermenu_win, value: 0
+[247866:247866:0507/010335.068295:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_sidebar_resizebar_set_visible, value: 0
+[247866:247866:0507/010335.068305:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_strict_device_id, value: 0
+[247866:247866:0507/010335.068314:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_tab_mouse_event, value: 0
+[247866:247866:0507/010335.068323:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_tabbar_scroll_docking, value: 0
+[247866:247866:0507/010335.068330:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_tabbar_scroll_hover_show, value: 0
+[247866:247866:0507/010335.068336:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_track_get_focus_v2, value: 0
+[247866:247866:0507/010335.068344:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_transparent_window_recognition, value: 0
+[247866:247866:0507/010335.068352:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_view_accessibility, value: 0
+[247866:247866:0507/010335.068360:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disableshowtray, value: 0
+[247866:247866:0507/010335.068369:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.animatescroll, value: 0
+[247866:247866:0507/010335.068378:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.imeclearprevious, value: 0
+[247866:247866:0507/010335.068385:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.jankmonitor, value: 0
+[247866:247866:0507/010335.068392:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.prefercompositingtolcdtext, value: 0
+[247866:247866:0507/010335.068400:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.screen_lock_state_check_by_thread, value: 0
+[247866:247866:0507/010335.068407:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.user_data_instance, value: 0
+[247866:247866:0507/010335.068416:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.watermark_no_window, value: 0
+[247866:247866:0507/010335.068424:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_dynamic_switches, value: 0
+[247866:247866:0507/010335.068432:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_login_status_watcher, value: 0
+[247866:247866:0507/010335.068441:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_new_secsdk, value: 0
+[247866:247866:0507/010335.068451:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_open_web_unittest_view, value: 0
+[247866:247866:0507/010335.068458:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_persistent_connection_toast, value: 0
+[247866:247866:0507/010335.068465:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_restart_gpu_process_because_of_render_process_gone, value: 0
+[247866:247866:0507/010335.068476:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_shellapi_block_strategy, value: 0
+[247866:247866:0507/010335.068486:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_tea_failed_retry, value: 0
+[247866:247866:0507/010335.068496:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_visualeffect, value: 0
+[247866:247866:0507/010335.068505:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_wifi_info_macos12_switch, value: 0
+[247866:247866:0507/010335.068511:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.gecko_plugin_manager_mac, value: 0
+[247866:247866:0507/010335.068518:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.gecko_plugin_manager_win, value: 0
+[247866:247866:0507/010335.068527:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.gecko_report_ccm_status, value: 0
+[247866:247866:0507/010335.068535:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.gecko_sdk_adopt_dynamic_domain_fallback, value: 0
+[247866:247866:0507/010335.068545:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.gecko_sdk_host_url_fallback, value: 0
+[247866:247866:0507/010335.068554:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.gecko_sdk_use_dynamic_host, value: 0
+[247866:247866:0507/010335.068561:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.ignore_lock_screen_block.enable, value: 0
+[247866:247866:0507/010335.068568:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.lark_disable_offline_resource_optimize, value: 0
+[247866:247866:0507/010335.068577:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.lark_disable_shellapi_readfile_optimize, value: 0
+[247866:247866:0507/010335.068584:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.lark_disable_title_bar_avatar_medal, value: 0
+[247866:247866:0507/010335.068592:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.lark_runtime_unittest, value: 0
+[247866:247866:0507/010335.068599:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.logout_weak_network_optimization, value: 0
+[247866:247866:0507/010335.068606:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.mac_fullscreen_disable_toolbar_covered, value: 0
+[247866:247866:0507/010335.068626:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.main_window_enable_hide_deactivate, value: 0
+[247866:247866:0507/010335.068634:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.modal.delay.close, value: 0
+[247866:247866:0507/010335.068644:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.navigation.native-online-res.enable, value: 0
+[247866:247866:0507/010335.068651:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.open_url.use_fallback, value: 0
+[247866:247866:0507/010335.068657:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.pano.tab, value: 0
+[247866:247866:0507/010335.068664:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.perf_graph_new, value: 0
+[247866:247866:0507/010335.068671:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.recordgc.enable, value: 0
+[247866:247866:0507/010335.068678:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.reduce_permission_fail_tips_enable, value: 0
+[247866:247866:0507/010335.068684:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.reduce_permission_restart_enable, value: 0
+[247866:247866:0507/010335.068691:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.report_dump.disable, value: 0
+[247866:247866:0507/010335.068701:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.report_gpu_usage.enable, value: 0
+[247866:247866:0507/010335.068709:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.safe_img_request_enable, value: 0
+[247866:247866:0507/010335.068716:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.sandboxfs.urlloader, value: 0
+[247866:247866:0507/010335.068724:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.screenshot_auto_switch_top_window, value: 0
+[247866:247866:0507/010335.068731:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.screenshot_optimization, value: 0
+[247866:247866:0507/010335.068738:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.screenshot_out_process, value: 0
+[247866:247866:0507/010335.068745:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.screenshot_security_audit, value: 0
+[247866:247866:0507/010335.068752:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.secsdk.enable, value: 0
+[247866:247866:0507/010335.068759:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.shortcut_prevent_web_double_pressed, value: 0
+[247866:247866:0507/010335.068766:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.shortcutkey_disable_batch_update, value: 0
+[247866:247866:0507/010335.068774:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.shortcutkey_presentation_disable_check, value: 0
+[247866:247866:0507/010335.068786:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.show_timezone_tips_when_offset_change, value: 0
+[247866:247866:0507/010335.068793:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.slardar_quality_report.enable, value: 0
+[247866:247866:0507/010335.068800:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.tea_upload_strategy, value: 0
+[247866:247866:0507/010335.068807:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.tray_and_notify.disable_close_all_delivered_notifications, value: 0
+[247866:247866:0507/010335.068814:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.tray_and_notify.fix_win_tray_block, value: 0
+[247866:247866:0507/010335.068822:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.tray_and_notify.mac_tray_menu_new, value: 0
+[247866:247866:0507/010335.068828:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.tray_and_notify.tray_use_avatar, value: 0
+[247866:247866:0507/010335.068836:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.use_vesdk_from_plugin, value: 0
+[247866:247866:0507/010335.068843:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.verify_device_uuid, value: 0
+[247866:247866:0507/010335.068850:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.windows_shrink, value: 0
+[247866:247866:0507/010335.068857:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.workplace.memory, value: 0
+[247866:247866:0507/010335.068864:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.search.click.universal.disabled, value: 0
+[247866:247866:0507/010335.068871:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.use_vulcan_lite, value: 0
+[247866:247866:0507/010335.068878:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.user.sync_info, value: 0
+[247866:247866:0507/010335.068884:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.vulcan.disable_lite_mode, value: 0
+[247866:247866:0507/010335.068891:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.vulcan.disable_vulcan_lite_by_force, value: 0
+[247866:247866:0507/010335.068899:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.vulcan.enable_vulcan_lite_by_force, value: 0
+[247866:247866:0507/010335.068906:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.workplace.workflow_optimize, value: 0
+[247866:247866:0507/010335.068912:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark_use_vulcan_as_fallback_browser, value: 0
+[247866:247866:0507/010335.068920:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lpa.mutiwindows.mvp, value: 0
+[247866:247866:0507/010335.068928:INFO:lark_feature_gating.cc(284)] [fg] initial fg: message.webview_net_throttle, value: 0
+[247866:247866:0507/010335.068938:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messager.pc.detect_vpn, value: 0
+[247866:247866:0507/010335.068945:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.history_manager.disable_sqlite, value: 0
+[247866:247866:0507/010335.068951:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.history_manager.use_containerization, value: 0
+[247866:247866:0507/010335.068960:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.leanmode.privacymode, value: 0
+[247866:247866:0507/010335.068969:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc.enable.uigpurasterization, value: 0
+[247866:247866:0507/010335.068975:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc.net_core_network_change_log, value: 0
+[247866:247866:0507/010335.068982:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc.recordscreen, value: 0
+[247866:247866:0507/010335.068992:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc.scrollingcapture, value: 0
+[247866:247866:0507/010335.069002:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc.websocket_context_log, value: 0
+[247866:247866:0507/010335.069008:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc_view_pic.disable_delay_decode, value: 0
+[247866:247866:0507/010335.069019:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc_view_pic.disable_gpu_rasterzation, value: 0
+[247866:247866:0507/010335.069026:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc_view_pic.multi_process_mode, value: 0
+[247866:247866:0507/010335.069036:INFO:lark_feature_gating.cc(284)] [fg] initial fg: mvp_test_key, value: 0
+[247866:247866:0507/010335.069043:INFO:lark_feature_gating.cc(284)] [fg] initial fg: native.syncdisk.enable, value: 0
+[247866:247866:0507/010335.069054:INFO:lark_feature_gating.cc(284)] [fg] initial fg: openplatform.app_center.multi_tab, value: 0
+[247866:247866:0507/010335.069066:INFO:lark_feature_gating.cc(284)] [fg] initial fg: pc.workplace.nativex.open_in_browser, value: 0
+[247866:247866:0507/010335.069087:INFO:lark_feature_gating.cc(284)] [fg] initial fg: pc.workplace.nativex.sidebar, value: 0
+[247866:247866:0507/010335.069094:INFO:lark_feature_gating.cc(284)] [fg] initial fg: pin.single.tab, value: 0
+[247866:247866:0507/010335.069143:INFO:gpu_channel_manager.cc(481)] EstablishChannel gpu_channel_optimization 1
+[247996:247996:0507/010335.072192:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[247996:248003:0507/010335.072710:INFO:features.cc(17)] IsReportScrollMetricsEnabled: 0
+[247996:248003:0507/010335.072863:WARNING:compositor_service_impl.cc(40)] Scroll metrics reporter is not enabled.
+[247996:247996:0507/010335.092226:INFO:render_frame_impl.cc(4130)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[247996:247996:0507/010335.094380:INFO:frame_facade_renderer_client.cc(78)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[247996:247996:0507/010335.094401:INFO:permission_manager_impl.cc(25)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 5
+[247996:247996:0507/010335.094411:INFO:shellapi_render_frame_extension.cc(138)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge for world 0
+[247996:247996:0507/010335.094462:INFO:shellapi_render_frame_extension.cc(185)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[247996:247996:0507/010335.151148:INFO:neotix_shell_api_extension.cc(193)] [InjectExternalCode] execute script result: 1
+[248965:248965:0507/010335.154667:ERROR:lark_monitor.cc(976)] CrashpadClientInit no server name specified forrenderer
+[248965:248965:0507/010335.154733:WARNING:chrome_main_delegate.cc(334)] process type 'renderer' should be created through the zygote.
+[248965:248965:0507/010335.154862:INFO:frame_host.cc(1089)] #### Lark (renderer) Startup #### cmd:  --browser-runtime --no-sandbox --no-zygote --type=renderer
+[248965:248965:0507/010335.154886:INFO:frame_host.cc(1091)] IsBrowserRuntime:1
+[247996:247996:0507/010335.172344:ERROR:utils.cc(85)] [ShellAPI][CallJSFunction] failed, execute func failed 
+[248965:248965:0507/010335.172546:INFO:renderer_histogram_report_provider.cc(16)]  report memory cache hit feature disable
+[248965:248965:0507/010335.172571:INFO:renderer_histogram_report_provider.cc(92)] feature disabled: kEnableScrollingMetricsReporting
+[248965:248965:0507/010335.172592:INFO:histogram_signal_handler.cc(62)] feature: kEnableHistogramSubsample = 1
+[248965:248965:0507/010335.173099:INFO:utils.cc(203)] [InitManifestSharedMemoryReadRetrySwitch] switch is 0
+[248965:248965:0507/010335.181972:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: docs, size: 3
+[248965:248965:0507/010335.182009:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: drive, size: 1
+[248965:248965:0507/010335.182018:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: docs_home, size: 1
+[248965:248965:0507/010335.182026:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: docs_drive, size: 1
+[248965:248965:0507/010335.182041:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: suite_safetynet, size: 1
+[248965:248965:0507/010335.182049:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: passport, size: 1
+[248965:248965:0507/010335.182056:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: approval, size: 2
+[248965:248965:0507/010335.182077:INFO:frame_facade_renderer_client.cc(165)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[248965:248965:0507/010335.182089:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: bytedance.net
+[248965:248965:0507/010335.182097:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[248965:248965:0507/010335.183949:INFO:frame_facade_renderer_client.cc(149)] [FrameFacadeRendererClient::OnGetDomains] domains size is 7
+[248965:248965:0507/010335.183966:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: approval, size: 2
+[248965:248965:0507/010335.183975:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: docs, size: 3
+[248965:248965:0507/010335.183982:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_drive, size: 1
+[248965:248965:0507/010335.183989:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_home, size: 1
+[248965:248965:0507/010335.183996:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: drive, size: 1
+[248965:248965:0507/010335.184002:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: passport, size: 1
+[248965:248965:0507/010335.184009:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: suite_safetynet, size: 1
+[248965:248965:0507/010335.184016:INFO:frame_facade_renderer_client.cc(165)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[248965:248965:0507/010335.184027:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: bytedance.net
+[248965:248965:0507/010335.184035:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[247996:247996:0507/010335.273464:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=1
+[247996:248003:0507/010335.273892:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x56f00e3eeb30) render pass id=385 output_rect=0,0 3624x2048
+  (0x56f00e3f09f0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3624x2048
+    (0x7e1ed0097dc0) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[247996:247996:0507/010336.210803:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[247996:248003:0507/010336.211226:INFO:features.cc(17)] IsReportScrollMetricsEnabled: 0
+[247996:248003:0507/010336.211331:WARNING:compositor_service_impl.cc(40)] Scroll metrics reporter is not enabled.
+[247996:247996:0507/010336.213310:INFO:ap_impl.cc(25)] [TOWEL][APImpl::APImpl] create ap id is 1395261966
+[247996:247996:0507/010336.213339:INFO:ap_impl.cc(30)] [TOWEL][APImpl] register to master, current id is 1395261966
+[247996:247996:0507/010336.213380:INFO:ap_impl.cc(47)] [TOWEL][APImpl] register to host, current id is 1395261966
+[247996:247996:0507/010336.213437:INFO:apollo_ap_impl.cc(29)] [TOWEL][ApolloAPImpl::Construtor]
+[247996:247996:0507/010336.225913:INFO:render_frame_impl.cc(4130)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[247996:247996:0507/010336.227845:INFO:frame_facade_renderer_client.cc(78)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[247996:247996:0507/010336.227865:INFO:permission_manager_impl.cc(25)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 5
+[247996:247996:0507/010336.227876:INFO:shellapi_render_frame_extension.cc(138)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge for world 0
+[247996:247996:0507/010336.227922:INFO:shellapi_render_frame_extension.cc(185)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[247996:247996:0507/010336.254997:INFO:neotix_shell_api_extension.cc(193)] [InjectExternalCode] execute script result: 1
+[247996:248003:0507/010336.265378:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x56f00e3fa100) render pass id=385 output_rect=0,0 448x2048
+  (0x56f00e3f09f0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 448x2048
+    (0x7e1ed00a4b80) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[247996:247996:0507/010336.266644:INFO:ap_impl.cc(395)] [TOWEL][APImpl::OnAddToMaster] real_id is 2, fake_id is 1395261966
+[247996:247996:0507/010336.266664:INFO:ap_impl.cc(589)] [TOWEL][APImpl::ListensEvents] start, ap_id= 2
+[247996:247996:0507/010336.266673:INFO:ap_impl.cc(591)] [TOWEL][APImpl::ListensEvents] no pending_listen_requests_, do nothing
+[247996:247996:0507/010336.266691:INFO:apollo_ap_impl.cc(245)] [TOWEL][ApolloAPImpl::OnGetApolloId] apollo_id 7
+[247996:247996:0507/010336.282146:ERROR:utils.cc(85)] [ShellAPI][CallJSFunction] failed, execute func failed 
+[247996:247996:0507/010336.294688:INFO:render_frame_impl.cc(2371)] [MOR_Shell] RenderFrameImpl::GetAPFromHost, bind ap for RenderFrameHost
+[247996:247996:0507/010336.294774:INFO:ap_impl.cc(25)] [TOWEL][APImpl::APImpl] create ap id is 1457059458
+[247996:247996:0507/010336.294784:INFO:ap_impl.cc(30)] [TOWEL][APImpl] register to master, current id is 1457059458
+[247996:247996:0507/010336.294821:INFO:ap_impl.cc(47)] [TOWEL][APImpl] register to host, current id is 1457059458
+[247996:247996:0507/010336.294849:INFO:apollo_ap_impl.cc(29)] [TOWEL][ApolloAPImpl::Construtor]
+[247996:247996:0507/010336.294871:INFO:ap_impl.cc(340)] [TOWEL][APImpl::CreateConnection] for source_id 1
+[247996:247996:0507/010336.294994:INFO:ap_impl.cc(496)] [TOWEL][APImpl::OnGetAllProviders] ap_id 2 provider size 2
+[247996:247996:0507/010336.295023:INFO:ap_impl.cc(505)] [TOWEL][APImpl::OnGetAllProviders] add provider backend
+[247996:247996:0507/010336.295062:INFO:ap_impl.cc(505)] [TOWEL][APImpl::OnGetAllProviders] add provider monitor
+[247996:248003:0507/010336.332757:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x56f00eec3fe0) render pass id=385 output_rect=0,0 448x2048
+  (0x7e1ed0391260) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-636,0 954x12
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+  (0x7e1ed03913d8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-60,0 90x12
+    DrawQuad, material: kTiledContent
+  (0x7e1ed0391550) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-294,0 442x14
+    DrawQuad, material: kTiledContent
+  (0x7e1ed03916c8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-72,0 108x36
+    DrawQuad, material: kTiledContent
+  (0x7e1ed0391840) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-636,0 954x12
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+  (0x7e1ed03919b8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-60,0 90x12
+    DrawQuad, material: kTiledContent
+  (0x7e1ed0391b30) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-294,0 442x14
+    DrawQuad, material: kTiledContent
+    (more quads - orphaned list may not be correct)
+
+[247996:247996:0507/010336.337870:INFO:ap_impl.cc(395)] [TOWEL][APImpl::OnAddToMaster] real_id is 3, fake_id is 1457059458
+[247996:247996:0507/010336.337902:INFO:ap_impl.cc(589)] [TOWEL][APImpl::ListensEvents] start, ap_id= 3
+[247996:247996:0507/010336.337909:INFO:ap_impl.cc(591)] [TOWEL][APImpl::ListensEvents] no pending_listen_requests_, do nothing
+[247996:247996:0507/010336.337926:INFO:apollo_ap_impl.cc(245)] [TOWEL][ApolloAPImpl::OnGetApolloId] apollo_id 16
+[247996:247996:0507/010336.338579:INFO:apollo_ap_impl.cc(227)] [TOWEL][ApolloAPImpl::OnConnectionCreated] connect success, apollo_id 7, target_apollo_id 16, target_ap_id 1457059458
+[247996:247996:0507/010336.338662:INFO:ap_impl.cc(515)] [TOWEL][APImpl::OnGetProviderMetaInfo] ap_id 2 provider backend
+[247996:247996:0507/010336.338679:INFO:ap_impl.cc(525)] [TOWEL][APImpl::OnGetProviderMetaInfo] update meta info for backend method_list is ShellAPI::internal::app::logNoReturn|ShellAPI::app::sdk::invokeAsyncFast|ShellAPI::app::sdk::invokeAsync|postgateway|LarkAPI::internal::transport::callRustApi|backend::GET_AUTH_INFO|backend::INVOKE_ASYNC, event_list is backend::LOGIN_SUCCESS|backend::LOGIN_FAILED|backend::PASSPORT_SWITCH_TENANT_SUCCESS|backend::PUSH_USER_SETTINGS_UPDATED
+[247996:247996:0507/010336.338715:INFO:ap_impl.cc(515)] [TOWEL][APImpl::OnGetProviderMetaInfo] ap_id 2 provider monitor
+[247996:247996:0507/010336.338724:INFO:ap_impl.cc(525)] [TOWEL][APImpl::OnGetProviderMetaInfo] update meta info for monitor method_list is ShellAPI::app::monitor::monitorEvent|reportDumpUtility|monitorEventUtility|LarkAPI::internal::slardar::sendEvents|LarkAPI::internal::tea::trackNoReturn, event_list is 
+[247996:248003:0507/010336.345629:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x7e1f00037770) render pass id=385 output_rect=0,0 448x2048
+  (0x7e1ed039ae40) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-630,0 954x12
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+  (0x7e1ed039afb8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-59,0 90x12
+    DrawQuad, material: kTiledContent
+  (0x7e1ed039b130) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-292,0 442x14
+    DrawQuad, material: kTiledContent
+  (0x7e1ed039b2a8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-71,0 108x36
+    DrawQuad, material: kTiledContent
+  (0x7e1ed039b420) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-630,0 954x12
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+  (0x7e1ed039b598) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-59,0 90x12
+    DrawQuad, material: kTiledContent
+  (0x7e1ed039b710) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-292,0 442x14
+    DrawQuad, material: kTiledContent
+    (more quads - orphaned list may not be correct)
+
+[247996:247996:0507/010336.351565:INFO:ap_impl.cc(496)] [TOWEL][APImpl::OnGetAllProviders] ap_id 3 provider size 2
+[247996:247996:0507/010336.351633:INFO:ap_impl.cc(505)] [TOWEL][APImpl::OnGetAllProviders] add provider backend
+[247996:247996:0507/010336.351657:INFO:ap_impl.cc(505)] [TOWEL][APImpl::OnGetAllProviders] add provider monitor
+[247996:248003:0507/010336.367655:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x56f00e39dbc0) render pass id=385 output_rect=0,0 448x2048
+  (0x7e1ed0392270) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-625,0 954x12
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+  (0x7e1ed03923e8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-59,0 90x12
+    DrawQuad, material: kTiledContent
+  (0x7e1ed0392560) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-289,0 442x14
+    DrawQuad, material: kTiledContent
+  (0x7e1ed03926d8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-70,0 108x36
+    DrawQuad, material: kTiledContent
+  (0x7e1ed0392850) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-625,0 954x12
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+  (0x7e1ed03929c8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-59,0 90x12
+    DrawQuad, material: kTiledContent
+  (0x7e1ed0392b40) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-289,0 442x14
+    DrawQuad, material: kTiledContent
+    (more quads - orphaned list may not be correct)
+
+[247996:247996:0507/010336.415571:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=1
+[247996:248003:0507/010336.417799:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x56f00e39dbc0) render pass id=385 output_rect=0,0 3170x2048
+  (0x56f00e3f09f0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3170x2048
+    (0x7e1ed03a0ac0) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[247996:247996:0507/010336.418063:INFO:ap_impl.cc(515)] [TOWEL][APImpl::OnGetProviderMetaInfo] ap_id 3 provider backend
+[247996:247996:0507/010336.418095:INFO:ap_impl.cc(525)] [TOWEL][APImpl::OnGetProviderMetaInfo] update meta info for backend method_list is ShellAPI::internal::app::logNoReturn|ShellAPI::app::sdk::invokeAsyncFast|ShellAPI::app::sdk::invokeAsync|postgateway|LarkAPI::internal::transport::callRustApi|backend::GET_AUTH_INFO|backend::INVOKE_ASYNC, event_list is backend::LOGIN_SUCCESS|backend::LOGIN_FAILED|backend::PASSPORT_SWITCH_TENANT_SUCCESS|backend::PUSH_USER_SETTINGS_UPDATED
+[247996:247996:0507/010336.418168:INFO:ap_impl.cc(515)] [TOWEL][APImpl::OnGetProviderMetaInfo] ap_id 3 provider monitor
+[247996:247996:0507/010336.418184:INFO:ap_impl.cc(525)] [TOWEL][APImpl::OnGetProviderMetaInfo] update meta info for monitor method_list is ShellAPI::app::monitor::monitorEvent|reportDumpUtility|monitorEventUtility|LarkAPI::internal::slardar::sendEvents|LarkAPI::internal::tea::trackNoReturn, event_list is 
+[247996:248003:0507/010336.420944:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x56f00e39dbc0) render pass id=385 output_rect=0,0 448x2048
+  (0x7e1ed026a790) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-609,0 954x12
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026a908) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-57,0 90x12
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026aa80) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-282,0 442x14
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026abf8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-69,0 108x36
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026ad70) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-609,0 954x12
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026aee8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-57,0 90x12
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026b060) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-282,0 442x14
+    DrawQuad, material: kTiledContent
+    (more quads - orphaned list may not be correct)
+
+[247996:248003:0507/010336.438450:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x56f00e39dbc0) render pass id=385 output_rect=0,0 448x2048
+  (0x7e1ed026a790) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-598,0 954x12
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026a908) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-56,0 90x12
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026aa80) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-277,0 442x14
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026abf8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-67,0 108x36
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026ad70) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-598,0 954x12
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026aee8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-56,0 90x12
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026b060) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-277,0 442x14
+    DrawQuad, material: kTiledContent
+    (more quads - orphaned list may not be correct)
+
+[247996:248003:0507/010336.488496:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x56f00e39dbc0) render pass id=385 output_rect=0,0 448x2048
+  (0x7e1ed026a790) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-588,0 954x12
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026a908) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-55,0 90x12
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026aa80) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-272,0 442x14
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026abf8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-66,0 108x36
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026ad70) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-588,0 954x12
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026aee8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-55,0 90x12
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026b060) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-272,0 442x14
+    DrawQuad, material: kTiledContent
+    (more quads - orphaned list may not be correct)
+
+[247996:248003:0507/010336.500742:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x56f00e39dbc0) render pass id=385 output_rect=0,0 448x2048
+  (0x7e1ed026a790) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-582,0 954x12
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026a908) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-54,0 90x12
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026aa80) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-270,0 442x14
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026abf8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-65,0 108x36
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026ad70) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-582,0 954x12
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026aee8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-54,0 90x12
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026b060) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-270,0 442x14
+    DrawQuad, material: kTiledContent
+    (more quads - orphaned list may not be correct)
+
+[247996:248003:0507/010336.517280:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x56f00e39dbc0) render pass id=385 output_rect=0,0 448x2048
+  (0x7e1ed026a790) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-577,0 954x12
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026a908) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-54,0 90x12
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026aa80) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-267,0 442x14
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026abf8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-65,0 108x36
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026ad70) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-577,0 954x12
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026aee8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-54,0 90x12
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026b060) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-267,0 442x14
+    DrawQuad, material: kTiledContent
+    (more quads - orphaned list may not be correct)
+
+[247996:248003:0507/010336.533977:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x56f00e39dbc0) render pass id=385 output_rect=0,0 448x2048
+  (0x7e1ed026a790) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-572,0 954x12
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026a908) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-53,0 90x12
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026aa80) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-265,0 442x14
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026abf8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-64,0 108x36
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026ad70) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-572,0 954x12
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026aee8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-53,0 90x12
+    DrawQuad, material: kTiledContent
+  (0x7e1ed026b060) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-265,0 442x14
+    DrawQuad, material: kTiledContent
+    (more quads - orphaned list may not be correct)
+
+[247996:248003:0507/010336.534193:INFO:tree_paint_watcher_impl.cc(48)] [blank paint check]: SetNeedProcess: 0
+[247996:247996:0507/010337.003541:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[247996:247996:0507/010337.049368:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[247996:247996:0507/010337.305061:INFO:lark_feature_gating.cc(284)] [fg] initial fg: admin.security.customwatermarksdk, value: 1
+[247996:247996:0507/010337.305100:INFO:lark_feature_gating.cc(284)] [fg] initial fg: byteview.meeting.pc.iron.process_sandbox, value: 1
+[247996:247996:0507/010337.305110:INFO:lark_feature_gating.cc(284)] [fg] initial fg: byteview.meeting.pc.screenmirror, value: 1
+[247996:247996:0507/010337.305119:INFO:lark_feature_gating.cc(292)] [fg] fg changed: core.media.download_dlp, value: 1
+[247996:247996:0507/010337.305128:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.media.restrict_screenshot, value: 1
+[247996:247996:0507/010337.305136:INFO:lark_feature_gating.cc(292)] [fg] fg changed: core.media.restricted_control, value: 1
+[247996:247996:0507/010337.305146:INFO:lark_feature_gating.cc(292)] [fg] fg changed: core.pc.enable_disk_info_collect, value: 1
+[247996:247996:0507/010337.305156:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.pc.scrollingcapture_auto, value: 1
+[247996:247996:0507/010337.305165:INFO:lark_feature_gating.cc(292)] [fg] fg changed: core.replace_net_getvalueforkeyinquery, value: 1
+[247996:247996:0507/010337.305173:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.v8.codecache, value: 1
+[247996:247996:0507/010337.305181:INFO:lark_feature_gating.cc(284)] [fg] initial fg: feed.team.addmember.enable, value: 1
+[247996:247996:0507/010337.305189:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.appreciable_sdk.event_send_to_tea_pc, value: 1
+[247996:247996:0507/010337.305198:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.browser.forward_to_chat, value: 1
+[247996:247996:0507/010337.305205:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.calendar, value: 1
+[247996:247996:0507/010337.305213:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.contact, value: 1
+[247996:247996:0507/010337.305221:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.favorite, value: 1
+[247996:247996:0507/010337.305229:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.main-window, value: 1
+[247996:247996:0507/010337.305254:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.messenger-modal, value: 1
+[247996:247996:0507/010337.305262:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.mm, value: 1
+[247996:247996:0507/010337.305271:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.moments, value: 1
+[247996:247996:0507/010337.305336:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.resource, value: 1
+[247996:247996:0507/010337.305345:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.security, value: 1
+[247996:247996:0507/010337.305353:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.settings, value: 1
+[247996:247996:0507/010337.305362:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.space, value: 1
+[247996:247996:0507/010337.305369:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-enable.vc, value: 1
+[247996:247996:0507/010337.305378:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.asar-optimize.enabled, value: 1
+[247996:247996:0507/010337.305387:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.create_keep_alive_partitions, value: 1
+[247996:247996:0507/010337.305395:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.dark_mode_pc_overall, value: 1
+[247996:247996:0507/010337.305405:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.event.v5.13, value: 1
+[247996:247996:0507/010337.305416:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.core.extensions.enable_shell_api, value: 1
+[247996:247996:0507/010337.305426:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.gecko_butler, value: 1
+[247996:247996:0507/010337.305436:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.hybrid.prefetch, value: 1
+[247996:247996:0507/010337.305444:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.hybrid.prefetch.ab, value: 1
+[247996:247996:0507/010337.305453:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.ipc.ebus.enable, value: 1
+[247996:247996:0507/010337.305463:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.mysterious.watermark, value: 1
+[247996:247996:0507/010337.305473:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.navigation_menu.change_notice, value: 1
+[247996:247996:0507/010337.305482:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.pc.enable_private_network_cors, value: 1
+[247996:247996:0507/010337.305491:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.perf_bind_feed_chat_destroy.disable, value: 1
+[247996:247996:0507/010337.305500:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.perf_policy_track.enable, value: 1
+[247996:247996:0507/010337.305509:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.perf_v2.enable, value: 1
+[247996:247996:0507/010337.305517:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.tab_contents_view_focus.enable, value: 1
+[247996:247996:0507/010337.305526:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.third_app_block, value: 1
+[247996:247996:0507/010337.305535:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.webcontent.dynamic_update, value: 1
+[247996:247996:0507/010337.305546:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.framework.larkapi.enable_log_migration, value: 1
+[247996:247996:0507/010337.305557:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.hobby.lark_resource_bundle_refactor, value: 1
+[247996:247996:0507/010337.305567:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.i18n.traditional.chinese, value: 1
+[247996:247996:0507/010337.305576:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.iam.use_origin_path_gen_token, value: 1
+[247996:247996:0507/010337.305587:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.ka.dynamicres, value: 1
+[247996:247996:0507/010337.305596:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.messenger.compat_with_webp, value: 1
+[247996:247996:0507/010337.305612:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.nav.deduplicate, value: 1
+[247996:247996:0507/010337.305620:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.navigation.clear_tabs, value: 1
+[247996:247996:0507/010337.305629:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.navigation.disable_loading_title, value: 1
+[247996:247996:0507/010337.305638:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.navigation.native_app_url, value: 1
+[247996:247996:0507/010337.305647:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.navigation.resize_area_opt, value: 1
+[247996:247996:0507/010337.305655:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.navigation.sidebar_move_up, value: 1
+[247996:247996:0507/010337.305663:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.navigation.smaller_desktop, value: 1
+[247996:247996:0507/010337.305672:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.navigation.tab_group, value: 1
+[247996:247996:0507/010337.305680:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.avoid_sdkresponse_jsondump_decode_crash, value: 1
+[247996:247996:0507/010337.305689:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.background_cpu_collector.enable, value: 1
+[247996:247996:0507/010337.305700:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.browserability.enable_browser_view_bg_optimize, value: 1
+[247996:247996:0507/010337.305710:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.browserability.enable_frame_category_multi_profile, value: 1
+[247996:247996:0507/010337.305720:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.catch_linux_crash.enable, value: 1
+[247996:247996:0507/010337.305729:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.contextheap.enable, value: 1
+[247996:247996:0507/010337.305738:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.core.imsdk, value: 1
+[247996:247996:0507/010337.305745:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.core.optimize_trigger_cache_clean, value: 1
+[247996:247996:0507/010337.305754:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.core.traffic_lights_insets_zoom, value: 1
+[247996:247996:0507/010337.305763:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.core.zoom, value: 1
+[247996:247996:0507/010337.305770:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable.touchbar, value: 1
+[247996:247996:0507/010337.305780:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.disable_lark_ui_scheme, value: 1
+[247996:247996:0507/010337.305789:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_update_chatter_timezone, value: 1
+[247996:247996:0507/010337.305797:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable.beforeunload, value: 1
+[247996:247996:0507/010337.305805:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable.contextmenu, value: 1
+[247996:247996:0507/010337.305813:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable.decodescriptsourceoffthread, value: 1
+[247996:247996:0507/010337.305821:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable.downloadimage.refactor, value: 1
+[247996:247996:0507/010337.305830:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable.facade_safe_check, value: 1
+[247996:247996:0507/010337.305838:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.iframededicatedprocess, value: 1
+[247996:247996:0507/010337.305847:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.iframeloaderror, value: 1
+[247996:247996:0507/010337.305855:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable.openurl.jsworkerdefault, value: 1
+[247996:247996:0507/010337.305863:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable.rendererjank, value: 1
+[247996:247996:0507/010337.305872:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.renderterminate, value: 1
+[247996:247996:0507/010337.305880:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.subframe.samesitenone, value: 1
+[247996:247996:0507/010337.305898:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.webview.forwardkeyborardevent, value: 1
+[247996:247996:0507/010337.305907:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_ctrl_cmd_w_new, value: 1
+[247996:247996:0507/010337.305915:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_discard_freeze, value: 1
+[247996:247996:0507/010337.305923:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_kv_storage_optimize, value: 1
+[247996:247996:0507/010337.305933:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_media_center_screenshot, value: 1
+[247996:247996:0507/010337.305942:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_native_download, value: 1
+[247996:247996:0507/010337.305952:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_presentation_fullscreen, value: 1
+[247996:247996:0507/010337.305961:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_refuse_pagination, value: 1
+[247996:247996:0507/010337.305970:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_report_gl_error, value: 1
+[247996:247996:0507/010337.305981:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_safe_auth_info, value: 1
+[247996:247996:0507/010337.305991:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_shellapi_unzipper_limit, value: 1
+[247996:247996:0507/010337.306000:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_spare_render_process, value: 1
+[247996:247996:0507/010337.306010:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_sprites_wtih_mipmap, value: 1
+[247996:247996:0507/010337.306020:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_tabwebview_radii, value: 1
+[247996:247996:0507/010337.306031:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_upload_hardware_info, value: 1
+[247996:247996:0507/010337.306041:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_verify_user_id_on_notify, value: 1
+[247996:247996:0507/010337.306051:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_websocket_header, value: 1
+[247996:247996:0507/010337.306059:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_window_open, value: 1
+[247996:247996:0507/010337.306068:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.feed_three_column, value: 1
+[247996:247996:0507/010337.306076:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.gpu_block_detect.enable, value: 1
+[247996:247996:0507/010337.306084:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.gpu_channel_optimization, value: 1
+[247996:247996:0507/010337.306093:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.grain_layer, value: 1
+[247996:247996:0507/010337.306101:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.lark_enable_new_tea_report, value: 1
+[247996:247996:0507/010337.306111:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.lark_enable_shellapi_writefile_optimize, value: 1
+[247996:247996:0507/010337.306120:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.lark_enable_simple_log_desensitize, value: 1
+[247996:247996:0507/010337.306129:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.lark_webview_header_log_enable, value: 1
+[247996:247996:0507/010337.306138:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.lark_webview_net_mojom_enable, value: 1
+[247996:247996:0507/010337.306148:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.larkapi.use_shared_memory, value: 1
+[247996:247996:0507/010337.306157:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.media.allow_request_media, value: 1
+[247996:247996:0507/010337.306167:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.monitor_tea_report.enable, value: 1
+[247996:247996:0507/010337.306176:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.multi_layer_background, value: 1
+[247996:247996:0507/010337.306193:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.nav_badge, value: 1
+[247996:247996:0507/010337.306201:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.navigation.customization.enable, value: 1
+[247996:247996:0507/010337.306211:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.passport_switch_tenant_optimise, value: 1
+[247996:247996:0507/010337.306220:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.render_crash_check_enable, value: 1
+[247996:247996:0507/010337.306230:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.render_process_strategy_cloud_strategy.enable, value: 1
+[247996:247996:0507/010337.306241:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.report_block_by_parfait.enable, value: 1
+[247996:247996:0507/010337.306249:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.report_crash_by_parfait.enable, value: 1
+[247996:247996:0507/010337.306258:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.report_custom_by_parfait.enable, value: 1
+[247996:247996:0507/010337.306268:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.report_linux_block_dump.enable, value: 1
+[247996:247996:0507/010337.306278:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.report_renderer_unresponsive_dump.enable, value: 1
+[247996:247996:0507/010337.306287:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.runbeforepaint.enable, value: 1
+[247996:247996:0507/010337.306296:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.sdkpushthrottle.enable, value: 1
+[247996:247996:0507/010337.306304:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.skia_shader_cache_corruption_report, value: 1
+[247996:247996:0507/010337.306313:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.slardar_new_custom_report, value: 1
+[247996:247996:0507/010337.306322:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.tenant_i18n_name, value: 1
+[247996:247996:0507/010337.306335:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.use_tlsv12_max_in_curl, value: 1
+[247996:247996:0507/010337.306347:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.webview.preload, value: 1
+[247996:247996:0507/010337.306358:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.tenant.penetration.enable, value: 1
+[247996:247996:0507/010337.306367:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.vulcan.enable_vulcan_lite_by_default, value: 1
+[247996:247996:0507/010337.306377:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.wow.linux.enable, value: 1
+[247996:247996:0507/010337.306385:INFO:lark_feature_gating.cc(292)] [fg] fg changed: larkmail.cli.locate_window_by_webview, value: 1
+[247996:247996:0507/010337.306395:INFO:lark_feature_gating.cc(284)] [fg] initial fg: larkmail.pc.mail_img_cookies, value: 1
+[247996:247996:0507/010337.306404:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.lark_buzzpush_close, value: 1
+[247996:247996:0507/010337.306413:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.media_center.check_gpu_info, value: 1
+[247996:247996:0507/010337.306423:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.media_center.use_single_process_mode, value: 1
+[247996:247996:0507/010337.306433:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc_view_pic.async_launch_process, value: 1
+[247996:247996:0507/010337.306443:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc_view_pic.long_pic, value: 1
+[247996:247996:0507/010337.306452:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc_view_pic.mojo_disconnect_fallback, value: 1
+[247996:247996:0507/010337.306465:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc_view_pic.scan_qr_code, value: 1
+[247996:247996:0507/010337.306476:INFO:lark_feature_gating.cc(292)] [fg] fg changed: messenger.restricted.mode.screenshot.optimize, value: 1
+[247996:247996:0507/010337.306485:INFO:lark_feature_gating.cc(292)] [fg] fg changed: navigation.history.mvp, value: 1
+[247996:247996:0507/010337.306498:INFO:lark_feature_gating.cc(292)] [fg] fg changed: navigation.tab.menu, value: 1
+[247996:247996:0507/010337.306506:INFO:lark_feature_gating.cc(284)] [fg] initial fg: openplatform.applink.v3, value: 1
+[247996:247996:0507/010337.306514:INFO:lark_feature_gating.cc(284)] [fg] initial fg: pc.core.enable_quick_menu, value: 1
+[247996:247996:0507/010337.306523:INFO:lark_feature_gating.cc(284)] [fg] initial fg: pc.core.history_universal, value: 1
+[247996:247996:0507/010337.306531:INFO:lark_feature_gating.cc(284)] [fg] initial fg: pc.workplace.native, value: 1
+[247996:247996:0507/010337.306540:INFO:lark_feature_gating.cc(284)] [fg] initial fg: pc.workplace.nativex.jump_to_browser, value: 1
+[247996:247996:0507/010337.306549:INFO:lark_feature_gating.cc(284)] [fg] initial fg: pc.workplace.nativex.toolbar, value: 1
+[247996:247996:0507/010337.306557:INFO:lark_feature_gating.cc(284)] [fg] initial fg: pc.workplace.nativex.url_interceptor, value: 1
+[247996:247996:0507/010337.306566:INFO:lark_feature_gating.cc(284)] [fg] initial fg: pc_view_pic.detect_window_cover, value: 1
+[247996:247996:0507/010337.306574:INFO:lark_feature_gating.cc(284)] [fg] initial fg: suite_help_service, value: 1
+[247996:247996:0507/010337.306581:INFO:lark_feature_gating.cc(284)] [fg] initial fg: suite_join_function, value: 1
+[247996:247996:0507/010337.306589:INFO:lark_feature_gating.cc(284)] [fg] initial fg: suite_transfer_function, value: 1
+[247996:247996:0507/010337.306598:INFO:lark_feature_gating.cc(284)] [fg] initial fg: suite_vc, value: 1
+[247996:247996:0507/010337.306607:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.autoupdate.default_close, value: 0
+[247996:247996:0507/010337.306617:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.event.join_button, value: 0
+[247996:247996:0507/010337.306628:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.ocr.image_to_text, value: 0
+[247996:247996:0507/010337.306636:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.ocr.image_translation, value: 0
+[247996:247996:0507/010337.306645:INFO:lark_feature_gating.cc(292)] [fg] fg changed: core.pc.async_terminate_process, value: 0
+[247996:247996:0507/010337.306655:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.pc.linux_screenshot_use_screenrect, value: 0
+[247996:247996:0507/010337.306665:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.pc.screenshot.accessibility.prompt, value: 0
+[247996:247996:0507/010337.306675:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.pc.scrollingcapture_help, value: 0
+[247996:247996:0507/010337.306684:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.pc.webview_simple_net_log, value: 0
+[247996:247996:0507/010337.306692:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.pc_view_pic.applink.optimization, value: 0
+[247996:247996:0507/010337.306702:INFO:lark_feature_gating.cc(284)] [fg] initial fg: core.permission.reset-disabled, value: 0
+[247996:247996:0507/010337.306710:INFO:lark_feature_gating.cc(292)] [fg] fg changed: demo_feature, value: 0
+[247996:247996:0507/010337.306718:INFO:lark_feature_gating.cc(284)] [fg] initial fg: disable_fast_pb2json, value: 0
+[247996:247996:0507/010337.306729:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.client.update.support_close, value: 0
+[247996:247996:0507/010337.306738:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.content_plugin.capsule_button, value: 0
+[247996:247996:0507/010337.306748:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.disable_protocol_controller, value: 0
+[247996:247996:0507/010337.306758:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.linux.daohanglan_live, value: 0
+[247996:247996:0507/010337.306767:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.linux.daohanglan_miaoji, value: 0
+[247996:247996:0507/010337.306776:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.no_explicit_app_user_model_id, value: 0
+[247996:247996:0507/010337.306785:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.paging_url_whitelist.enable, value: 0
+[247996:247996:0507/010337.306800:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.pc.dns_pre_resolve, value: 0
+[247996:247996:0507/010337.306809:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.pc.enable_connection_strategy, value: 0
+[247996:247996:0507/010337.306818:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.pc.enable_js_worker_process_mode, value: 0
+[247996:247996:0507/010337.306827:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.pc.lark_apprelaunch_disable_cancel, value: 0
+[247996:247996:0507/010337.306837:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.pc.update_profile, value: 0
+[247996:247996:0507/010337.306845:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.pc.wants_mouse_events_when_inactive, value: 0
+[247996:247996:0507/010337.306855:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.pc.webview_net_throttle_fetch_data, value: 0
+[247996:247996:0507/010337.306864:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.use_team_v5.4, value: 0
+[247996:247996:0507/010337.306873:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.version_7_onboarding_new, value: 0
+[247996:247996:0507/010337.306882:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.core.windows_tray_msg_preview, value: 0
+[247996:247996:0507/010337.306891:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.enable_start_exception_check, value: 0
+[247996:247996:0507/010337.306905:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.helpdesk.employee.service.enable, value: 0
+[247996:247996:0507/010337.306915:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.i18n.force_mac_ui_language, value: 0
+[247996:247996:0507/010337.306925:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.iron.core.block_detect.enable, value: 0
+[247996:247996:0507/010337.306933:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.iron.core.crash_pad_init_opt.enable, value: 0
+[247996:247996:0507/010337.306942:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.iron.core.gpu_block_restart.enable, value: 0
+[247996:247996:0507/010337.306951:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.ka.dynamicres_disable_linux, value: 0
+[247996:247996:0507/010337.306960:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.ka.dynamicres_disable_timer_poll, value: 0
+[247996:247996:0507/010337.306969:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.ka.dynamicres_long_timer_poll, value: 0
+[247996:247996:0507/010337.306977:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.ka.dynamicres_mac_new_dock_icon, value: 0
+[247996:247996:0507/010337.306986:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.ka.enable_gecko_client_on_win_and_mac, value: 0
+[247996:247996:0507/010337.306995:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.leanmode.turn_on_all_device_switch, value: 0
+[247996:247996:0507/010337.307004:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.messenger.mosaic.optimization, value: 0
+[247996:247996:0507/010337.307013:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.navigation.allowed_page_content_extra_url_params, value: 0
+[247996:247996:0507/010337.307022:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.navigation.content_add_theme_params, value: 0
+[247996:247996:0507/010337.307032:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.navigation.converticon, value: 0
+[247996:247996:0507/010337.307041:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.navigation.disable_temp_tab_delete_official, value: 0
+[247996:247996:0507/010337.307050:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.navigation.guide, value: 0
+[247996:247996:0507/010337.307058:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.navigation.openplatform.entry, value: 0
+[247996:247996:0507/010337.307067:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.navigation.pc_recent, value: 0
+[247996:247996:0507/010337.307076:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.navigation.tab_group_scroll_sep_layer, value: 0
+[247996:247996:0507/010337.307084:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.accessibility, value: 0
+[247996:247996:0507/010337.307097:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.allow_breakpoint_resuming, value: 0
+[247996:247996:0507/010337.307106:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.allow_seperate_process, value: 0
+[247996:247996:0507/010337.307114:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.allow_update_card, value: 0
+[247996:247996:0507/010337.307122:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.allow_update_check_filelist, value: 0
+[247996:247996:0507/010337.307131:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.allow_update_release_url, value: 0
+[247996:247996:0507/010337.307139:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.allow_update_unzip_by_exe, value: 0
+[247996:247996:0507/010337.307148:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.allow_update_unzip_in_root, value: 0
+[247996:247996:0507/010337.307156:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.confirm_reset_permissions, value: 0
+[247996:247996:0507/010337.307165:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_arch_mismatch_alert, value: 0
+[247996:247996:0507/010337.307174:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_check_icon_md5, value: 0
+[247996:247996:0507/010337.307182:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_check_update_files, value: 0
+[247996:247996:0507/010337.307190:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_confirm_relaunch, value: 0
+[247996:247996:0507/010337.307199:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_force_update, value: 0
+[247996:247996:0507/010337.307207:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_kill_appdir_process, value: 0
+[247996:247996:0507/010337.307216:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_kill_datadir_process, value: 0
+[247996:247996:0507/010337.307224:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_real_progress, value: 0
+[247996:247996:0507/010337.307233:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_repair_mac_auto_launch, value: 0
+[247996:247996:0507/010337.307242:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_repair_mac_dock_icons, value: 0
+[247996:247996:0507/010337.307251:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_report_dir_info, value: 0
+[247996:247996:0507/010337.307262:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_run_task_schedule, value: 0
+[247996:247996:0507/010337.307271:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_update_check_url, value: 0
+[247996:247996:0507/010337.307283:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_update_doc_guide, value: 0
+[247996:247996:0507/010337.307293:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_update_morpheus_query, value: 0
+[247996:247996:0507/010337.307301:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_update_regedit_uac, value: 0
+[247996:247996:0507/010337.307310:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_update_rsa_path_log, value: 0
+[247996:247996:0507/010337.307319:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallow_watchdog, value: 0
+[247996:247996:0507/010337.307327:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate.disallowed_privilege_tasks, value: 0
+[247996:247996:0507/010337.307335:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.appupdate_disallow_bundleid_change_restart_alert, value: 0
+[247996:247996:0507/010337.307344:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.backend_crash_check_enable, value: 0
+[247996:247996:0507/010337.307358:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.block_detect_report_disk_info.enable, value: 0
+[247996:247996:0507/010337.307367:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.block_richdump.enable, value: 0
+[247996:247996:0507/010337.307376:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.bspatch_nakamoto, value: 0
+[247996:247996:0507/010337.307384:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.bspatch_nakamoto_fallback, value: 0
+[247996:247996:0507/010337.307392:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.cdr.long, value: 0
+[247996:247996:0507/010337.307400:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.chunky_upload, value: 0
+[247996:247996:0507/010337.307407:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.core.focus_only_window_actived_disabled, value: 0
+[247996:247996:0507/010337.307416:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.core.optimize_menu_avatar, value: 0
+[247996:247996:0507/010337.307424:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.core.use_aura_window_disabled, value: 0
+[247996:247996:0507/010337.307432:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.core.use_watermark_check_disabled, value: 0
+[247996:247996:0507/010337.307441:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.crash_fulldump.enable, value: 0
+[247996:247996:0507/010337.307448:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.crash_richdump.enable, value: 0
+[247996:247996:0507/010337.307456:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.custom.resource.proxy, value: 0
+[247996:247996:0507/010337.307464:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.dev_tab, value: 0
+[247996:247996:0507/010337.307472:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.devtools.enable, value: 0
+[247996:247996:0507/010337.307479:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable-webkit-app-region, value: 0
+[247996:247996:0507/010337.307487:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable.forceupdatestateonfocus, value: 0
+[247996:247996:0507/010337.307496:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable.modal_close_focus_parent_mac, value: 0
+[247996:247996:0507/010337.307504:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable.new_page_webview_forward_event_rule, value: 0
+[247996:247996:0507/010337.307513:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable.ng_shape_text_optimize, value: 0
+[247996:247996:0507/010337.307521:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable.resize_window_on_display_changed, value: 0
+[247996:247996:0507/010337.307530:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable.scrollnodecheck, value: 0
+[247996:247996:0507/010337.307538:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable.shellapi.nativehandlermap, value: 0
+[247996:247996:0507/010337.307546:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable.touchbar_emoji, value: 0
+[247996:247996:0507/010337.307554:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_accessibility_report, value: 0
+[247996:247996:0507/010337.307564:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_ip_address_observer, value: 0
+[247996:247996:0507/010337.307572:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_new_avatar_button, value: 0
+[247996:247996:0507/010337.307580:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_passport_get_lean_mode_config, value: 0
+[247996:247996:0507/010337.307589:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_passport_new_cookie, value: 0
+[247996:247996:0507/010337.307597:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_passport_switch_identity_new_version, value: 0
+[247996:247996:0507/010337.307606:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_set_env_try_local, value: 0
+[247996:247996:0507/010337.307619:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_setcursor_when_touch_hovermenu_win, value: 0
+[247996:247996:0507/010337.307627:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_sidebar_resizebar_set_visible, value: 0
+[247996:247996:0507/010337.307636:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_strict_device_id, value: 0
+[247996:247996:0507/010337.307644:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_tab_mouse_event, value: 0
+[247996:247996:0507/010337.307652:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_tabbar_scroll_docking, value: 0
+[247996:247996:0507/010337.307660:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_tabbar_scroll_hover_show, value: 0
+[247996:247996:0507/010337.307668:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_track_get_focus_v2, value: 0
+[247996:247996:0507/010337.307676:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_transparent_window_recognition, value: 0
+[247996:247996:0507/010337.307684:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disable_view_accessibility, value: 0
+[247996:247996:0507/010337.307692:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.disableshowtray, value: 0
+[247996:247996:0507/010337.307701:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.animatescroll, value: 0
+[247996:247996:0507/010337.307709:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.imeclearprevious, value: 0
+[247996:247996:0507/010337.307717:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.jankmonitor, value: 0
+[247996:247996:0507/010337.307725:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.prefercompositingtolcdtext, value: 0
+[247996:247996:0507/010337.307733:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.screen_lock_state_check_by_thread, value: 0
+[247996:247996:0507/010337.307742:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.user_data_instance, value: 0
+[247996:247996:0507/010337.307749:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable.watermark_no_window, value: 0
+[247996:247996:0507/010337.307758:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_dynamic_switches, value: 0
+[247996:247996:0507/010337.307767:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_login_status_watcher, value: 0
+[247996:247996:0507/010337.307776:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_new_secsdk, value: 0
+[247996:247996:0507/010337.307783:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_open_web_unittest_view, value: 0
+[247996:247996:0507/010337.307791:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_persistent_connection_toast, value: 0
+[247996:247996:0507/010337.307800:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_restart_gpu_process_because_of_render_process_gone, value: 0
+[247996:247996:0507/010337.307810:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_shellapi_block_strategy, value: 0
+[247996:247996:0507/010337.307818:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.enable_tea_failed_retry, value: 0
+[247996:247996:0507/010337.307827:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_visualeffect, value: 0
+[247996:247996:0507/010337.307835:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.enable_wifi_info_macos12_switch, value: 0
+[247996:247996:0507/010337.307843:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.gecko_plugin_manager_mac, value: 0
+[247996:247996:0507/010337.307851:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.gecko_plugin_manager_win, value: 0
+[247996:247996:0507/010337.307859:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.gecko_report_ccm_status, value: 0
+[247996:247996:0507/010337.307867:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.gecko_sdk_adopt_dynamic_domain_fallback, value: 0
+[247996:247996:0507/010337.307880:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.gecko_sdk_host_url_fallback, value: 0
+[247996:247996:0507/010337.307889:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.gecko_sdk_use_dynamic_host, value: 0
+[247996:247996:0507/010337.307897:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.ignore_lock_screen_block.enable, value: 0
+[247996:247996:0507/010337.307906:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.lark_disable_offline_resource_optimize, value: 0
+[247996:247996:0507/010337.307914:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.lark_disable_shellapi_readfile_optimize, value: 0
+[247996:247996:0507/010337.307923:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.lark_disable_title_bar_avatar_medal, value: 0
+[247996:247996:0507/010337.307931:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.lark_runtime_unittest, value: 0
+[247996:247996:0507/010337.307939:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.logout_weak_network_optimization, value: 0
+[247996:247996:0507/010337.307947:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.mac_fullscreen_disable_toolbar_covered, value: 0
+[247996:247996:0507/010337.307956:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.main_window_enable_hide_deactivate, value: 0
+[247996:247996:0507/010337.307965:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.modal.delay.close, value: 0
+[247996:247996:0507/010337.307973:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.navigation.native-online-res.enable, value: 0
+[247996:247996:0507/010337.307981:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.open_url.use_fallback, value: 0
+[247996:247996:0507/010337.307989:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.pano.tab, value: 0
+[247996:247996:0507/010337.307996:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.perf_graph_new, value: 0
+[247996:247996:0507/010337.308004:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.recordgc.enable, value: 0
+[247996:247996:0507/010337.308011:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.reduce_permission_fail_tips_enable, value: 0
+[247996:247996:0507/010337.308020:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.reduce_permission_restart_enable, value: 0
+[247996:247996:0507/010337.308029:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.report_dump.disable, value: 0
+[247996:247996:0507/010337.308037:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.report_gpu_usage.enable, value: 0
+[247996:247996:0507/010337.308045:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.safe_img_request_enable, value: 0
+[247996:247996:0507/010337.308052:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.sandboxfs.urlloader, value: 0
+[247996:247996:0507/010337.308060:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.screenshot_auto_switch_top_window, value: 0
+[247996:247996:0507/010337.308068:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.screenshot_optimization, value: 0
+[247996:247996:0507/010337.308076:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.screenshot_out_process, value: 0
+[247996:247996:0507/010337.308083:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.screenshot_security_audit, value: 0
+[247996:247996:0507/010337.308091:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.secsdk.enable, value: 0
+[247996:247996:0507/010337.308098:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.shortcut_prevent_web_double_pressed, value: 0
+[247996:247996:0507/010337.308107:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.shortcutkey_disable_batch_update, value: 0
+[247996:247996:0507/010337.308115:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.shortcutkey_presentation_disable_check, value: 0
+[247996:247996:0507/010337.308123:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.show_timezone_tips_when_offset_change, value: 0
+[247996:247996:0507/010337.308132:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.slardar_quality_report.enable, value: 0
+[247996:247996:0507/010337.308145:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.tea_upload_strategy, value: 0
+[247996:247996:0507/010337.308153:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.tray_and_notify.disable_close_all_delivered_notifications, value: 0
+[247996:247996:0507/010337.308162:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.tray_and_notify.fix_win_tray_block, value: 0
+[247996:247996:0507/010337.308171:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.tray_and_notify.mac_tray_menu_new, value: 0
+[247996:247996:0507/010337.308179:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.tray_and_notify.tray_use_avatar, value: 0
+[247996:247996:0507/010337.308187:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.use_vesdk_from_plugin, value: 0
+[247996:247996:0507/010337.308195:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.verify_device_uuid, value: 0
+[247996:247996:0507/010337.308204:INFO:lark_feature_gating.cc(292)] [fg] fg changed: lark.pc.windows_shrink, value: 0
+[247996:247996:0507/010337.308212:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.pc.workplace.memory, value: 0
+[247996:247996:0507/010337.308219:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.search.click.universal.disabled, value: 0
+[247996:247996:0507/010337.308230:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.use_vulcan_lite, value: 0
+[247996:247996:0507/010337.308237:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.user.sync_info, value: 0
+[247996:247996:0507/010337.308245:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.vulcan.disable_lite_mode, value: 0
+[247996:247996:0507/010337.308253:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.vulcan.disable_vulcan_lite_by_force, value: 0
+[247996:247996:0507/010337.308261:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.vulcan.enable_vulcan_lite_by_force, value: 0
+[247996:247996:0507/010337.308269:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark.workplace.workflow_optimize, value: 0
+[247996:247996:0507/010337.308277:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lark_use_vulcan_as_fallback_browser, value: 0
+[247996:247996:0507/010337.308285:INFO:lark_feature_gating.cc(284)] [fg] initial fg: lpa.mutiwindows.mvp, value: 0
+[247996:247996:0507/010337.308292:INFO:lark_feature_gating.cc(284)] [fg] initial fg: message.webview_net_throttle, value: 0
+[247996:247996:0507/010337.308300:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messager.pc.detect_vpn, value: 0
+[247996:247996:0507/010337.308308:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.history_manager.disable_sqlite, value: 0
+[247996:247996:0507/010337.308316:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.history_manager.use_containerization, value: 0
+[247996:247996:0507/010337.308325:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.leanmode.privacymode, value: 0
+[247996:247996:0507/010337.308333:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc.enable.uigpurasterization, value: 0
+[247996:247996:0507/010337.308341:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc.net_core_network_change_log, value: 0
+[247996:247996:0507/010337.308349:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc.recordscreen, value: 0
+[247996:247996:0507/010337.308357:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc.scrollingcapture, value: 0
+[247996:247996:0507/010337.308364:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc.websocket_context_log, value: 0
+[247996:247996:0507/010337.308372:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc_view_pic.disable_delay_decode, value: 0
+[247996:247996:0507/010337.308381:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc_view_pic.disable_gpu_rasterzation, value: 0
+[247996:247996:0507/010337.308389:INFO:lark_feature_gating.cc(284)] [fg] initial fg: messenger.pc_view_pic.multi_process_mode, value: 0
+[247996:247996:0507/010337.308402:INFO:lark_feature_gating.cc(284)] [fg] initial fg: mvp_test_key, value: 0
+[247996:247996:0507/010337.308409:INFO:lark_feature_gating.cc(284)] [fg] initial fg: native.syncdisk.enable, value: 0
+[247996:247996:0507/010337.308416:INFO:lark_feature_gating.cc(284)] [fg] initial fg: openplatform.app_center.multi_tab, value: 0
+[247996:247996:0507/010337.308425:INFO:lark_feature_gating.cc(284)] [fg] initial fg: pc.workplace.nativex.open_in_browser, value: 0
+[247996:247996:0507/010337.308433:INFO:lark_feature_gating.cc(284)] [fg] initial fg: pc.workplace.nativex.sidebar, value: 0
+[247996:247996:0507/010337.308441:INFO:lark_feature_gating.cc(284)] [fg] initial fg: pin.single.tab, value: 0
+[247996:248003:0507/010337.418082:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x56f00eec2d70) render pass id=385 output_rect=0,0 3170x2048
+  (0x56f00e3f09f0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3170x2048
+    (0x7e1ed03d4ab0) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[247996:248003:0507/010337.893519:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x7e1f00039a20) render pass id=385 output_rect=0,0 3170x2048
+  (0x56f00e3f09f0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3170x2048
+    (0x7e1ed03d4ab0) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[247996:248003:0507/010338.036040:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x7e1f00039a20) render pass id=385 output_rect=0,0 3170x2048
+  (0x56f00e3f09f0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3170x2048
+    (0x7e1ed03d4ab0) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[247996:248003:0507/010338.107713:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x7e1f00039a20) render pass id=385 output_rect=0,0 3170x2048
+  (0x56f00e3f09f0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3170x2048
+    (0x7e1ed03d4ab0) SolidColorDrawQuad color=rgba(248, 249, 250, 255)
+
+[247996:248003:0507/010338.692063:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x56f00efb2870) render pass id=385 output_rect=0,0 3170x2048
+  (0x56f00e3f09f0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3170x2048
+    (0x7e1ed03d4ab0) SolidColorDrawQuad color=rgba(248, 249, 250, 255)
+
+[247996:247996:0507/010339.107349:INFO:ap_impl.cc(340)] [TOWEL][APImpl::CreateConnection] for source_id 16
+[247996:248003:0507/010339.126334:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x56f00efb2870) render pass id=385 output_rect=0,0 3170x2048
+  (0x56f00e3f09f0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3170x2048
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+
+[247996:248003:0507/010339.126401:INFO:tree_paint_watcher_impl.cc(48)] [blank paint check]: SetNeedProcess: 0
+[247996:247996:0507/010339.128562:INFO:apollo_ap_impl.cc(227)] [TOWEL][ApolloAPImpl::OnConnectionCreated] connect success, apollo_id 16, target_apollo_id 7, target_ap_id 2
+[247996:247996:0507/010344.575638:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[247996:248003:0507/010344.576442:INFO:features.cc(17)] IsReportScrollMetricsEnabled: 0
+[247996:248003:0507/010344.576586:WARNING:compositor_service_impl.cc(40)] Scroll metrics reporter is not enabled.
+[247996:247996:0507/010344.604051:INFO:render_frame_impl.cc(4130)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[247996:247996:0507/010344.605848:INFO:frame_facade_renderer_client.cc(78)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[247996:247996:0507/010344.605897:INFO:permission_manager_impl.cc(25)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 5
+[247996:247996:0507/010344.605905:INFO:shellapi_render_frame_extension.cc(138)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge for world 0
+[247996:247996:0507/010344.605975:INFO:shellapi_render_frame_extension.cc(185)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[247996:247996:0507/010344.624471:INFO:neotix_shell_api_extension.cc(193)] [InjectExternalCode] execute script result: 1
+[247996:247996:0507/010344.639209:ERROR:utils.cc(85)] [ShellAPI][CallJSFunction] failed, execute func failed 
+[247996:247996:0507/010344.645267:INFO:render_frame_impl.cc(2371)] [MOR_Shell] RenderFrameImpl::GetAPFromHost, bind ap for RenderFrameHost
+[247996:247996:0507/010344.645326:INFO:ap_impl.cc(25)] [TOWEL][APImpl::APImpl] create ap id is 1092246216
+[247996:247996:0507/010344.645332:INFO:ap_impl.cc(30)] [TOWEL][APImpl] register to master, current id is 1092246216
+[247996:247996:0507/010344.645353:INFO:ap_impl.cc(47)] [TOWEL][APImpl] register to host, current id is 1092246216
+[247996:247996:0507/010344.645371:INFO:apollo_ap_impl.cc(29)] [TOWEL][ApolloAPImpl::Construtor]
+[247996:247996:0507/010344.645387:INFO:ap_impl.cc(340)] [TOWEL][APImpl::CreateConnection] for source_id 7
+[247996:247996:0507/010344.649661:INFO:ap_impl.cc(395)] [TOWEL][APImpl::OnAddToMaster] real_id is 4, fake_id is 1092246216
+[247996:247996:0507/010344.649682:INFO:ap_impl.cc(589)] [TOWEL][APImpl::ListensEvents] start, ap_id= 4
+[247996:247996:0507/010344.649686:INFO:ap_impl.cc(591)] [TOWEL][APImpl::ListensEvents] no pending_listen_requests_, do nothing
+[247996:247996:0507/010344.649696:INFO:apollo_ap_impl.cc(245)] [TOWEL][ApolloAPImpl::OnGetApolloId] apollo_id 17
+[247996:247996:0507/010344.649857:INFO:apollo_ap_impl.cc(227)] [TOWEL][ApolloAPImpl::OnConnectionCreated] connect success, apollo_id 7, target_apollo_id 17, target_ap_id 1092246216
+[247996:247996:0507/010344.656153:INFO:ap_impl.cc(496)] [TOWEL][APImpl::OnGetAllProviders] ap_id 4 provider size 2
+[247996:247996:0507/010344.656242:INFO:ap_impl.cc(505)] [TOWEL][APImpl::OnGetAllProviders] add provider backend
+[247996:247996:0507/010344.656266:INFO:ap_impl.cc(505)] [TOWEL][APImpl::OnGetAllProviders] add provider monitor
+[247996:247996:0507/010344.672478:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=1
+[247996:248003:0507/010344.673367:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x7e1ed03ba420) render pass id=385 output_rect=0,0 3170x2048
+  (0x7e1ed0006ef0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3170x2048
+    (0x7e1ed03d4ab0) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[247996:247996:0507/010344.674241:INFO:ap_impl.cc(515)] [TOWEL][APImpl::OnGetProviderMetaInfo] ap_id 4 provider backend
+[247996:247996:0507/010344.674252:INFO:ap_impl.cc(525)] [TOWEL][APImpl::OnGetProviderMetaInfo] update meta info for backend method_list is ShellAPI::internal::app::logNoReturn|ShellAPI::app::sdk::invokeAsyncFast|ShellAPI::app::sdk::invokeAsync|postgateway|LarkAPI::internal::transport::callRustApi|backend::GET_AUTH_INFO|backend::INVOKE_ASYNC, event_list is backend::LOGIN_SUCCESS|backend::LOGIN_FAILED|backend::PASSPORT_SWITCH_TENANT_SUCCESS|backend::PUSH_USER_SETTINGS_UPDATED
+[247996:247996:0507/010344.674280:INFO:ap_impl.cc(515)] [TOWEL][APImpl::OnGetProviderMetaInfo] ap_id 4 provider monitor
+[247996:247996:0507/010344.674284:INFO:ap_impl.cc(525)] [TOWEL][APImpl::OnGetProviderMetaInfo] update meta info for monitor method_list is ShellAPI::app::monitor::monitorEvent|reportDumpUtility|monitorEventUtility|LarkAPI::internal::slardar::sendEvents|LarkAPI::internal::tea::trackNoReturn, event_list is 
+[247996:247996:0507/010344.677151:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[247996:247996:0507/010344.697942:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[247996:248003:0507/010344.701484:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x7e1ed03ba420) render pass id=385 output_rect=0,0 3170x2048
+  (0x56f00e3f09f0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3170x2048
+    DrawQuad, material: kTiledContent
+  (0x56f00e3f0b68) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3170x2048
+    (0x7e1ed03d4bb8) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[247996:248003:0507/010344.823838:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x56f00eec3fe0) render pass id=385 output_rect=0,0 3170x2048
+  (0x56f00e3f09f0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3170x2048
+    DrawQuad, material: kTiledContent
+  (0x56f00e3f0b68) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3170x2048
+    (0x7e1ed03d4bb8) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[247996:248003:0507/010344.871144:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x56f00eec3fe0) render pass id=385 output_rect=0,0 3170x2048
+  (0x56f00e3f09f0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3170x2048
+    DrawQuad, material: kTiledContent
+  (0x56f00e3f0b68) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3170x2048
+    (0x7e1ed03d4bb8) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[247996:248003:0507/010344.896105:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x7e1ed0026470) render pass id=385 output_rect=0,0 3170x2048
+  (0x7e1ed0006ef0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3170x2048
+    (0x7e1ed03d4ab0) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[247996:247996:0507/010344.903537:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[247996:247996:0507/010344.904394:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[247996:248003:0507/010344.927969:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 718437 385
+rooted render pass tree:
+(0x7e1ed0026470) render pass id=385 output_rect=0,0 3170x2048
+  (0x56f00e3f09f0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3170x68
+    (0x7e1ed0169de0) CompositorRenderPassDrawQuad
+      (0x56f00eec3fe0) render pass id=718437 output_rect=0,0 3170x68
+        (0x7e1ed0006ef0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3170x68
+          DrawQuad, material: kTiledContent
+  (0x56f00e3f0b68) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3170x2048
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+
+[247996:247996:0507/010344.931386:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[247996:247996:0507/010344.933873:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[247996:248003:0507/010346.102369:WARNING:picture_layer_impl.cc(537)] Tile is checkerboard: id: 398, bounds: 3170x2048, visible_layer_rect: 0,0 3170x2048, offset_visible_geometry_rect: 0,0 3170x2048, visible_geometry_area: 6492160, color: 0xfffcfcfc
+[247996:247996:0507/010346.105942:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[0], extent: @offsetInAnchor[0]),0
+[247996:247996:0507/010346.107474:INFO:dom_selection.cc(259)] [ime-renderer] Selection.collapse:1
+[247996:247996:0507/010346.113322:INFO:document.cc(5207)] [ime-renderer]focus_element_changed:1,33,1991 2855x22,kScript"zone-container editor-kit-container innerdocbody notranslate chrome chrome88"
+[247996:247996:0507/010346.115141:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=6,enable-state=1
+[247996:247996:0507/010346.117472:INFO:widget_base.cc(1089)] [ime-renderer]text_input_state:
+type=15,flags=544,selection={18,18},composition=,can_compose_inline=1,show_ime_if_needed=0,always_hide_ime=0,edit_context_control_bounds=33,1991 2855x22
+[247996:247996:0507/010346.840301:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[247996:247996:0507/010346.910130:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[247996:248003:0507/010346.910478:INFO:features.cc(17)] IsReportScrollMetricsEnabled: 0
+[247996:248003:0507/010346.910534:WARNING:compositor_service_impl.cc(40)] Scroll metrics reporter is not enabled.
+[247996:247996:0507/010346.912774:INFO:render_frame_impl.cc(4130)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[247996:247996:0507/010346.913832:INFO:frame_facade_renderer_client.cc(78)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[247996:247996:0507/010346.913843:INFO:permission_manager_impl.cc(25)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 5
+[247996:247996:0507/010346.913848:INFO:shellapi_render_frame_extension.cc(138)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge for world 0
+[247996:247996:0507/010346.913876:INFO:shellapi_render_frame_extension.cc(185)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[247996:247996:0507/010346.930611:INFO:neotix_shell_api_extension.cc(193)] [InjectExternalCode] execute script result: 1
+[247996:247996:0507/010347.097168:ERROR:ap_impl.cc(534)] [TOWEL][APImpl::OnHostDisconnected] lose connection with host, ap_id: 4, reason 0, message 
+[247996:247996:0507/010347.097190:INFO:ap_impl.cc(559)] [TOWEL][APImpl::ResetHost] start
+[247996:247996:0507/010347.097213:INFO:ap_impl.cc(570)] [TOWEL][APImpl::ResetHost] end
+[247996:247996:0507/010347.097222:INFO:client_impl.cc(85)] [ShellAPI][ClientImpl::OnServerDisconnect] reason 0, message 
+[247996:247996:0507/010347.097232:INFO:shellapi_render_frame_extension.cc(94)] [ShellAPI][ShellAPIRenderFrameExtension::OnServerDisconnect] reconnect host start
+[247996:247996:0507/010347.097242:INFO:shellapi_render_frame_extension.cc(108)] [ShellAPI][ShellAPIRenderFrameExtension::OnServerDisconnect] reconnect end
+[247996:247996:0507/010347.098106:ERROR:utils.cc(85)] [ShellAPI][CallJSFunction] failed, execute func failed 
+[247996:247996:0507/010347.117348:INFO:ap_impl.cc(468)] [TOWEL][APImpl::OnRemteAPDisconnect] ap_id 1092246216 reason: 0 description 
+[247996:247996:0507/010347.117454:INFO:apollo_ap_impl.cc(54)] [TOWEL][ApolloAPImpl::OnRemoteAPDisconnect] remote_apollo_id 17, current_apollo_id 7
+[247996:247996:0507/010347.158429:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=1
+[247996:248003:0507/010347.158771:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 385
+rooted render pass tree:
+(0x7e1f000b9b70) render pass id=385 output_rect=0,0 3624x2048
+  (0x7e1f00031340) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3624x2048
+    (0x7e1ed03d4ab0) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[248965:248965:0507/010348.080038:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[248965:248983:0507/010348.082087:INFO:features.cc(17)] IsReportScrollMetricsEnabled: 0
+[248965:248983:0507/010348.082266:WARNING:compositor_service_impl.cc(40)] Scroll metrics reporter is not enabled.
+[248965:248965:0507/010348.082481:INFO:v8_enhance_functions.cc(27)] [ShellAPI][SetDelegateGuardIfNeeded] func set
+[247866:247866:0507/010348.334275:INFO:gpu_channel_manager.cc(481)] EstablishChannel gpu_channel_optimization 1
+[248965:248965:0507/010348.335440:INFO:render_frame_impl.cc(4130)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[248965:248965:0507/010348.338139:INFO:features.cc(53)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIJSBPermission is 0
+[248965:248965:0507/010348.338153:INFO:frame_facade_renderer_client.cc(78)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[248965:248965:0507/010348.338160:INFO:permission_manager_impl.cc(25)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 5
+[248965:248965:0507/010348.338165:INFO:shellapi_render_frame_extension.cc(138)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge for world 0
+[248965:248965:0507/010348.338232:INFO:shellapi_render_frame_extension.cc(185)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[248965:248965:0507/010348.376959:INFO:utils.cc(169)] [InitLarkAPIUseSharedMemorySwitch] switch is 0
+[248965:248965:0507/010348.390219:INFO:neotix_shell_api_extension.cc(193)] [InjectExternalCode] execute script result: 1
+[248965:248965:0507/010348.397774:ERROR:utils.cc(85)] [ShellAPI][CallJSFunction] failed, execute func failed 
+[249019:249019:0507/010348.407601:ERROR:lark_monitor.cc(976)] CrashpadClientInit no server name specified forrenderer
+[249019:249019:0507/010348.407638:WARNING:chrome_main_delegate.cc(334)] process type 'renderer' should be created through the zygote.
+[249019:249019:0507/010348.407700:INFO:frame_host.cc(1089)] #### Lark (renderer) Startup #### cmd:  --browser-runtime --no-sandbox --no-zygote --type=renderer
+[249019:249019:0507/010348.407707:INFO:frame_host.cc(1091)] IsBrowserRuntime:1
+[249019:249019:0507/010348.419272:INFO:renderer_histogram_report_provider.cc(16)]  report memory cache hit feature disable
+[249019:249019:0507/010348.419308:INFO:renderer_histogram_report_provider.cc(92)] feature disabled: kEnableScrollingMetricsReporting
+[249019:249019:0507/010348.419323:INFO:histogram_signal_handler.cc(62)] feature: kEnableHistogramSubsample = 1
+[249019:249019:0507/010348.419683:INFO:utils.cc(203)] [InitManifestSharedMemoryReadRetrySwitch] switch is 0
+[249019:249019:0507/010348.425792:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: docs, size: 3
+[249019:249019:0507/010348.425822:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: drive, size: 1
+[249019:249019:0507/010348.425828:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: docs_home, size: 1
+[249019:249019:0507/010348.425832:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: docs_drive, size: 1
+[249019:249019:0507/010348.425836:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: suite_safetynet, size: 1
+[249019:249019:0507/010348.425841:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: passport, size: 1
+[249019:249019:0507/010348.425845:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: approval, size: 2
+[249019:249019:0507/010348.425856:INFO:frame_facade_renderer_client.cc(165)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[249019:249019:0507/010348.425863:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: bytedance.net
+[249019:249019:0507/010348.425868:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[249019:249019:0507/010348.426991:INFO:frame_facade_renderer_client.cc(149)] [FrameFacadeRendererClient::OnGetDomains] domains size is 7
+[249019:249019:0507/010348.426999:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: approval, size: 2
+[249019:249019:0507/010348.427004:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: docs, size: 3
+[249019:249019:0507/010348.427015:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_drive, size: 1
+[249019:249019:0507/010348.427019:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_home, size: 1
+[249019:249019:0507/010348.427023:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: drive, size: 1
+[249019:249019:0507/010348.427027:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: passport, size: 1
+[249019:249019:0507/010348.427030:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: suite_safetynet, size: 1
+[249019:249019:0507/010348.427034:INFO:frame_facade_renderer_client.cc(165)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[249019:249019:0507/010348.427040:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: bytedance.net
+[249019:249019:0507/010348.427045:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[248965:248965:0507/010348.540511:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=1
+[248965:248983:0507/010348.547279:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 897
+rooted render pass tree:
+(0x7d6250024a00) render pass id=897 output_rect=0,0 3624x2048
+  (0x7d6250006f00) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3624x2048
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+
+[248965:248983:0507/010348.547343:INFO:tree_paint_watcher_impl.cc(48)] [blank paint check]: SetNeedProcess: 0
+[247866:247866:0507/010348.628884:INFO:gpu_channel_manager.cc(481)] EstablishChannel gpu_channel_optimization 1
+[249019:249019:0507/010348.635013:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[249019:249028:0507/010348.637084:INFO:features.cc(17)] IsReportScrollMetricsEnabled: 0
+[249019:249028:0507/010348.637354:WARNING:compositor_service_impl.cc(40)] Scroll metrics reporter is not enabled.
+[249019:249019:0507/010348.637662:INFO:v8_enhance_functions.cc(27)] [ShellAPI][SetDelegateGuardIfNeeded] func set
+[249019:249019:0507/010348.645216:INFO:render_frame_impl.cc(4130)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[249019:249019:0507/010348.650018:INFO:features.cc(53)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIJSBPermission is 0
+[249019:249019:0507/010348.650066:INFO:frame_facade_renderer_client.cc(78)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[249019:249019:0507/010348.650082:INFO:permission_manager_impl.cc(25)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 5
+[249019:249019:0507/010348.650093:INFO:shellapi_render_frame_extension.cc(138)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge for world 0
+[249019:249019:0507/010348.650223:INFO:shellapi_render_frame_extension.cc(185)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[249019:249019:0507/010348.692272:INFO:utils.cc(169)] [InitLarkAPIUseSharedMemorySwitch] switch is 0
+[249019:249019:0507/010348.701214:INFO:neotix_shell_api_extension.cc(193)] [InjectExternalCode] execute script result: 1
+[249038:249038:0507/010348.704890:ERROR:lark_monitor.cc(976)] CrashpadClientInit no server name specified forrenderer
+[249038:249038:0507/010348.705004:WARNING:chrome_main_delegate.cc(334)] process type 'renderer' should be created through the zygote.
+[249038:249038:0507/010348.705238:INFO:frame_host.cc(1089)] #### Lark (renderer) Startup #### cmd:  --browser-runtime --no-sandbox --no-zygote --type=renderer
+[249038:249038:0507/010348.705312:INFO:frame_host.cc(1091)] IsBrowserRuntime:1
+[249019:249019:0507/010348.705724:ERROR:utils.cc(85)] [ShellAPI][CallJSFunction] failed, execute func failed 
+[249019:249019:0507/010348.707785:INFO:features.cc(65)] [ShellAPI][SWITCH_GETTER] switch for ShellAPINewDirectCall is 0
+[249019:249019:0507/010348.707817:INFO:features.cc(59)] [ShellAPI][SWITCH_GETTER] switch for ShellAPINewTunnel is 0
+[249038:249038:0507/010348.718963:INFO:renderer_histogram_report_provider.cc(16)]  report memory cache hit feature disable
+[249038:249038:0507/010348.718990:INFO:renderer_histogram_report_provider.cc(92)] feature disabled: kEnableScrollingMetricsReporting
+[249038:249038:0507/010348.719001:INFO:histogram_signal_handler.cc(62)] feature: kEnableHistogramSubsample = 1
+[249038:249038:0507/010348.719287:INFO:utils.cc(203)] [InitManifestSharedMemoryReadRetrySwitch] switch is 0
+[249038:249038:0507/010348.726476:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: docs, size: 3
+[249038:249038:0507/010348.726505:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: drive, size: 1
+[249038:249038:0507/010348.726511:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: docs_home, size: 1
+[249038:249038:0507/010348.726516:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: docs_drive, size: 1
+[249038:249038:0507/010348.726522:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: suite_safetynet, size: 1
+[249038:249038:0507/010348.726528:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: passport, size: 1
+[249038:249038:0507/010348.726533:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: approval, size: 2
+[249038:249038:0507/010348.726547:INFO:frame_facade_renderer_client.cc(165)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[249038:249038:0507/010348.726555:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: bytedance.net
+[249038:249038:0507/010348.726561:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[249038:249038:0507/010348.728138:INFO:frame_facade_renderer_client.cc(149)] [FrameFacadeRendererClient::OnGetDomains] domains size is 7
+[249038:249038:0507/010348.728152:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: approval, size: 2
+[249038:249038:0507/010348.728158:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: docs, size: 3
+[249038:249038:0507/010348.728163:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_drive, size: 1
+[249038:249038:0507/010348.728168:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_home, size: 1
+[249038:249038:0507/010348.728173:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: drive, size: 1
+[249038:249038:0507/010348.728178:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: passport, size: 1
+[249038:249038:0507/010348.728182:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: suite_safetynet, size: 1
+[249038:249038:0507/010348.728188:INFO:frame_facade_renderer_client.cc(165)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[249038:249038:0507/010348.728196:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: bytedance.net
+[249038:249038:0507/010348.728210:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[249019:249019:0507/010348.745701:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=1
+[249019:249028:0507/010348.746274:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 289
+rooted render pass tree:
+(0x79a6140209e0) render pass id=289 output_rect=0,0 3624x2008
+  (0x79a614006ed0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3624x2008
+    (0x79a614020bd0) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[248965:248965:0507/010349.186314:INFO:features.cc(65)] [ShellAPI][SWITCH_GETTER] switch for ShellAPINewDirectCall is 0
+[248965:248965:0507/010349.186348:INFO:features.cc(59)] [ShellAPI][SWITCH_GETTER] switch for ShellAPINewTunnel is 0
+[249019:249028:0507/010349.233720:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 289
+rooted render pass tree:
+(0x64e49ae6d3c0) render pass id=289 output_rect=0,0 3624x2008
+  (0x79a6140199e0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3624x2008
+    DrawQuad, material: kTiledContent
+    (0x79a614030aa8) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+    (0x79a614030bb0) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+    (0x79a614030cb8) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[249019:249028:0507/010349.242288:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 289
+rooted render pass tree:
+(0x79a6140209e0) render pass id=289 output_rect=0,0 3624x2008
+  (0x79a6140179c0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3624x2008
+    DrawQuad, material: kTiledContent
+    (0x79a614030aa8) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+    (0x79a614030bb0) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+    (0x79a614030cb8) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[247866:247866:0507/010349.254370:INFO:gpu_channel_manager.cc(481)] EstablishChannel gpu_channel_optimization 1
+[249019:249028:0507/010349.307847:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 289
+rooted render pass tree:
+(0x79a6140209e0) render pass id=289 output_rect=0,0 3624x2008
+  (0x79a6140179c0) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3624x2008
+    DrawQuad, material: kTiledContent
+    (0x79a614030aa8) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+    (0x79a614030bb0) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+    (0x79a614030cb8) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[249059:249059:0507/010349.324729:ERROR:lark_monitor.cc(976)] CrashpadClientInit no server name specified forrenderer
+[249059:249059:0507/010349.324762:WARNING:chrome_main_delegate.cc(334)] process type 'renderer' should be created through the zygote.
+[249059:249059:0507/010349.324836:INFO:frame_host.cc(1089)] #### Lark (renderer) Startup #### cmd:  --browser-runtime --no-sandbox --no-zygote --type=renderer
+[249059:249059:0507/010349.324846:INFO:frame_host.cc(1091)] IsBrowserRuntime:1
+[249059:249059:0507/010349.335525:INFO:renderer_histogram_report_provider.cc(16)]  report memory cache hit feature disable
+[249059:249059:0507/010349.335547:INFO:renderer_histogram_report_provider.cc(92)] feature disabled: kEnableScrollingMetricsReporting
+[249059:249059:0507/010349.335558:INFO:histogram_signal_handler.cc(62)] feature: kEnableHistogramSubsample = 1
+[249059:249059:0507/010349.335830:INFO:utils.cc(203)] [InitManifestSharedMemoryReadRetrySwitch] switch is 0
+[249059:249059:0507/010349.346794:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: docs, size: 3
+[249059:249059:0507/010349.346831:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: drive, size: 1
+[249059:249059:0507/010349.346843:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: docs_home, size: 1
+[249059:249059:0507/010349.346859:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: docs_drive, size: 1
+[249059:249059:0507/010349.346869:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: suite_safetynet, size: 1
+[249059:249059:0507/010349.346879:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: passport, size: 1
+[249059:249059:0507/010349.346889:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: approval, size: 2
+[249059:249059:0507/010349.346914:INFO:frame_facade_renderer_client.cc(165)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[249059:249059:0507/010349.346929:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: bytedance.net
+[249059:249059:0507/010349.346940:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[249059:249059:0507/010349.350390:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[249059:249066:0507/010349.353123:INFO:features.cc(17)] IsReportScrollMetricsEnabled: 0
+[249059:249066:0507/010349.353287:WARNING:compositor_service_impl.cc(40)] Scroll metrics reporter is not enabled.
+[249059:249059:0507/010349.353517:INFO:v8_enhance_functions.cc(27)] [ShellAPI][SetDelegateGuardIfNeeded] func set
+[249059:249059:0507/010349.355182:INFO:render_frame_impl.cc(4130)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[249059:249059:0507/010349.358853:INFO:features.cc(53)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIJSBPermission is 0
+[249059:249059:0507/010349.358886:INFO:frame_facade_renderer_client.cc(78)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[249059:249059:0507/010349.358900:INFO:permission_manager_impl.cc(25)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 5
+[249059:249059:0507/010349.358912:INFO:shellapi_render_frame_extension.cc(138)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge for world 0
+[249059:249059:0507/010349.359024:INFO:shellapi_render_frame_extension.cc(185)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[249059:249059:0507/010349.392522:INFO:utils.cc(169)] [InitLarkAPIUseSharedMemorySwitch] switch is 0
+[249059:249059:0507/010349.406900:INFO:neotix_shell_api_extension.cc(193)] [InjectExternalCode] execute script result: 1
+[249059:249059:0507/010349.410979:INFO:frame_facade_renderer_client.cc(149)] [FrameFacadeRendererClient::OnGetDomains] domains size is 7
+[249059:249059:0507/010349.411027:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: approval, size: 2
+[249059:249059:0507/010349.411041:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: docs, size: 3
+[249059:249059:0507/010349.411051:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_drive, size: 1
+[249059:249059:0507/010349.411061:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_home, size: 1
+[249059:249059:0507/010349.411069:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: drive, size: 1
+[249059:249059:0507/010349.411080:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: passport, size: 1
+[249059:249059:0507/010349.411090:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: suite_safetynet, size: 1
+[249059:249059:0507/010349.411100:INFO:frame_facade_renderer_client.cc(165)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[249059:249059:0507/010349.411129:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: bytedance.net
+[249059:249059:0507/010349.411140:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[249059:249059:0507/010349.414264:ERROR:utils.cc(85)] [ShellAPI][CallJSFunction] failed, execute func failed 
+[249059:249059:0507/010349.419754:INFO:features.cc(65)] [ShellAPI][SWITCH_GETTER] switch for ShellAPINewDirectCall is 0
+[249059:249059:0507/010349.419815:INFO:features.cc(59)] [ShellAPI][SWITCH_GETTER] switch for ShellAPINewTunnel is 0
+[249059:249059:0507/010349.464920:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[249059:249059:0507/010349.873077:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[249059:249059:0507/010349.879678:INFO:frame_facade_renderer_client.cc(78)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[249059:249059:0507/010349.879717:INFO:permission_manager_impl.cc(25)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 5
+[249059:249059:0507/010349.879727:INFO:shellapi_render_frame_extension.cc(138)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge for world 0
+[249059:249059:0507/010349.879771:INFO:shellapi_render_frame_extension.cc(185)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[249059:249059:0507/010349.908388:INFO:neotix_shell_api_extension.cc(193)] [InjectExternalCode] execute script result: 1
+[249059:249059:0507/010349.911079:ERROR:utils.cc(85)] [ShellAPI][CallJSFunction] failed, execute func failed 
+[249059:249059:0507/010349.911157:ERROR:utils.cc(85)] [ShellAPI][CallJSFunction] failed, execute func failed 
+[249019:249019:0507/010349.921673:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[249019:249019:0507/010349.924610:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[249019:249028:0507/010349.925810:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 289
+rooted render pass tree:
+(0x64e49ae6d3c0) render pass id=289 output_rect=0,0 3624x2008
+  (0x79a61403ba20) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3624x1950
+    DrawQuad, material: kTiledContent
+    (0x79a614033718) SolidColorDrawQuad color=rgba(248, 249, 250, 255)
+    (0x79a614033820) SolidColorDrawQuad color=rgba(248, 249, 250, 255)
+    (0x79a614033928) SolidColorDrawQuad color=rgba(248, 249, 250, 255)
+  (0x79a61403bb98) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3624x2008
+    DrawQuad, material: kTiledContent
+    (0x79a614033b38) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[249019:249028:0507/010349.942938:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 289
+rooted render pass tree:
+(0x64e49abf1420) render pass id=289 output_rect=0,0 3624x2008
+  (0x79a61403ba20) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3624x1950
+    DrawQuad, material: kTiledContent
+    (0x79a61403c9f8) SolidColorDrawQuad color=rgba(248, 249, 250, 255)
+    (0x79a61403cb00) SolidColorDrawQuad color=rgba(248, 249, 250, 255)
+    (0x79a61403cc08) SolidColorDrawQuad color=rgba(248, 249, 250, 255)
+  (0x79a61403bb98) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3624x2008
+    DrawQuad, material: kTiledContent
+    (0x79a61403ce18) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[249019:249028:0507/010350.030964:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 289
+rooted render pass tree:
+(0x79a6480300e0) render pass id=289 output_rect=0,0 3624x2008
+  (0x79a61403ba20) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3624x1950
+    DrawQuad, material: kTiledContent
+    (0x79a61403c9f8) SolidColorDrawQuad color=rgba(248, 249, 250, 255)
+    (0x79a61403cb00) SolidColorDrawQuad color=rgba(248, 249, 250, 255)
+    (0x79a61403cc08) SolidColorDrawQuad color=rgba(248, 249, 250, 255)
+  (0x79a61403bb98) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3624x2008
+    DrawQuad, material: kTiledContent
+    (0x79a61403ce18) SolidColorDrawQuad color=rgba(255, 255, 255, 255)
+
+[249019:249028:0507/010350.143941:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 289
+rooted render pass tree:
+(0x64e49ae6d3c0) render pass id=289 output_rect=0,0 3624x2008
+  (0x79a614058140) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 11x1950
+    DrawQuad, material: kTiledContent
+  (0x79a6140582b8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 442x150
+    DrawQuad, material: kTiledContent
+  (0x79a614058430) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3624x62
+    DrawQuad, material: kTiledContent
+  (0x79a6140585a8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3560x1957
+    DrawQuad, material: kTiledContent
+    DrawQuad, material: kTiledContent
+  (0x79a614058720) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=0,0 3624x2155
+    DrawQuad, material: kTiledContent
+    (0x79a614050360) SolidColorDrawQuad color=rgba(248, 249, 250, 255)
+    (0x79a614050468) SolidColorDrawQuad color=rgba(248, 249, 250, 255)
+    (0x79a614050570) SolidColorDrawQuad color=rgba(248, 249, 250, 255)
+    (more quads - orphaned list may not be correct)
+
+[249019:249028:0507/010350.144104:INFO:tree_paint_watcher_impl.cc(48)] [blank paint check]: SetNeedProcess: 0
+[249019:249019:0507/010351.450084:INFO:dom_websocket.cc(329)] DOMWebSocket connect "msg-frontier.feishu.cn", context /openplatform/openplatform/en-US.html
+[249019:249019:0507/010351.450182:INFO:websocket_channel_impl.cc(244)] create websocket <null>, protocol <null>
+[249019:249019:0507/010351.450242:INFO:websocket_channel_impl.cc(295)] websocket connect "msg-frontier.feishu.cn", protocol "wss", id 245
+[248965:248965:0507/010352.004129:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[249019:249019:0507/010353.609268:INFO:frame_selection.cc(208)] [ime-renderer]selection_state:1-Selection(base: @offsetInAnchor[6], extent: @offsetInAnchor[6]),0
+[249019:249019:0507/010353.622173:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=3,enable-state=1
+[247866:247866:0507/010353.764904:INFO:gpu_channel_manager.cc(481)] EstablishChannel gpu_channel_optimization 1
+[249107:249107:0507/010353.852989:ERROR:lark_monitor.cc(976)] CrashpadClientInit no server name specified forrenderer
+[249107:249107:0507/010353.853031:WARNING:chrome_main_delegate.cc(334)] process type 'renderer' should be created through the zygote.
+[249107:249107:0507/010353.853097:INFO:frame_host.cc(1089)] #### Lark (renderer) Startup #### cmd:  --browser-runtime --no-sandbox --no-zygote --type=renderer
+[249107:249107:0507/010353.853111:INFO:frame_host.cc(1091)] IsBrowserRuntime:1
+[249107:249107:0507/010353.864760:INFO:renderer_histogram_report_provider.cc(16)]  report memory cache hit feature disable
+[249107:249107:0507/010353.864790:INFO:renderer_histogram_report_provider.cc(92)] feature disabled: kEnableScrollingMetricsReporting
+[249107:249107:0507/010353.864801:INFO:histogram_signal_handler.cc(62)] feature: kEnableHistogramSubsample = 1
+[249107:249107:0507/010353.865083:INFO:utils.cc(203)] [InitManifestSharedMemoryReadRetrySwitch] switch is 0
+[249107:249107:0507/010353.871914:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: docs, size: 3
+[249107:249107:0507/010353.871994:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: drive, size: 1
+[249107:249107:0507/010353.872002:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: docs_home, size: 1
+[249107:249107:0507/010353.872028:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: docs_drive, size: 1
+[249107:249107:0507/010353.872036:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: suite_safetynet, size: 1
+[249107:249107:0507/010353.872043:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: passport, size: 1
+[249107:249107:0507/010353.872050:INFO:frame_facade_renderer_client.cc(135)] [FrameFacadeRendererClient::InitDomainsUsingManifest] alias: approval, size: 2
+[249107:249107:0507/010353.872072:INFO:frame_facade_renderer_client.cc(165)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[249107:249107:0507/010353.872083:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: bytedance.net
+[249107:249107:0507/010353.872091:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[249107:249107:0507/010353.874635:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[249107:249116:0507/010353.876938:INFO:features.cc(17)] IsReportScrollMetricsEnabled: 0
+[249107:249116:0507/010353.877104:WARNING:compositor_service_impl.cc(40)] Scroll metrics reporter is not enabled.
+[249107:249107:0507/010353.877253:INFO:v8_enhance_functions.cc(27)] [ShellAPI][SetDelegateGuardIfNeeded] func set
+[249107:249107:0507/010353.878601:INFO:frame_facade_renderer_client.cc(149)] [FrameFacadeRendererClient::OnGetDomains] domains size is 7
+[249107:249107:0507/010353.878635:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: approval, size: 2
+[249107:249107:0507/010353.878643:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: docs, size: 3
+[249107:249107:0507/010353.878649:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_drive, size: 1
+[249107:249107:0507/010353.878655:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: docs_home, size: 1
+[249107:249107:0507/010353.878661:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: drive, size: 1
+[249107:249107:0507/010353.878667:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: passport, size: 1
+[249107:249107:0507/010353.878673:INFO:frame_facade_renderer_client.cc(152)] [FrameFacadeRendererClient::OnGetDomains] alias: suite_safetynet, size: 1
+[249107:249107:0507/010353.878679:INFO:frame_facade_renderer_client.cc(165)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add default allow domain: feishu.cn, larksuite.com, feishu.net
+[249107:249107:0507/010353.878693:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: bytedance.net
+[249107:249107:0507/010353.878700:INFO:frame_facade_renderer_client.cc(180)] [FrameFacadeRendererClient::UpdateShellAPIAllowDomains] add allow domain: larkoffice.com
+[249107:249107:0507/010353.924585:INFO:render_frame_impl.cc(4130)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[249107:249107:0507/010353.928518:INFO:features.cc(53)] [ShellAPI][SWITCH_GETTER] switch for ShellAPIJSBPermission is 0
+[249107:249107:0507/010353.928548:INFO:frame_facade_renderer_client.cc(78)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[249107:249107:0507/010353.928558:INFO:permission_manager_impl.cc(25)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 5
+[249107:249107:0507/010353.928566:INFO:shellapi_render_frame_extension.cc(138)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge for world 0
+[249107:249107:0507/010353.928688:INFO:shellapi_render_frame_extension.cc(185)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[249107:249107:0507/010353.967782:INFO:utils.cc(169)] [InitLarkAPIUseSharedMemorySwitch] switch is 0
+[249107:249107:0507/010353.984701:INFO:neotix_shell_api_extension.cc(193)] [InjectExternalCode] execute script result: 1
+[249107:249107:0507/010353.989907:ERROR:utils.cc(85)] [ShellAPI][CallJSFunction] failed, execute func failed 
+[249107:249107:0507/010353.992690:INFO:features.cc(65)] [ShellAPI][SWITCH_GETTER] switch for ShellAPINewDirectCall is 0
+[249107:249107:0507/010353.992730:INFO:features.cc(59)] [ShellAPI][SWITCH_GETTER] switch for ShellAPINewTunnel is 0
+[249107:249107:0507/010354.205205:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=1
+[249107:249107:0507/010354.657099:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[249107:249107:0507/010354.658020:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[249107:249116:0507/010354.777389:INFO:tree_paint_watcher_impl.cc(24)] [blank paint check]: render pass ids in order:
+ 353
+rooted render pass tree:
+(0x7919040e9200) render pass id=353 output_rect=0,0 3624x2048
+  (0x7919040f1780) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-160,0 240x22
+    DrawQuad, material: kTiledContent
+  (0x7919040f18f8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-348,0 522x22
+    DrawQuad, material: kTiledContent
+  (0x7919040f1a70) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-240,0 360x22
+    DrawQuad, material: kTiledContent
+  (0x7919040f1be8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-318,0 477x22
+    DrawQuad, material: kTiledContent
+  (0x7919040f1d60) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-406,0 609x22
+    DrawQuad, material: kTiledContent
+  (0x7919040f1ed8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-212,0 318x22
+    DrawQuad, material: kTiledContent
+  (0x7919040f2050) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-112,0 168x22
+    DrawQuad, material: kTiledContent
+  (0x7919040f21c8) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-44,0 66x22
+    DrawQuad, material: kTiledContent
+  (0x7919040f2340) switched to sqs with opacity=1, blend_mode=kSrcOver quad_layer_rect=-478,0 717x22
+    DrawQuad, material: kTiledContent
+    (more quads - orphaned list may not be correct)
+
+[249107:249116:0507/010354.777577:INFO:tree_paint_watcher_impl.cc(48)] [blank paint check]: SetNeedProcess: 0
+[249107:249107:0507/010354.792873:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[249107:249107:0507/010354.793759:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[247996:247996:0507/010354.873044:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[247996:248003:0507/010354.875583:INFO:features.cc(17)] IsReportScrollMetricsEnabled: 0
+[247996:248003:0507/010354.879064:WARNING:compositor_service_impl.cc(40)] Scroll metrics reporter is not enabled.
+[247996:247996:0507/010354.895018:INFO:render_frame_impl.cc(4130)] [RenderFrameImpl][DidCommitNavigation] reset_browser_interface_broker
+[247996:247996:0507/010354.902789:INFO:frame_facade_renderer_client.cc(78)] [ShellAPI][FrameFacadeRendererClient::GetShellAPILevel] jsb_permission_manage disabled, enable shellapi for all render main_context
+[247996:247996:0507/010354.902844:INFO:permission_manager_impl.cc(25)] [ShellAPI][PermissionManagerImpl::GetShellAPILevel] get level from delegate, use it: 5
+[247996:247996:0507/010354.902867:INFO:shellapi_render_frame_extension.cc(138)] [ShellAPI][ShellAPIRenderFrameExtension::InitShellAPI] inject JSBridge for world 0
+[247996:247996:0507/010354.902999:INFO:shellapi_render_frame_extension.cc(185)] [ShellAPI][ShellAPIRenderFrameExtension::OnRenderContextCreated] inject JSBridge for main world
+[247996:247996:0507/010354.963798:INFO:neotix_shell_api_extension.cc(193)] [InjectExternalCode] execute script result: 1
+[247996:247996:0507/010354.966115:ERROR:utils.cc(85)] [ShellAPI][CallJSFunction] failed, execute func failed 
+[247996:247996:0507/010354.986938:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=1
+[249107:249107:0507/010355.008320:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[249107:249107:0507/010355.009461:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[249107:249107:0507/010355.014298:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[249107:249107:0507/010355.015741:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[249107:249107:0507/010355.152352:INFO:iron_performance_monitor.cc(113)] IronPerformanceMonitor::ShouldEnable=0, business=0
+[249107:249107:0507/010355.153263:INFO:frame_caret.cc(294)] [ime-renderer]caret_state:visible-state=1,enable-state=0
+[248965:248965:0507/010358.536051:INFO:dom_websocket.cc(329)] DOMWebSocket connect "ccm-frontier-hl.feishu.cn", context /online_page:cloudmall.feishu.cn
+[248965:248965:0507/010358.536194:INFO:websocket_channel_impl.cc(244)] create websocket "lf-scm-cn.feishucdn.com", protocol "https"
+[248965:248965:0507/010358.536235:INFO:websocket_channel_impl.cc(295)] websocket connect "ccm-frontier-hl.feishu.cn", protocol "wss", id 340
+[248965:248965:0507/010358.537313:INFO:dom_websocket.cc(329)] DOMWebSocket connect "ccm-frontier.feishu.cn", context /online_page:cloudmall.feishu.cn
+[248965:248965:0507/010358.537331:INFO:websocket_channel_impl.cc(244)] create websocket "lf-scm-cn.feishucdn.com", protocol "https"
+[248965:248965:0507/010358.537347:INFO:websocket_channel_impl.cc(295)] websocket connect "ccm-frontier.feishu.cn", protocol "wss", id 341
+[249107:249116:0507/010610.474475:WARNING:picture_layer_impl.cc(537)] Tile is checkerboard: id: 104, bounds: 3068x1984, visible_layer_rect: 0,0 3068x1984, offset_visible_geometry_rect: 0,543 3068x1441, visible_geometry_area: 4420988, color: 0x0
+[249107:249116:0507/010610.474570:WARNING:picture_layer_impl.cc(537)] Tile is checkerboard: id: 4, bounds: 3624x2048, visible_layer_rect: 0,0 3624x2048, offset_visible_geometry_rect: 220,1085 3404x963, visible_geometry_area: 3278052, color: 0xfff5f6f7
+[247866:247866:0507/010610.551057:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+[247866:247866:0507/010610.556857:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+[247866:247866:0507/010612.410040:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 3 times!

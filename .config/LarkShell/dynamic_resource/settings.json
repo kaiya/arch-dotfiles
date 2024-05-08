@@ -1,0 +1,14 @@
+{
+    "channels" : 
+    {
+        "ka_6794410651067351042" : 
+        {
+            "ac" : "d15377c0a876acd6a07be9dc924437c6",
+            "data_dir" : "ka_6794410651067351042_using_t20240507-010335-333",
+            "is_oversea" : false,
+            "tenant_id" : "6794410651067351042"
+        }
+    },
+    "current_channel" : "ka_6794410651067351042",
+    "dynamic_resource" : true
+}
