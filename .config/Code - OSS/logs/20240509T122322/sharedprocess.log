@@ -1,0 +1,38 @@
+2024-05-09 12:24:14.631 [info] Getting Manifest... rust-lang.rust-analyzer
+2024-05-09 12:24:15.441 [info] Installing extension: rust-lang.rust-analyzer
+2024-05-09 12:24:16.361 [info] Getting Manifest... asvetliakov.vscode-neovim
+2024-05-09 12:24:23.224 [info] Installing extension: asvetliakov.vscode-neovim
+2024-05-09 12:24:58.658 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-05-09 12:24:58.659 [info] Extension signature verification is not done: asvetliakov.vscode-neovim
+2024-05-09 12:24:58.712 [info] Extracted extension to file:///home/kaiya/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.11.2-universal: asvetliakov.vscode-neovim
+2024-05-09 12:24:58.716 [info] Renamed to /home/kaiya/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.11.2-universal
+2024-05-09 12:24:58.718 [info] Extracting extension completed. asvetliakov.vscode-neovim
+2024-05-09 12:24:58.727 [info] Extension installed successfully: asvetliakov.vscode-neovim
+2024-05-09 12:24:58.729 [info] Marked extension as uninstalled asvetliakov.vscode-neovim-1.11.1-universal
+2024-05-09 12:24:58.801 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/kaiya/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/kaiya/.vscode-oss/extensions/extensions.json.vsctmp'
+    at a.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:29989)
+    at b (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30100)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async K.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109493)
+2024-05-09 12:25:49.007 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-05-09 12:25:49.007 [info] Extension signature verification is not done: rust-lang.rust-analyzer
+2024-05-09 12:25:49.304 [info] Extracted extension to file:///home/kaiya/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1950-linux-x64: rust-lang.rust-analyzer
+2024-05-09 12:25:49.310 [info] Renamed to /home/kaiya/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1950-linux-x64
+2024-05-09 12:25:49.312 [info] Extracting extension completed. rust-lang.rust-analyzer
+2024-05-09 12:25:49.320 [info] Extension installed successfully: rust-lang.rust-analyzer
+2024-05-09 12:25:49.322 [info] Marked extension as uninstalled rust-lang.rust-analyzer-0.3.1940-linux-x64
+2024-05-09 12:25:49.395 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/kaiya/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/kaiya/.vscode-oss/extensions/extensions.json.vsctmp'
+    at a.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:29989)
+    at b (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30100)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async K.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109493)

@@ -8,7 +8,9 @@
             "file:///home/kaiya/rust/ch2_tuple": "__default__profile__",
             "file:///home/kaiya/.config/Code%20-%20OSS/Workspaces/1714926813666/workspace.json": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1715229642741": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
@@ -21,7 +23,11 @@
             }
         ],
         "folders": [],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1715229642741"
+            }
+        ]
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -609,8 +615,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar",
-                                    "checked": true
+                                    "label": "&&Primary Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -618,8 +623,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
-                                    "label": "S&&tatus Bar",
-                                    "checked": true
+                                    "label": "S&&tatus Bar"
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
@@ -934,8 +938,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1265,7 +1268,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1867,8 +1871,8 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 0,
-            "sideBarWidth": 170,
-            "statusBarHeight": 22,
+            "sideBarWidth": 0,
+            "statusBarHeight": 0,
             "windowBorder": false
         }
     },
@@ -1885,7 +1889,7 @@
                 "y": 0,
                 "width": 1280,
                 "height": 702,
-                "zoomLevel": 4
+                "zoomLevel": 6
             }
         },
         "openedWindows": []

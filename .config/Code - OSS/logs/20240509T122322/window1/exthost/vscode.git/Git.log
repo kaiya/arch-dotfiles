@@ -1,0 +1,83 @@
+2024-05-09 12:23:24.180 [info] Log level: Info
+2024-05-09 12:23:24.180 [info] Validating found git in: "git"
+2024-05-09 12:23:24.180 [info] Using git "2.45.0" from "git"
+2024-05-09 12:23:24.180 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-09 12:23:24.180 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-05-09 12:23:24.180 [info] Open repository: /home/kaiya/rust/ch2_tuple
+2024-05-09 12:23:24.180 [info] > git config --get commit.template [6ms]
+2024-05-09 12:23:24.180 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-09 12:23:24.180 [info] No remotes found in the git config file.
+2024-05-09 12:23:24.180 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2024-05-09 12:23:24.180 [info] > git rev-parse --show-toplevel [6ms]
+2024-05-09 12:23:24.180 [info] > git status -z -uall [6ms]
+2024-05-09 12:23:24.180 [info] > git rev-parse --show-toplevel [6ms]
+2024-05-09 12:23:24.180 [info] > git rev-parse --show-toplevel [10ms]
+2024-05-09 12:23:24.180 [info] > git config --get commit.template [6ms]
+2024-05-09 12:23:24.180 [info] No remotes found in the git config file.
+2024-05-09 12:23:24.180 [info] > git rev-parse --show-toplevel [9ms]
+2024-05-09 12:23:24.180 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-05-09 12:23:24.180 [info] > git status -z -uall [7ms]
+2024-05-09 12:23:24.180 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-09 12:23:24.691 [info] > git check-ignore -v -z --stdin [1ms]
+2024-05-09 12:23:26.242 [info] No remotes found in the git config file.
+2024-05-09 12:23:26.243 [info] > git config --get commit.template [7ms]
+2024-05-09 12:23:26.244 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-05-09 12:23:26.249 [info] > git status -z -uall [1ms]
+2024-05-09 12:25:52.331 [info] Log level: Info
+2024-05-09 12:25:52.331 [info] Validating found git in: "git"
+2024-05-09 12:25:52.331 [info] Using git "2.45.0" from "git"
+2024-05-09 12:25:52.331 [info] > git rev-parse --show-toplevel [4ms]
+2024-05-09 12:25:52.390 [info] > git rev-parse --git-dir --git-common-dir [15ms]
+2024-05-09 12:25:52.399 [info] Open repository: /home/kaiya/rust/ch2_tuple
+2024-05-09 12:25:52.421 [info] > git rev-parse --show-toplevel [8ms]
+2024-05-09 12:25:52.422 [info] > git config --get commit.template [17ms]
+2024-05-09 12:25:52.426 [info] No remotes found in the git config file.
+2024-05-09 12:25:52.444 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2024-05-09 12:25:52.454 [info] > git status -z -uall [3ms]
+2024-05-09 12:25:52.459 [info] > git rev-parse --show-toplevel [20ms]
+2024-05-09 12:25:52.476 [info] > git rev-parse --show-toplevel [4ms]
+2024-05-09 12:25:52.476 [info] > git config --get commit.template [9ms]
+2024-05-09 12:25:52.498 [info] No remotes found in the git config file.
+2024-05-09 12:25:52.499 [info] > git rev-parse --show-toplevel [16ms]
+2024-05-09 12:25:52.500 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-09 12:25:52.512 [info] > git status -z -uall [7ms]
+2024-05-09 12:25:52.519 [info] > git rev-parse --show-toplevel [7ms]
+2024-05-09 12:25:52.528 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-09 12:25:54.122 [info] No remotes found in the git config file.
+2024-05-09 12:25:54.123 [info] > git config --get commit.template [6ms]
+2024-05-09 12:25:54.123 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-09 12:25:54.129 [info] > git status -z -uall [2ms]
+2024-05-09 12:26:03.722 [info] > git check-ignore -v -z --stdin [1ms]
+2024-05-09 12:41:07.173 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-09 12:41:07.732 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-09 12:42:42.543 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-09 12:43:03.976 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-09 12:43:18.865 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-09 12:43:25.733 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-09 12:43:30.880 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-09 12:43:43.552 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-09 12:43:50.979 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-09 12:44:06.136 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-09 12:44:09.897 [info] > git show --textconv :src/main.rs [6ms]
+2024-05-09 12:44:09.898 [info] > git ls-files --stage -- /home/kaiya/rust/ch2_tuple/src/main.rs [2ms]
+2024-05-09 12:44:09.903 [info] > git cat-file -s ba2317988f3191c3ca8a5cd01ef03abbeec69182 [1ms]
+2024-05-09 12:44:22.854 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-09 12:44:22.854 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-09 12:44:23.923 [info] > git show --textconv :src/main.rs [4ms]
+2024-05-09 12:44:23.924 [info] > git ls-files --stage -- /home/kaiya/rust/ch2_tuple/src/main.rs [1ms]
+2024-05-09 12:44:23.930 [info] > git cat-file -s ba2317988f3191c3ca8a5cd01ef03abbeec69182 [2ms]
+2024-05-09 12:44:27.367 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-09 12:44:27.368 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-09 12:44:28.733 [info] > git show --textconv :src/main.rs [5ms]
+2024-05-09 12:44:28.734 [info] > git ls-files --stage -- /home/kaiya/rust/ch2_tuple/src/main.rs [1ms]
+2024-05-09 12:44:28.738 [info] > git cat-file -s ba2317988f3191c3ca8a5cd01ef03abbeec69182 [1ms]
+2024-05-09 12:45:18.262 [info] > git ls-files --stage -- /home/kaiya/rust/ch2_tuple/src/main.rs [1ms]
+2024-05-09 12:45:18.268 [info] > git cat-file -s ba2317988f3191c3ca8a5cd01ef03abbeec69182 [1ms]
+2024-05-09 12:45:18.275 [info] > git show --textconv :src/main.rs [0ms]
+2024-05-09 12:45:18.702 [info] No remotes found in the git config file.
+2024-05-09 12:45:18.703 [info] > git config --get commit.template [5ms]
+2024-05-09 12:45:18.703 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-09 12:45:18.708 [info] > git status -z -uall [1ms]
+2024-05-09 12:47:06.152 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-09 12:47:06.152 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-09 12:47:12.833 [info] > git rev-parse --show-toplevel [1ms]

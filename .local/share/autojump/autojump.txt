@@ -4,7 +4,8 @@
 10.0	/home/kaiya/go/src/gitlab/kaiya/bot/cmd
 14.142135623730951	/home/kaiya/go/src/gitlab/kaiya/bot/cmd/openai
 10.0	/home/kaiya/go
-10.0	/home/kaiya/rust/ch2_tuple
-17.320508075688775	/home/kaiya/.config/hypr
-10.0	/home/kaiya/.config
+14.142135623730951	/home/kaiya/rust/ch2_tuple
+22.360679774997898	/home/kaiya/.config/hypr
+14.142135623730951	/home/kaiya/.config
 10.0	/home/kaiya/.config/waybar
+10.0	/home/kaiya/.local/share/bin

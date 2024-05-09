@@ -1,18 +1,5 @@
-2024/05/07-04:00:30.300 4 Reusing MANIFEST /home/kaiya/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2024/05/07-04:00:30.306 4 Recovering log #10
-2024/05/07-04:00:30.306 4 Reusing old log /home/kaiya/.config/chromium/Default/Local Storage/leveldb/000010.log 
-2024/05/07-04:00:53.554 6 Level-0 table #14: started
-2024/05/07-04:00:53.557 6 Level-0 table #14: 17207 bytes OK
-2024/05/07-04:00:53.561 6 Delete type=0 #10
-2024/05/07-04:02:04.443 6 Level-0 table #16: started
-2024/05/07-04:02:04.447 6 Level-0 table #16: 123652 bytes OK
-2024/05/07-04:02:04.450 6 Delete type=0 #13
-2024/05/07-04:02:04.450 6 Compacting 4@0 + 1@1 files
-2024/05/07-04:02:04.455 6 Generated table #17@0: 42 keys, 142062 bytes
-2024/05/07-04:02:04.455 6 Compacted 4@0 + 1@1 files => 142062 bytes
-2024/05/07-04:02:04.468 6 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/05/07-04:02:04.468 6 Delete type=2 #9
-2024/05/07-04:02:04.468 6 Delete type=2 #7
-2024/05/07-04:02:04.468 6 Delete type=2 #11
-2024/05/07-04:02:04.469 6 Delete type=2 #16
-2024/05/07-04:02:04.469 6 Delete type=2 #14
+2024/05/09-01:56:58.917 4 Reusing MANIFEST /home/kaiya/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2024/05/09-01:56:58.921 4 Recovering log #15
+2024/05/09-01:56:58.924 4 Level-0 table #19: started
+2024/05/09-01:56:58.930 4 Level-0 table #19: 229303 bytes OK
+2024/05/09-01:56:58.933 4 Delete type=0 #15

@@ -1,5 +1,21 @@
-2024/05/07-04:00:30.464 4 Reusing MANIFEST /home/kaiya/.config/chromium/Default/Session Storage/MANIFEST-000001
-2024/05/07-04:00:30.464 4 Recovering log #10
-2024/05/07-04:00:30.465 4 Reusing old log /home/kaiya/.config/chromium/Default/Session Storage/000010.log 
-2024/05/07-04:02:04.459 8 Level-0 table #14: started
-2024/05/07-04:02:04.470 8 Level-0 table #14: 174288 bytes OK
+2024/05/09-01:56:59.077 4 Reusing MANIFEST /home/kaiya/.config/chromium/Default/Session Storage/MANIFEST-000001
+2024/05/09-01:56:59.078 4 Recovering log #10
+2024/05/09-01:56:59.081 4 Level-0 table #13: started
+2024/05/09-01:56:59.086 4 Level-0 table #13: 174288 bytes OK
+2024/05/09-01:56:59.087 4 Recovering log #13
+2024/05/09-01:56:59.087 4 Reusing old log /home/kaiya/.config/chromium/Default/Session Storage/000013.log 
+2024/05/09-01:56:59.091 4 Delete type=0 #10
+2024/05/09-01:56:59.091 4 Delete type=2 #14
+2024/05/09-01:56:59.092 4 Compacting 4@0 + 0@1 files
+2024/05/09-01:56:59.101 4 Generated table #14@0: 104 keys, 162025 bytes
+2024/05/09-01:56:59.101 4 Compacted 4@0 + 0@1 files => 162025 bytes
+2024/05/09-01:56:59.104 4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/09-01:56:59.105 4 Delete type=2 #13
+2024/05/09-01:56:59.105 4 Delete type=2 #9
+2024/05/09-01:56:59.105 4 Delete type=2 #7
+2024/05/09-01:56:59.105 4 Delete type=2 #11
+2024/05/09-02:07:41.873 4 Level-0 table #16: started
+2024/05/09-02:07:41.878 4 Level-0 table #16: 192526 bytes OK
+2024/05/09-02:07:41.882 4 Delete type=0 #13
+2024/05/09-02:13:55.489 6 Level-0 table #18: started
+2024/05/09-02:13:55.496 6 Level-0 table #18: 186961 bytes OK

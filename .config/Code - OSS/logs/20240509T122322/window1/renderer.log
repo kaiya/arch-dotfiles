@@ -1,0 +1,9 @@
+2024-05-09 12:23:23.632 [info] Started local extension host with pid 134357.
+2024-05-09 12:23:23.700 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
+2024-05-09 12:23:23.804 [info] Started local extension host with pid 134386.
+2024-05-09 12:23:26.334 [info] [perf] Render performance baseline is 19ms
+2024-05-09 12:25:51.666 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because extension host(s) are already running. Reload window.
+2024-05-09 12:25:51.726 [warning] No search provider registered for scheme: file, waiting
+2024-05-09 12:25:51.730 [info] Started local extension host with pid 137419.
+2024-05-09 12:25:51.733 [info] Started local extension host with pid 137420.
+2024-05-09 12:40:25.315 [warning] Settings pattern "accessibility.signalOptions.*" doesn't match any settings

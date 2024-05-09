@@ -1,5 +1,6 @@
 [default-routes]
+alsa_card.pci-0000_c4_00.1:output:\oOut\c\sHDMI3={"latencyOffsetNsec":0, "mute":false, "channelVolumes":[0.063997, 0.063997], "channelMap":["FL", "FR"]}
 alsa_card.pci-0000_c4_00.1:output:\oOut\c\sHDMI4={"channelMap":["FL", "FR"], "channelVolumes":[0.511977, 0.511977], "latencyOffsetNsec":0, "mute":false}
-alsa_card.pci-0000_c4_00.1:profile:HiFi=["[Out] HDMI4"]
+alsa_card.pci-0000_c4_00.1:profile:HiFi=["[Out] HDMI3"]
 alsa_card.pci-0000_c4_00.6:output:\oOut\c\sHeadphones={"channelMap":["FL", "FR"], "channelVolumes":[0.042860, 0.042860], "latencyOffsetNsec":0, "mute":false}
 alsa_card.pci-0000_c4_00.6:profile:HiFi=["[Out] Headphones"]
